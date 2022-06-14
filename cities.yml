@@ -1,4 +1,148 @@
 Russia:
+  # Центральный
+  Belgorod Oblast:
+  Bryansk Oblast:
+  Vladimir Oblast:
+  Voronezh Oblast:
+    Voronezh:
+      - { period: "-", ru: Воро́неж }
+  Ivanovo Oblast:
+  Kaluga Oblast:
+  Kostroma Oblast:
+  Kursk Oblast:
+  Lipetsk Oblast:
+  Moscow Oblast:
+  Oryol Oblast:
+  Ryazan Oblast:
+  Smolensk Oblast:
+  Tambov Oblast:
+  Tver Oblast:
+  Tula Oblast:
+  Yaroslavl Oblast:
+  Moscow:
+    Moscow:
+      - { period: "-", ru: Москва́ }
+
+  # Северо-Западный
+  Republic of Karelia:
+  Komi Republic:
+  Arkhangelsk Oblast:
+  Vologda Oblast:
+  Kaliningrad Oblast:
+  Leningrad Oblast:
+  Murmansk Oblast:
+  Novgorod Oblast:
+  Pskov Oblast:
+  Nenets Autonomous Okrug:
+  Saint Petersburg:
+    Saint Petersburg:
+      - { period: "-1914, 1991-", ru: Санкт-Петербу́рг }
+      - { period: "1914-1924", ru: Петрогра́д }
+      - { period: "1924-1991", ru: Ленингра́д }
+
+  # Южный
+  Adygea:
+  Kalmykia:
+  # Republic of Crimea:
+  Krasnodar Krai:
+    Krasnodar:
+      - { period: "-1920", ru: Екатеринода́р }
+      - { period: "1920-", ru: Краснода́р }
+  Astrakhan Oblast:
+  Volgograd Oblast:
+    Volgograd:
+      - { period: "-1925", ru: Цари́цын }
+      - { period: "1925-1961", ru: Сталингра́д }
+      - { period: "1961-", ru: Волгогра́д }
+  Rostov Oblast:
+    Rostov-on-Don:
+      - { period: "-", ru: Росто́в-на-Дону́ }
+  # Sevastopol:
+
+  # Северо-Кавказский
+  Dagestan:
+  Ingushetia:
+  Kabardino-Balkaria:
+  Karachay-Cherkessia:
+  North Ossetia:
+  Chechnya:
+  Stavropol Krai:
+
+  # Приволжский
+  Bashkortostan:
+    Ufa:
+      - { period: "-", ru: Уфа́ }
+  Mari El:
+  Mordovia:
+  Tatarstan:
+    Kazan:
+      - { period: "-", ru: Каза́нь }
+  Udmurtia:
+  Chuvashia:
+  Perm Krai:
+    Perm:
+      - { period: "1781-1940, 1957-", ru: Пермь }
+      - { period: "1940-1957", ru: Мо́лотов }
+  Kirov Oblast:
+  Nizhny Novgorod Oblast:
+    Nizhny Novgorod:
+      - { period: "-1932, 1990-", ru: Ни́жний Но́вгород }
+      - { period: "1932-1990", ru: Го́рький }
+  Orenburg Oblast:
+  Penza Oblast:
+  Samara Oblast:
+    Samara:
+      - { period: "-1935, 1991-", ru: Сама́ра }
+      - { period: "1935-1991", ru: Ку́йбышев }
+  Saratov Oblast:
+  Ulyanovsk Oblast:
+
+  # Уральский
+  Kurgan Oblast:
+  Sverdlovsk Oblast:
+    Yekaterinburg:
+      - { period: "-1924, 1991-", ru: Екатеринбу́рг }
+      - { period: "1924-1991", ru: Свердло́вск }
+  Tyumen Oblast:
+  Chelyabinsk Oblast:
+    Chelyabinsk:
+      - { period: "-", ru: Челя́бинск }
+  Khanty-Mansi Autonomous Okrug:
+  Yamalo-Nenets Autonomous Okrug:
+
+  # Сибирский
+  Altai Republic:
+  Tuva:
+  Khakassia:
+  Altai Krai:
+  Krasnoyarsk Krai:
+    Krasnoyarsk:
+      - { period: "1690-", ru: Красноя́рск }
+  Irkutsk Oblast:
+  Kemerovo Oblast:
+  Novosibirsk Oblast:
+    Novosibirsk:
+      - { period: "1894-1895", ru: Алекса́ндровский }
+      - { period: "1895-1903", ru: Новоникола́еfвский }
+      - { period: "1903-1926", ru: Но́во-Никола́евск }
+      - { period: "1926-", ru: Новосиби́рск }
+  Omsk Oblast:
+    Omsk:
+      - { period: "-", ru: Омск }
+  Tomsk Oblast:
+
+  # Дальневосточный
+  Buryatia:
+  Sakha:
+  Zabaykalsky Krai:
+  Kamchatka Krai:
+  Primorsky Krai:
+  Khabarovsk Krai:
+  Amur Oblast:
+  Magadan Oblast:
+  Sakhalin Oblast:
+  Jewish Autonomous Oblast:
+  Chukotka Autonomous Okrug:
 
 Ukraine:
   Vinnytsia Oblast:
