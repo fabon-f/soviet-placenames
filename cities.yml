@@ -22,6 +22,10 @@ Ukraine:
     Kamianske:
       - { period: "-1936, 2016-", ru: Каменское, uk: "Кам'янське" }
       - { period: "1936-2016", ru: Днепродзержинск, uk: Дніпродзержинськ }
+    Nikopol:
+      - { period: "-", ru: Ни́кополь, uk: Ні́кополь }
+    Sloviansk:
+      - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
   Donetsk Oblast:
     Donetsk:
       - { period: "1869-1924", ru: Юзовка }
@@ -36,9 +40,13 @@ Ukraine:
       - { period: "1931-", ru: Маке́евка, uk: Макі́ївка }
     Horlivka:
       - { period: "-", ru: Го́рловка, uk: Го́рлівка }
+    Kramatorsk:
+      - { period: "-", ru: Крамато́рск, uk: Крамато́рськ }
   Zhytomyr Oblast:
     Zhytomyr:
       - { period: "-", ru: Жито́мир, uk: Жито́мир, pl: Żytomierz }
+      - { period: "-1793", pl: Żytomierz }
+      - { period: "1793-", ru: Жито́мир, uk: Жито́мир }
   Zakarpattia Oblast:
     Uzhhorod:
       - { period: "-", hu: Ungvár, de: Ungwar, sk: Užhorod, cs: Užhorod, ru: У́жгород, uk: У́жгород }
@@ -50,6 +58,12 @@ Ukraine:
     Zaporizhzhia:
       - { period: "-1921", ru: Алекса́ндровск, uk: Олекса́ндрівськ }
       - { period: "1921-", ru: Запоро́жье, uk: Запорі́жжя }
+    Melitopol:
+      - { period: "1816-1842", ru: Новоалекса́ндровка, uk: Новоолекса́ндрівка }
+      - { period: "1842-", ru: Мелито́поль, uk: Меліто́поль }
+    Berdiansk:
+      - { period: "-1939, 1958-", ru: Бердя́нск, uk: Бердя́нськ }
+      - { period: "1939-1958", ru: Осипе́нко, uk: Осипе́нко }
   Ivano-Frankivsk Oblast:
     Ivano-Frankivsk:
       - { period: "1662-1772", pl: Stanisławów }
@@ -58,6 +72,10 @@ Ukraine:
       - { period: "1939-1962", ru: Станисла́в, uk: Станісла́в }
       - { period: "1962-", ru: Ива́но-Франко́вск, uk: Іва́но-Франкі́вськ }
   Kyiv Oblast:
+    Bila Tserkva:
+      - { period: "-", ru: Бе́лая Це́рковь, uk: Бі́ла Це́рква }
+    Brovary:
+      - { period: "-", ru: Бровары́, uk: Бровари́ }
   Kirovohrad Oblast:
     Kropyvnytskyi:
       - { period: "-1924", ru: Елисаветгра́д }
@@ -72,6 +90,9 @@ Ukraine:
   Lviv Oblast:
     Lviv:
       - { period: "-", ru: Львов, uk: Львів, pl: Lwów, de: Lemberg }
+      - { period: "1772-1918", de: Lemberg }
+      - { period: "1921-1939", pl: Lwów }
+      - { period: "1944-", ru: Львов, uk: Львів }
   Mykolaiv Oblast:
     Mykolaiv:
       - { period: "1789-", ru: Никола́ев, uk: Микола́їв }
@@ -85,8 +106,8 @@ Ukraine:
       - { period: "-", ru: Кременчу́г, uk: Кременчу́к }
   Rivne Oblast:
     Rivne:
-      - { period: "-", ru: Ро́вно, uk: Ровно, pl: Równe }
-      - { period: "-1795": pl: Równe }
+      - { period: "-1991", ru: Ро́вно, uk: Ровно, pl: Równe }
+      - { period: "-1795", pl: Równe }
       - { period: "1795-1921", ru: Ро́вно, uk: Ровно }
       - { period: "1921-1939", pl: Równe }
       - { period: "1939-1991", ru: Ро́вно, uk: Ровно }
@@ -135,6 +156,10 @@ Ukraine:
   Autonomous Republic of Crimea:
     Simferopol:
       - { period: "1784-", ru: Симферо́поль, uk: Сімферо́поль }
+    Kerch:
+      - { period: "-", ru: Керчь, uk: Керч }
+    Yevpatoria:
+      - { period: "1784-", ru: Евпато́рия, uk: Євпато́рія }
 
 Belarus:
 
