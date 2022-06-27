@@ -123,7 +123,7 @@ Russia:
   Novosibirsk Oblast:
     Novosibirsk:
       - { period: "1894-1895", ru: Алекса́ндровский }
-      - { period: "1895-1903", ru: Новоникола́еfвский }
+      - { period: "1895-1903", ru: Новоникола́евский }
       - { period: "1903-1926", ru: Но́во-Никола́евск }
       - { period: "1926-", ru: Новосиби́рск }
   Omsk Oblast:
@@ -151,6 +151,7 @@ Ukraine:
       - { period: "1793-", ru: Ви́нница, uk: Ві́нниця }
   Volyn Oblast:
     Lutsk:
+      - { period: "-", pl: Łuck, ru: Луцк, uk: Луцьк }
       - { period: "-1795", pl: Łuck }
       - { period: "1795-1917", ru: Луцк }
       - { period: "1921-1939", pl: Łuck }
@@ -210,6 +211,7 @@ Ukraine:
       - { period: "1939-1958", ru: Осипе́нко, uk: Осипе́нко }
   Ivano-Frankivsk Oblast:
     Ivano-Frankivsk:
+      - { period: "-1939", pl: Stanisławów, de: Stanislau, ru: Станисла́вов, uk: Станисла́вів }
       - { period: "1662-1772", pl: Stanisławów }
       - { period: "1772-1918", de: Stanislau, pl: Stanisławów, uk: Станисла́вів }
       - { period: "1918-1939", pl: Stanisławów }
@@ -222,8 +224,8 @@ Ukraine:
       - { period: "-", ru: Бровары́, uk: Бровари́ }
   Kirovohrad Oblast:
     Kropyvnytskyi:
-      - { period: "-1924", ru: Елисаветгра́д }
-      - { period: "1924-1934", ru: Зино́вьевск }
+      - { period: "-1924", ru: Елисаветгра́д, uk: Єлисаветгра́д }
+      - { period: "1924-1934", ru: Зино́вьевск, uk: Зіно́в'євськ }
       - { period: "1934-1939", ru: Ки́рово, uk: Кі́рово }
       - { period: "1939-2016", ru: Кировогра́д, uk: Кіровогра́д }
       - { period: "2016-", ru: Кропивни́цкий, uk: Кропивни́цький }
@@ -250,7 +252,7 @@ Ukraine:
       - { period: "-", ru: Кременчу́г, uk: Кременчу́к }
   Rivne Oblast:
     Rivne:
-      - { period: "-1991", ru: Ро́вно, uk: Ровно, pl: Równe }
+      - { period: "-", ru: Ро́вно, pl: Równe }
       - { period: "-1795", pl: Równe }
       - { period: "1795-1921", ru: Ро́вно, uk: Ровно }
       - { period: "1921-1939", pl: Równe }
@@ -261,7 +263,7 @@ Ukraine:
       - { period: "-", ru: Су́мы, uk: Су́ми }
   Ternopil Oblast:
     Ternopil:
-      - { period: "-", pl: Tarnopol }
+      - { period: "-", pl: Tarnopol, de: Tarnopol, hu: Tarnopol }
       - { period: "1772-1918", de: Tarnopol, hu: Tarnopol }
       - { period: "1921-1939", pl: Tarnopol }
       - { period: "1939-1944", ru: Тарнополь }
