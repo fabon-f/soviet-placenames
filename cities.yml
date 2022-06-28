@@ -5,7 +5,8 @@ Russia:
   Vladimir Oblast:
   Voronezh Oblast:
     Voronezh:
-      - { period: "-", ru: Воро́неж }
+      nameHistory:
+        - { period: "-", ru: Воро́неж }
   Ivanovo Oblast:
   Kaluga Oblast:
   Kostroma Oblast:
@@ -21,7 +22,8 @@ Russia:
   Yaroslavl Oblast:
   Moscow:
     Moscow:
-      - { period: "-", ru: Москва́ }
+      nameHistory:
+        - { period: "-", ru: Москва́ }
 
   # Северо-Западный
   Republic of Karelia:
@@ -36,9 +38,10 @@ Russia:
   Nenets Autonomous Okrug:
   Saint Petersburg:
     Saint Petersburg:
-      - { period: "-1914, 1991-", ru: Санкт-Петербу́рг }
-      - { period: "1914-1924", ru: Петрогра́д }
-      - { period: "1924-1991", ru: Ленингра́д }
+      nameHistory:
+        - { period: "-1914, 1991-", ru: Санкт-Петербу́рг }
+        - { period: "1914-1924", ru: Петрогра́д }
+        - { period: "1924-1991", ru: Ленингра́д }
 
   # Южный
   Adygea:
@@ -46,17 +49,20 @@ Russia:
   # Republic of Crimea:
   Krasnodar Krai:
     Krasnodar:
-      - { period: "-1920", ru: Екатеринода́р }
-      - { period: "1920-", ru: Краснода́р }
+      nameHistory:
+        - { period: "-1920", ru: Екатеринода́р }
+        - { period: "1920-", ru: Краснода́р }
   Astrakhan Oblast:
   Volgograd Oblast:
     Volgograd:
-      - { period: "-1925", ru: Цари́цын }
-      - { period: "1925-1961", ru: Сталингра́д }
-      - { period: "1961-", ru: Волгогра́д }
+      nameHistory:
+        - { period: "-1925", ru: Цари́цын }
+        - { period: "1925-1961", ru: Сталингра́д }
+        - { period: "1961-", ru: Волгогра́д }
   Rostov Oblast:
     Rostov-on-Don:
-      - { period: "-", ru: Росто́в-на-Дону́ }
+      nameHistory:
+        - { period: "-", ru: Росто́в-на-Дону́ }
   # Sevastopol:
 
   # Северо-Кавказский
@@ -71,29 +77,34 @@ Russia:
   # Приволжский
   Bashkortostan:
     Ufa:
-      - { period: "-", ru: Уфа́ }
+      nameHistory:
+        - { period: "-", ru: Уфа́ }
   Mari El:
   Mordovia:
   Tatarstan:
     Kazan:
-      - { period: "-", ru: Каза́нь }
+      nameHistory:
+        - { period: "-", ru: Каза́нь }
   Udmurtia:
   Chuvashia:
   Perm Krai:
     Perm:
-      - { period: "1781-1940, 1957-", ru: Пермь }
-      - { period: "1940-1957", ru: Мо́лотов }
+      nameHistory:
+        - { period: "1781-1940, 1957-", ru: Пермь }
+        - { period: "1940-1957", ru: Мо́лотов }
   Kirov Oblast:
   Nizhny Novgorod Oblast:
     Nizhny Novgorod:
-      - { period: "-1932, 1990-", ru: Ни́жний Но́вгород }
-      - { period: "1932-1990", ru: Го́рький }
+      nameHistory:
+        - { period: "-1932, 1990-", ru: Ни́жний Но́вгород }
+        - { period: "1932-1990", ru: Го́рький }
   Orenburg Oblast:
   Penza Oblast:
   Samara Oblast:
     Samara:
-      - { period: "-1935, 1991-", ru: Сама́ра }
-      - { period: "1935-1991", ru: Ку́йбышев }
+      nameHistory:
+        - { period: "-1935, 1991-", ru: Сама́ра }
+        - { period: "1935-1991", ru: Ку́йбышев }
   Saratov Oblast:
   Ulyanovsk Oblast:
 
@@ -101,12 +112,14 @@ Russia:
   Kurgan Oblast:
   Sverdlovsk Oblast:
     Yekaterinburg:
-      - { period: "-1924, 1991-", ru: Екатеринбу́рг }
-      - { period: "1924-1991", ru: Свердло́вск }
+      nameHistory:
+        - { period: "-1924, 1991-", ru: Екатеринбу́рг }
+        - { period: "1924-1991", ru: Свердло́вск }
   Tyumen Oblast:
   Chelyabinsk Oblast:
     Chelyabinsk:
-      - { period: "-", ru: Челя́бинск }
+      nameHistory:
+        - { period: "-", ru: Челя́бинск }
   Khanty-Mansi Autonomous Okrug:
   Yamalo-Nenets Autonomous Okrug:
 
@@ -117,18 +130,21 @@ Russia:
   Altai Krai:
   Krasnoyarsk Krai:
     Krasnoyarsk:
-      - { period: "1690-", ru: Красноя́рск }
+      nameHistory:
+        - { period: "1690-", ru: Красноя́рск }
   Irkutsk Oblast:
   Kemerovo Oblast:
   Novosibirsk Oblast:
     Novosibirsk:
-      - { period: "1894-1895", ru: Алекса́ндровский }
-      - { period: "1895-1903", ru: Новоникола́евский }
-      - { period: "1903-1926", ru: Но́во-Никола́евск }
-      - { period: "1926-", ru: Новосиби́рск }
+      nameHistory:
+        - { period: "1894-1895", ru: Алекса́ндровский }
+        - { period: "1895-1903", ru: Новоникола́евский }
+        - { period: "1903-1926", ru: Но́во-Никола́евск }
+        - { period: "1926-", ru: Новосиби́рск }
   Omsk Oblast:
     Omsk:
-      - { period: "-", ru: Омск }
+      nameHistory:
+        - { period: "-", ru: Омск }
   Tomsk Oblast:
 
   # Дальневосточный
@@ -147,165 +163,206 @@ Russia:
 Ukraine:
   Vinnytsia Oblast:
     Vinnytsia:
-      - { period: "-1793", pl: Winnica }
-      - { period: "1793-", ru: Ви́нница, uk: Ві́нниця }
+      nameHistory:
+        - { period: "-1793", pl: Winnica }
+        - { period: "1793-", ru: Ви́нница, uk: Ві́нниця }
   Volyn Oblast:
     Lutsk:
-      - { period: "-", pl: Łuck, ru: Луцк, uk: Луцьк }
-      - { period: "-1795", pl: Łuck }
-      - { period: "1795-1917", ru: Луцк }
-      - { period: "1921-1939", pl: Łuck }
-      - { period: "1939-", ru: Луцк, uk: Луцьк }
+      nameHistory:
+        - { period: "-", pl: Łuck, ru: Луцк, uk: Луцьк }
+        - { period: "-1795", pl: Łuck }
+        - { period: "1795-1917", ru: Луцк }
+        - { period: "1921-1939", pl: Łuck }
+        - { period: "1939-", ru: Луцк, uk: Луцьк }
   Dnipropetrovsk Oblast:
     Dnipro:
-      - { period: "1776-1796, 1802-1926", ru: Екатериносла́в }
-      - { period: "1796-1802", ru: Новоросси́йск }
-      - { period: "1926-2016", ru: Днепропетро́вск, uk: Дніпропетровськ }
-      - { period: "2016-", ru: Днепр, uk: Дніпро́ }
+      nameHistory:
+        - { period: "1776-1796, 1802-1926", ru: Екатериносла́в }
+        - { period: "1796-1802", ru: Новоросси́йск }
+        - { period: "1926-2016", ru: Днепропетро́вск, uk: Дніпропетровськ }
+        - { period: "2016-", ru: Днепр, uk: Дніпро́ }
     Kryvyi Rih:
-      - { period: "1775-", ru: "Криво́й Рог", uk: "Криви́й Ріг" }
+      nameHistory:
+        - { period: "1775-", ru: "Криво́й Рог", uk: "Криви́й Ріг" }
     Kamianske:
-      - { period: "-1936, 2016-", ru: Каменское, uk: "Кам'янське" }
-      - { period: "1936-2016", ru: Днепродзержинск, uk: Дніпродзержинськ }
+      nameHistory:
+        - { period: "-1936, 2016-", ru: Каменское, uk: "Кам'янське" }
+        - { period: "1936-2016", ru: Днепродзержинск, uk: Дніпродзержинськ }
     Nikopol:
-      - { period: "-", ru: Ни́кополь, uk: Ні́кополь }
+      nameHistory:
+        - { period: "-", ru: Ни́кополь, uk: Ні́кополь }
     Sloviansk:
-      - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
+      nameHistory:
+        - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
   Donetsk Oblast:
     Donetsk:
-      - { period: "1869-1924", ru: Юзовка }
-      - { period: "1924-1929", ru: Ста́лин, uk: Ста́лін }
-      - { period: "1929-1961", ru: Ста́лино, uk: Ста́ліно }
-      - { period: "1961-", ru: Доне́цк, uk: Доне́цьк }
+      nameHistory:
+        - { period: "1869-1924", ru: Юзовка }
+        - { period: "1924-1929", ru: Ста́лин, uk: Ста́лін }
+        - { period: "1929-1961", ru: Ста́лино, uk: Ста́ліно }
+        - { period: "1961-", ru: Доне́цк, uk: Доне́цьк }
     Mariupol:
-      - { period: "1779-1948, 1989-", ru: Мариу́поль, uk: Маріу́поль }
-      - { period: "1948-1989", ru: Жда́нов }
+      nameHistory:
+        - { period: "1779-1948, 1989-", ru: Мариу́поль, uk: Маріу́поль }
+        - { period: "1948-1989", ru: Жда́нов }
     Makiivka:
-      - { period: "-1931", ru: Дми́триевск, uk: Дмитріївськ }
-      - { period: "1931-", ru: Маке́евка, uk: Макі́ївка }
+      nameHistory:
+        - { period: "-1931", ru: Дми́триевск, uk: Дмитріївськ }
+        - { period: "1931-", ru: Маке́евка, uk: Макі́ївка }
     Horlivka:
-      - { period: "-", ru: Го́рловка, uk: Го́рлівка }
+      nameHistory:
+        - { period: "-", ru: Го́рловка, uk: Го́рлівка }
     Kramatorsk:
-      - { period: "-", ru: Крамато́рск, uk: Крамато́рськ }
+      nameHistory:
+        - { period: "-", ru: Крамато́рск, uk: Крамато́рськ }
   Zhytomyr Oblast:
     Zhytomyr:
-      - { period: "-", ru: Жито́мир, uk: Жито́мир, pl: Żytomierz }
-      - { period: "-1793", pl: Żytomierz }
-      - { period: "1793-", ru: Жито́мир, uk: Жито́мир }
+      nameHistory:
+        - { period: "-", ru: Жито́мир, uk: Жито́мир, pl: Żytomierz }
+        - { period: "-1793", pl: Żytomierz }
+        - { period: "1793-", ru: Жито́мир, uk: Жито́мир }
   Zakarpattia Oblast:
     Uzhhorod:
-      - { period: "-", hu: Ungvár, de: Ungwar, sk: Užhorod, cs: Užhorod, ru: У́жгород, uk: У́жгород }
-      - { period: "-1919", hu: Ungvár, de: Ungwar, sk: Užhorod }
-      - { period: "1919-1938", cs: Užhorod }
-      - { period: "1938-1945", hu: Ungvár }
-      - { period: "1945-", ru: У́жгород, uk: У́жгород, hu: Ungvár, sk: Užhorod }
+      nameHistory:
+        - { period: "-", hu: Ungvár, de: Ungwar, sk: Užhorod, cs: Užhorod, ru: У́жгород, uk: У́жгород }
+        - { period: "-1919", hu: Ungvár, de: Ungwar, sk: Užhorod }
+        - { period: "1919-1938", cs: Užhorod }
+        - { period: "1938-1945", hu: Ungvár }
+        - { period: "1945-", ru: У́жгород, uk: У́жгород, hu: Ungvár, sk: Užhorod }
   Zaporizhzhia Oblast:
     Zaporizhzhia:
-      - { period: "-1921", ru: Алекса́ндровск, uk: Олекса́ндрівськ }
-      - { period: "1921-", ru: Запоро́жье, uk: Запорі́жжя }
+      nameHistory:
+        - { period: "-1921", ru: Алекса́ндровск, uk: Олекса́ндрівськ }
+        - { period: "1921-", ru: Запоро́жье, uk: Запорі́жжя }
     Melitopol:
-      - { period: "1816-1842", ru: Новоалекса́ндровка, uk: Новоолекса́ндрівка }
-      - { period: "1842-", ru: Мелито́поль, uk: Меліто́поль }
+      nameHistory:
+        - { period: "1816-1842", ru: Новоалекса́ндровка, uk: Новоолекса́ндрівка }
+        - { period: "1842-", ru: Мелито́поль, uk: Меліто́поль }
     Berdiansk:
-      - { period: "-1939, 1958-", ru: Бердя́нск, uk: Бердя́нськ }
-      - { period: "1939-1958", ru: Осипе́нко, uk: Осипе́нко }
+      nameHistory:
+        - { period: "-1939, 1958-", ru: Бердя́нск, uk: Бердя́нськ }
+        - { period: "1939-1958", ru: Осипе́нко, uk: Осипе́нко }
   Ivano-Frankivsk Oblast:
     Ivano-Frankivsk:
-      - { period: "-1939", pl: Stanisławów, de: Stanislau, ru: Станисла́вов, uk: Станисла́вів }
-      - { period: "1662-1772", pl: Stanisławów }
-      - { period: "1772-1918", de: Stanislau, pl: Stanisławów, uk: Станисла́вів }
-      - { period: "1918-1939", pl: Stanisławów }
-      - { period: "1939-1962", ru: Станисла́в, uk: Станісла́в }
-      - { period: "1962-", ru: Ива́но-Франко́вск, uk: Іва́но-Франкі́вськ }
+      nameHistory:
+        - { period: "-1939", pl: Stanisławów, de: Stanislau, ru: Станисла́вов, uk: Станисла́вів }
+        - { period: "1662-1772", pl: Stanisławów }
+        - { period: "1772-1918", de: Stanislau, pl: Stanisławów, uk: Станисла́вів }
+        - { period: "1918-1939", pl: Stanisławów }
+        - { period: "1939-1962", ru: Станисла́в, uk: Станісла́в }
+        - { period: "1962-", ru: Ива́но-Франко́вск, uk: Іва́но-Франкі́вськ }
   Kyiv Oblast:
     Bila Tserkva:
-      - { period: "-", ru: Бе́лая Це́рковь, uk: Бі́ла Це́рква }
+      nameHistory:
+        - { period: "-", ru: Бе́лая Це́рковь, uk: Бі́ла Це́рква }
     Brovary:
-      - { period: "-", ru: Бровары́, uk: Бровари́ }
+      nameHistory:
+        - { period: "-", ru: Бровары́, uk: Бровари́ }
   Kirovohrad Oblast:
     Kropyvnytskyi:
-      - { period: "-1924", ru: Елисаветгра́д, uk: Єлисаветгра́д }
-      - { period: "1924-1934", ru: Зино́вьевск, uk: Зіно́в'євськ }
-      - { period: "1934-1939", ru: Ки́рово, uk: Кі́рово }
-      - { period: "1939-2016", ru: Кировогра́д, uk: Кіровогра́д }
-      - { period: "2016-", ru: Кропивни́цкий, uk: Кропивни́цький }
+      nameHistory:
+        - { period: "-1924", ru: Елисаветгра́д, uk: Єлисаветгра́д }
+        - { period: "1924-1934", ru: Зино́вьевск, uk: Зіно́в'євськ }
+        - { period: "1934-1939", ru: Ки́рово, uk: Кі́рово }
+        - { period: "1939-2016", ru: Кировогра́д, uk: Кіровогра́д }
+        - { period: "2016-", ru: Кропивни́цкий, uk: Кропивни́цький }
   Luhansk Oblast:
     Luhansk:
-      - { period: "1882-1935, 1958-1970, 1990-", ru: Луга́нск, uk: Луга́нськ }
-      - { period: "1935-1958, 1970-1990", ru: Ворошиловгра́д, uk: Ворошиловгра́д }
+      nameHistory:
+        - { period: "1882-1935, 1958-1970, 1990-", ru: Луга́нск, uk: Луга́нськ }
+        - { period: "1935-1958, 1970-1990", ru: Ворошиловгра́д, uk: Ворошиловгра́д }
   Lviv Oblast:
     Lviv:
-      - { period: "-", ru: Львов, uk: Львів, pl: Lwów, de: Lemberg }
-      - { period: "1772-1918", de: Lemberg }
-      - { period: "1921-1939", pl: Lwów }
-      - { period: "1944-", ru: Львов, uk: Львів }
+      nameHistory:
+        - { period: "-", ru: Львов, uk: Львів, pl: Lwów, de: Lemberg }
+        - { period: "1772-1918", de: Lemberg }
+        - { period: "1921-1939", pl: Lwów }
+        - { period: "1944-", ru: Львов, uk: Львів }
   Mykolaiv Oblast:
     Mykolaiv:
-      - { period: "1789-", ru: Никола́ев, uk: Микола́їв }
+      nameHistory:
+        - { period: "1789-", ru: Никола́ев, uk: Микола́їв }
   Odessa Oblast:
     Odessa:
-      - { period: "1795-", ru: Оде́сса, uk: Оде́са }
+      nameHistory:
+        - { period: "1795-", ru: Оде́сса, uk: Оде́са }
   Poltava Oblast:
     Poltava:
-      - { period: "-", ru: Полта́ва, uk: Полта́ва }
+      nameHistory:
+        - { period: "-", ru: Полта́ва, uk: Полта́ва }
     Kremenchuk:
-      - { period: "-", ru: Кременчу́г, uk: Кременчу́к }
+      nameHistory:
+        - { period: "-", ru: Кременчу́г, uk: Кременчу́к }
   Rivne Oblast:
     Rivne:
-      - { period: "-", ru: Ро́вно, pl: Równe }
-      - { period: "-1795", pl: Równe }
-      - { period: "1795-1921", ru: Ро́вно, uk: Ровно }
-      - { period: "1921-1939", pl: Równe }
-      - { period: "1939-1991", ru: Ро́вно, uk: Ровно }
-      - { period: "1991-", ru: Ро́вно, uk: Рі́вне }
+      nameHistory:
+        - { period: "-", ru: Ро́вно, pl: Równe }
+        - { period: "-1795", pl: Równe }
+        - { period: "1795-1921", ru: Ро́вно, uk: Ровно }
+        - { period: "1921-1939", pl: Równe }
+        - { period: "1939-1991", ru: Ро́вно, uk: Ровно }
+        - { period: "1991-", ru: Ро́вно, uk: Рі́вне }
   Sumy Oblast:
     Sumy:
-      - { period: "-", ru: Су́мы, uk: Су́ми }
+      nameHistory:
+        - { period: "-", ru: Су́мы, uk: Су́ми }
   Ternopil Oblast:
     Ternopil:
-      - { period: "-", pl: Tarnopol, de: Tarnopol, hu: Tarnopol }
-      - { period: "1772-1918", de: Tarnopol, hu: Tarnopol }
-      - { period: "1921-1939", pl: Tarnopol }
-      - { period: "1939-1944", ru: Тарнополь }
-      - { period: "1944-", ru: Терно́поль, uk: Терно́піль }
+      nameHistory:
+        - { period: "-", pl: Tarnopol, de: Tarnopol, hu: Tarnopol }
+        - { period: "1772-1918", de: Tarnopol, hu: Tarnopol }
+        - { period: "1921-1939", pl: Tarnopol }
+        - { period: "1939-1944", ru: Тарнополь }
+        - { period: "1944-", ru: Терно́поль, uk: Терно́піль }
   Kharkiv Oblast:
     Kharkiv:
-      - { period: "-", ru: Ха́рьков, uk: Ха́рків }
+      nameHistory:
+        - { period: "-", ru: Ха́рьков, uk: Ха́рків }
   Kherson Oblast:
     Kherson:
-      - { period: "1778-", ru: Херсо́н, uk: Херсо́н }
+      nameHistory:
+        - { period: "1778-", ru: Херсо́н, uk: Херсо́н }
   Khmelnytskyi Oblast:
     Khmelnytskyi:
-      - { period: "1795-1954", ru: Проску́ров, uk: Проску́рів }
-      - { period: "1954-", ru: Хмельни́цкий, uk: Хмельни́цький }
+      nameHistory:
+        - { period: "1795-1954", ru: Проску́ров, uk: Проску́рів }
+        - { period: "1954-", ru: Хмельни́цкий, uk: Хмельни́цький }
   Cherkasy Oblast:
     Cherkasy:
-      - { period: "-", ru: Черка́ссы, uk: Черка́си, pl: Czerkasy }
-      - { period: "-1793", pl: Czerkasy }
-      - { period: "1793-", ru: Черка́ссы, uk: Черка́си }
+      nameHistory:
+        - { period: "-", ru: Черка́ссы, uk: Черка́си, pl: Czerkasy }
+        - { period: "-1793", pl: Czerkasy }
+        - { period: "1793-", ru: Черка́ссы, uk: Черка́си }
   Chernihiv Oblast:
     Chernihiv:
-      - { period: "-", ru: Черни́гов, uk: Черні́гів }
+      nameHistory:
+        - { period: "-", ru: Черни́гов, uk: Черні́гів }
   Chernivtsi Oblast:
     Chernivtsi:
-      - { period: "-1918", de: Czernowitz }
-      - { period: "1918-1940", ro: Cernăuți }
-      - { period: "1940-1941", ru: Чернови́цы }
-      - { period: "1944-", ru: Черновцы́, uk: Чернівці́ }
+      nameHistory:
+        - { period: "-1918", de: Czernowitz }
+        - { period: "1918-1940", ro: Cernăuți }
+        - { period: "1940-1941", ru: Чернови́цы }
+        - { period: "1944-", ru: Черновцы́, uk: Чернівці́ }
   Kyiv:
     Kyiv:
-      - { period: "-", ru: Ки́ев, uk: Ки́їв }
+      nameHistory:
+        - { period: "-", ru: Ки́ев, uk: Ки́їв }
   Sevastopol:
     Sevastopol:
-      - { period: "1783-1784, 1797-1826", ru: Ахтиар }
-      - { period: "1784-1797, 1826-", ru: Севасто́поль, uk: Севасто́поль }
+      nameHistory:
+        - { period: "1783-1784, 1797-1826", ru: Ахтиар }
+        - { period: "1784-1797, 1826-", ru: Севасто́поль, uk: Севасто́поль }
   Autonomous Republic of Crimea:
     Simferopol:
-      - { period: "1784-", ru: Симферо́поль, uk: Сімферо́поль }
+      nameHistory:
+        - { period: "1784-", ru: Симферо́поль, uk: Сімферо́поль }
     Kerch:
-      - { period: "-", ru: Керчь, uk: Керч }
+      nameHistory:
+        - { period: "-", ru: Керчь, uk: Керч }
     Yevpatoria:
-      - { period: "1784-", ru: Евпато́рия, uk: Євпато́рія }
+      nameHistory:
+        - { period: "1784-", ru: Евпато́рия, uk: Євпато́рія }
 
 Belarus:
 
