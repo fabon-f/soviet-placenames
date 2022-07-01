@@ -82,6 +82,7 @@ type NameEntry = {
   name: string
   originalName: string
   lang: string
+  period: string
 }
 
 const data = {
@@ -110,19 +111,41 @@ for (const country in cities) {
       const cityId = data.cities.length - 1
 
       for (const name of cityData.nameHistory) {
-        for (const language in name) {
-          if (language === 'period') { continue }
-          data.names.push({
-            cityId,
-            name: getJapanese(name[language], language),
-            originalName: name[language],
-            lang: language
-          })
+        for (const period of name.period.split(/, ?/)) {
+          for (const language in name) {
+            if (language === 'period') { continue }
+            data.names.push({
+              period,
+              cityId,
+              name: getJapanese(name[language], language),
+              originalName: name[language],
+              lang: language
+            })
+          }
         }
       }
     }
   }
 }
+
+function compareNameEntry(a: NameEntry, b: NameEntry) {
+  if (a.name > b.name) {
+    return 1
+  } else if (a.name < b.name) {
+    return -1
+  }
+
+  const [aPeriod, bPeriod] = [a,b].map(n => n.period.split('-')[1] === '' ? 100000 : parseInt(n.period.split('-')[1]))
+  if (aPeriod < bPeriod) {
+    return 1
+  } else if (aPeriod > bPeriod) {
+    return -1
+  } else {
+    return 0
+  }
+}
+
+data.names.sort(compareNameEntry)
 
 const citiesDataFile = url.fileURLToPath(new URL('../data/cities_data.ja.json', import.meta.url))
 await fs.writeFile(citiesDataFile, JSON.stringify(data))
