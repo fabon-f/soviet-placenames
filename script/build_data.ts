@@ -70,9 +70,23 @@ const cities = await (async () => {
   return cities
 }) ()
 
+type City = {
+  name: string[]
+  country: string
+  subject: string
+  nameHistory: NameHistory[]
+}
+
+type NameEntry = {
+  cityId: number
+  name: string
+  originalName: string
+  lang: string
+}
+
 const data = {
-  cities: [] as any[],
-  names: [] as any[]
+  cities: [] as City[],
+  names: [] as NameEntry[]
 }
 
 for (const country in cities) {
