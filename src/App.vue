@@ -1,10 +1,23 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+import * as data from '../data/cities_data.ja.json'
+import { ref, computed } from 'vue'
+
+const query = ref('')
+const matchedCities = computed(() => {
+  const result = data.names.filter(city => city.name.includes(query.value))
+    .map(c => data.cities[c.cityId])
+  return [...new Set(result)]
+})
 </script>
 
 <template>
-  <p>日本語 English русский язык</p>
+  <input type="text" v-model="query">
+  ヒット数: {{ matchedCities.length }}
+  <ul>
+    <li v-for="city in matchedCities"><strong>{{ city.name.join(" / ") }}</strong> {{ `${city.country}、${city.subject}` }}</li>
+  </ul>
 </template>
 
 <style>
