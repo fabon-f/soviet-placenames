@@ -4,6 +4,7 @@ specifiers:
   '@types/js-yaml': ^4.0.5
   '@types/node': ^18.0.0
   '@vitejs/plugin-vue': ^2.3.3
+  fuse.js: ^6.6.2
   js-yaml: ^4.1.0
   tensha: ^0.1.1
   ts-node: ^10.8.1
@@ -13,6 +14,7 @@ specifiers:
   vue-tsc: ^0.37.5
 
 dependencies:
+  fuse.js: 6.6.2
   vue: 3.2.37
 
 devDependencies:
@@ -460,6 +462,11 @@ packages:
   /function-bind/1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: true
+
+  /fuse.js/6.6.2:
+    resolution: {integrity: sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==}
+    engines: {node: '>=10'}
+    dev: false
 
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}

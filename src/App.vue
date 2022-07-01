@@ -3,11 +3,19 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import * as data from '../data/cities_data.ja.json'
 import { ref, computed } from 'vue'
+import Fuse from 'fuse.js'
+import { katakanaToRomaji } from './util'
+
+const fuse = new Fuse(data.names.map(n => Object.assign({_search:katakanaToRomaji(n.name, true)},n)), {
+  keys: ['_search'],
+  threshold: 0.4
+})
 
 const query = ref('')
 const matchedCities = computed(() => {
-  const result = data.names.filter(city => city.name.includes(query.value))
-    .map(c => data.cities[c.cityId])
+  const result = fuse.search(katakanaToRomaji(query.value), {
+    limit: 10
+  }).map(c => data.cities[c.item.cityId])
   return [...new Set(result)]
 })
 </script>

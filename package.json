@@ -30,6 +30,7 @@
     "vue-tsc": "^0.37.5"
   },
   "dependencies": {
+    "fuse.js": "^6.6.2",
     "vue": "^3.2.37"
   }
 }
