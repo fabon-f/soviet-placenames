@@ -5,6 +5,7 @@ import * as data from '../data/cities_data.ja.json'
 import { ref, computed } from 'vue'
 import Fuse from 'fuse.js'
 import { katakanaToRomaji } from './util'
+import CityDescription from './components/CityDescription.vue'
 
 const fuse = new Fuse(data.names.map(n => Object.assign({_search:katakanaToRomaji(n.name, true)},n)), {
   keys: ['_search'],
@@ -22,10 +23,12 @@ const matchedCities = computed(() => {
 </script>
 
 <template>
-  <input type="text" v-model="query">
+  <div id="searchbox">
+    <input type="text" v-model="query">
+  </div>
   ヒット数: {{ matchedCities.length }}
-  <ul>
-    <li v-for="city in matchedCities"><strong>{{ city.name.join(" / ") }}</strong> {{ `${city.country}、${city.subject}` }}</li>
+  <ul id="cities">
+    <li v-for="city in matchedCities"><CityDescription :city="city"></CityDescription></li>
   </ul>
 </template>
 
@@ -47,5 +50,19 @@ const matchedCities = computed(() => {
 #app {
   font-family: Cyrillic, Meiryo, sans-serif;
   color: #222;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#cities {
+  padding: 0;
+}
+#cities li {
+  list-style: none;
+  border: 1px solid #222;
+  border-bottom: none;
+  padding: 5px;
+}
+#cities li:last-child {
+  border-bottom: 1px solid #222;
 }
 </style>
