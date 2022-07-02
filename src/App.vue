@@ -24,7 +24,7 @@ const matchedCities = computed(() => {
 
 <template>
   <div id="searchbox">
-    <input type="text" v-model="query">
+    <input type="text" placeholder="都市名を入力" v-model="query">
   </div>
   ヒット数: {{ matchedCities.length }}
   <ul id="cities">
@@ -33,25 +33,13 @@ const matchedCities = computed(() => {
 </template>
 
 <style>
-@font-face {
-  font-family: Cyrillic;
-  src: local("Helvetica Neue"), local("Arial");
-  font-weight: normal;
-  /* only cyrillic */
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116, U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+@import './global.css';
+
+#searchbox {
+  text-align: center;
 }
-@font-face {
-  font-family: Cyrillic;
-  src: local("Helvetica Neue Bold"), local("Arial Bold");
-  font-weight: bold;
-  /* only cyrillic */
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116, U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-#app {
-  font-family: Cyrillic, Meiryo, sans-serif;
-  color: #222;
-  max-width: 1000px;
-  margin: 0 auto;
+#searchbox input {
+  font-size: 1.5em;
 }
 #cities {
   padding: 0;
