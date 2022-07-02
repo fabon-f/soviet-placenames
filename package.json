@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && ts-node-esm script/build_data.ts && vite build",
+    "build": "ts-node-esm script/build_data.ts && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
