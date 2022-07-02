@@ -8,7 +8,8 @@ import { katakanaToRomaji } from './util'
 
 const fuse = new Fuse(data.names.map(n => Object.assign({_search:katakanaToRomaji(n.name, true)},n)), {
   keys: ['_search'],
-  threshold: 0.4
+  threshold: 0.4,
+  distance: 10
 })
 
 const query = ref('')
