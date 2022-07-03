@@ -26,7 +26,7 @@ const matchedCities = computed(() => {
   <div id="searchbox">
     <input type="text" placeholder="都市名を入力" v-model="query">
   </div>
-  ヒット数: {{ matchedCities.length }}
+  ヒット数: {{ matchedCities.length }} / {{ data.cities.length }}
   <ul id="cities">
     <li v-for="city in matchedCities"><CityDescription :city="city"></CityDescription></li>
   </ul>
