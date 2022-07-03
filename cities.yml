@@ -1,11 +1,17 @@
 Russia:
   # Центральный
   Belgorod Oblast:
+    Belgorod:
+      nameHistory:
+        - { period: "-", ru: Бе́лгород }
   Bryansk Oblast:
     Bryansk:
       nameHistory:
         - { period: "-", ru: Брянск }
   Vladimir Oblast:
+    Vladimir:
+      nameHistory:
+        - { period: "-", ru: Влади́мир }
   Voronezh Oblast:
     Voronezh:
       nameHistory:
@@ -16,7 +22,13 @@ Russia:
         - { period: "1871-1932", ru: Ива́ново-Вознесе́нск }
         - { period: "1932-", ru: Ива́ново }
   Kaluga Oblast:
+    Kaluga:
+      nameHistory:
+        - { period: "-", ru: Калу́га }
   Kostroma Oblast:
+    Kostroma:
+      nameHistory:
+        - { period: "-", ru: Кострома́ }
   Kursk Oblast:
     Kursk:
       nameHistory:
@@ -29,14 +41,32 @@ Russia:
     Balashikha:
       nameHistory:
         - { period: "-", ru: Балаши́ха }
+    Podolsk:
+      nameHistory:
+        - { period: "-", ru: Подо́льск }
+    Mytishchi:
+      nameHistory:
+        - { period: "-", ru: Мыти́щи }
+    Khimki:
+      nameHistory:
+        - { period: "-", ru: Хи́мки }
   Oryol Oblast:
+    Oryol:
+      nameHistory:
+        - { period: "-", ru: Орёл }
   Ryazan Oblast:
     Ryazan:
       nameHistory:
         - { period: "-1778", ru: Переясла́вль-Ряза́нский }
         - { period: "1778-", ru: Ряза́нь }
   Smolensk Oblast:
+    Smolensk:
+      nameHistory:
+        - { period: "-", ru: Смоле́нск }
   Tambov Oblast:
+    Tambov:
+      nameHistory:
+        - { period: "-", ru: Тамбо́в }
   Tver Oblast:
     Tver:
       nameHistory:
@@ -57,9 +87,21 @@ Russia:
 
   # Северо-Западный
   Republic of Karelia:
+    Petrozavodsk:
+      nameHistory:
+        - { period: "1777-", ru: Петрозаво́дск }
   Komi Republic:
   Arkhangelsk Oblast:
+    Arkhangelsk:
+      nameHistory:
+        - { period: "-", ru: Арха́нгельск }
   Vologda Oblast:
+    Vologda:
+      nameHistory:
+        - { period: "-", ru: Во́логда }
+    Cherepovets:
+      nameHistory:
+        - { period: "-", ru: Черепове́ц }
   Kaliningrad Oblast:
     Kaliningrad:
       nameHistory:
@@ -67,6 +109,10 @@ Russia:
         - { period: "1946-", ru: Калинингра́д }
   Leningrad Oblast:
   Murmansk Oblast:
+    Murmansk:
+      nameHistory:
+        - { period: "1916-1917", ru: Рома́нов-на-Му́рмане }
+        - { period: "1917-", ru: Му́рманск }
   Novgorod Oblast:
   Pskov Oblast:
   Nenets Autonomous Okrug:
@@ -89,6 +135,9 @@ Russia:
     Sochi:
       nameHistory:
         - { period: "-", ru: Со́чи }
+    Novorossiysk:
+      nameHistory:
+        - { period: "1839-", ru: Новоросси́йск }
   Astrakhan Oblast:
     Astrakhan:
       nameHistory:
@@ -99,10 +148,17 @@ Russia:
         - { period: "-1925", ru: Цари́цын }
         - { period: "1925-1961", ru: Сталингра́д }
         - { period: "1961-", ru: Волгогра́д }
+    Volzhsky:
+      nameHistory:
+        - { period: "-1952", ru: Безро́дное }
+        - { period: "1952-", ru: Во́лжский }
   Rostov Oblast:
     Rostov-on-Don:
       nameHistory:
         - { period: "-", ru: Росто́в-на-Дону́ }
+    Taganrog:
+      nameHistory:
+        - { period: "-", ru: Таганро́г }
   # Sevastopol:
 
   # Северо-Кавказский
@@ -116,7 +172,16 @@ Russia:
   Kabardino-Balkaria:
   Karachay-Cherkessia:
   North Ossetia:
+    Vladikavkaz:
+      nameHistory:
+        - { period: "-1931", ru: Владикавка́з }
+        - { period: "1931-1944, 1954-1990", ru: Орджоники́дзе }
+        - { period: "1944-1954", ru: Дзауджика́у }
+        - { period: "1990-", ru: Владикавка́з, os: Дзӕуджыхъӕу }
   Chechnya:
+    Grozny:
+      nameHistory:
+        - { period: "1869-", ru: Гро́зный }
   Stavropol Krai:
     Stavropol:
       nameHistory:
@@ -129,8 +194,19 @@ Russia:
     Ufa:
       nameHistory:
         - { period: "-", ru: Уфа́ }
+    Sterlitamak:
+      nameHistory:
+        - { period: "-", ru: Стерлитама́к }
   Mari El:
+    Yoshkar-Ola:
+      nameHistory:
+        - { period: "-1919", ru: Царевококша́йск }
+        - { period: "1919-1928", ru: Краснококша́йск }
+        - { period: "1928-", ru: Йошка́р-Ола́ }
   Mordovia:
+    Saransk:
+      nameHistory:
+        - { period: "-", ru: Сара́нск }
   Tatarstan:
     Kazan:
       nameHistory:
@@ -195,11 +271,17 @@ Russia:
 
   # Уральский
   Kurgan Oblast:
+    Kurgan:
+      nameHistory:
+        - { period: "1782-", ru: Курга́н }
   Sverdlovsk Oblast:
     Yekaterinburg:
       nameHistory:
         - { period: "-1924, 1991-", ru: Екатеринбу́рг }
         - { period: "1924-1991", ru: Свердло́вск }
+    Nizhny Tagil:
+      nameHistory:
+        - { period: "-", ru: Ни́жний Таги́л }
   Tyumen Oblast:
     Tyumen:
       nameHistory:
@@ -212,6 +294,12 @@ Russia:
       nameHistory:
         - { period: "1929-", ru: Магнитого́рск }
   Khanty-Mansi Autonomous Okrug:
+    Surgut:
+      nameHistory:
+        - { period: "-", ru: Сургу́т }
+    Nizhnevartovsk:
+      nameHistory:
+        - { period: "1972-", ru: Нижнева́ртовск }
   Yamalo-Nenets Autonomous Okrug:
 
   # Сибирский
@@ -264,7 +352,13 @@ Russia:
         - { period: "1783-1934", ru: Верхнеу́динск }
         - { period: "1934-", ru: Ула́н-Удэ́ }
   Sakha:
+    Yakutsk:
+      nameHistory:
+        - { period: "-", ru: Яку́тск, sah: Дьокуускай }
   Zabaykalsky Krai:
+    Chita:
+      nameHistory:
+        - { period: "-", ru: Чита́ }
   Kamchatka Krai:
   Primorsky Krai:
     Vladivostok:
