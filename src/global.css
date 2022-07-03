@@ -31,9 +31,14 @@ body {
   font-size: 3em;
   margin: 0.2em 0;
 }
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+}
 
 #app {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 3em;
+  padding: 5px;
 }
