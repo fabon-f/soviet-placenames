@@ -113,6 +113,9 @@ for (const country in cities) {
 
   for (const subject in cities[country]) {
     const subjectName = transliterations.en[subject]
+    if (cities[country][subject] !== null && typeof subjectName !== 'string') {
+      throw new Error(`Unavailable administrative division: ${subject}`)
+    }
     for (const city in cities[country][subject]) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(cities[country][subject][city].nameHistory, lang), lang))
       const cityData = Object.assign({
