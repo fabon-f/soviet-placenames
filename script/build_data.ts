@@ -95,7 +95,20 @@ for (const country in cities) {
   if (typeof countryName !== 'string') { throw new Error('') }
 
   const primaryLanguages = ({
-    'Ukraine': ['uk', 'ru']
+    'Ukraine': ['uk', 'ru'],
+    'Belarus': ['be', 'ru'],
+    'Moldova': ['ro', 'ru'],
+    'Estonia': ['et', 'ru'],
+    'Latvia': ['lv', 'ru'],
+    'Lithuania': ['lt', 'ru'],
+    'Uzbekistan': ['uz', 'ru'],
+    'Tajikistan': ['tg', 'ru'],
+    'Turkmenistan': ['tk', 'ru'],
+    'Kyrgyzstan': ['ky', 'ru'],
+    'Kazakhstan': ['kk', 'ru'],
+    'Georgia': ['ka', 'ru'],
+    'Armenia': ['hy', 'ru'],
+    'Azerbaijan': ['ru', 'az']
   })[country] || ['ru']
 
   for (const subject in cities[country]) {

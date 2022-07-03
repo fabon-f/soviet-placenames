@@ -580,27 +580,294 @@ Ukraine:
         - { period: "1784-", ru: Евпато́рия, uk: Євпато́рія }
 
 Belarus:
+  Minsk:
+    Minsk:
+      nameHistory:
+        - { period: "-", ru: Минск, be: Мінск }
+  Brest Oblast:
+  Gomel Oblast:
+  Grodno Oblast:
+  Mogilev Oblast:
+  Minsk Oblast:
+  Vitebsk Oblast:
 
 Moldova:
+  Bălți:
+  Chișinău:
+    Chișinău:
+      nameHistory:
+        - { period: "1812-", ru: Кишинёв, ro: Chișinău }
+        - { period: "1918-1940", ro: Chișinău }
+        - { period: "1940-", ru: Кишинёв }
+  Tighina:
+
+  Briceni District:
+  Dondușeni District:
+  Drochia District:
+  Edineț District:
+  Fălești District:
+  Florești District:
+  Glodeni District:
+  Ocnița District:
+  Rîșcani District:
+  Sîngerei District:
+  Soroca District:
+
+  Anenii Noi District:
+  Călărași District:
+  Criuleni District:
+  Dubăsari District:
+  Hîncești District:
+  Ialoveni District:
+  Nisporeni District:
+  Orhei District:
+  Rezina District:
+  Șoldănești District:
+  Strășeni District:
+  Telenești District:
+  Ungheni District:
+
+  Basarabeasca District:
+  Cahul District:
+  Cantemir District:
+  Căușeni District:
+  Cimișlia District:
+  Leova District:
+  Ștefan Vodă District:
+  Taraclia District:
 
 Estonia:
+  Harju County:
+    Tallinn:
+      nameHistory:
+        - { period: "-1918", ru: Ре́вель }
+        - { period: "1918-1940", et: Tallinn, ru: Та́ллин }
+        - { period: "1940-", ru: Та́ллин, et: Tallinn }
+  Hiiu County:
+  Ida-Viru County:
+  Jõgeva County:
+  Järva County:
+  Lääne County:
+  Lääne-Viru County:
+  Põlva County:
+  Pärnu County:
+  Rapla County:
+  Saare County:
+  Tartu County:
+  Valga County:
+  Viljandi County:
+  Võru County:
 
 Latvia:
+  Daugavpils:
+  Jelgava:
+  Jūrmala:
+  Liepāja:
+  Rēzekne:
+  Riga:
+    Riga:
+      nameHistory:
+        - { period: "-", ru: Ри́га, lv: Rīga }
+  Ventspils:
+
+  # Municipalities
+  Aizkraukle Municipality:
+  Alūksne Municipality:
+  Augšdaugava Municipality:
+  Ādaži Municipality:
+  Balvi Municipality:
+  Bauska Municipality:
+  Cēsis Municipality:
+  South Kurzeme Municipality:
+  Dobele Municipality:
+  Gulbene Municipality:
+  Jelgava Municipality:
+  Jēkabpils Municipality:
+  Krāslava Municipality:
+  Kuldīga Municipality:
+  Ķekava Municipality:
+  Limbaži Municipality:
+  Līvāni Municipality:
+  Ludza Municipality:
+  Madona Municipality:
+  Mārupe Municipality:
+  Ogre Municipality:
+  Olaine Municipality:
+  Preiļi Municipality:
+  Rēzekne Municipality:
+  Ropaži Municipality:
+  Salaspils Municipality:
+  Saldus Municipality:
+  Saulkrasti Municipality:
+  Sigulda Municipality:
+  Smiltene Municipality:
+  Talsi Municipality:
+  Tukums Municipality:
+  Valka Municipality:
+  Valmiera Municipality:
+  Ventspils Municipality:
+  Varakļāni Municipality:
 
 Lithuania:
+  Alytus County:
+  Kaunas County:
+  Klaipėda County:
+  Marijampolė County:
+  Panevėžys County:
+  Šiauliai County:
+  Tauragė County:
+  Telšiai County:
+  Utena County:
+  Vilnius County:
+    Vilnius:
+      nameHistory:
+        - { period: "-1918", ru: Ви́льна }
+        - { period: "1922-1939", pl: Wilno }
+        - { period: "1939-1940", lt: Vilnius }
+        - { period: "1940-", ru: Ви́льнюс, lt: Vilnius }
 
 Uzbekistan:
+  Andijan Region:
+  Bukhara Region:
+  Fergana Region:
+  Jizzakh Region:
+  Xorazm Region:
+  Namangan Region:
+  Navoiy Region:
+  Qashqadaryo Region:
+  Samarqand Region:
+  Sirdaryo Region:
+  Surxondaryo Region:
+  Tashkent Region:
+  Karakalpakstan:
+  Tashkent:
+    Tashkent:
+      nameHistory:
+        - { period: "-", ru: Ташке́нт, uz: Toshkent }
 
 Tajikistan:
+  Dushanbe:
+    Dushanbe:
+      nameHistory:
+        - { period: "1924-1929", ru: Дюшамбе́, tg: Душанбе }
+        - { period: "1929-1961", ru: Сталинаба́д, tg: Сталинобод }
+        - { period: "1961-", ru: Душанбе́, tg: Душанбе }
+  Region of Republican Subordination:
+  Gorno-Badakhshan Autonomous Region:
+  Sughd Region:
+  Khatlon Region:
 
 Turkmenistan:
+  Ashgabat:
+    Ashgabat:
+      nameHistory:
+        - { period: "1881-1919", ru: Асхаба́д, tk: Aşgabat }
+        - { period: "1919-1927", ru: Полтора́цк }
+        - { period: "1927-", ru: Ашхаба́д, tk: Aşgabat }
+  Ahal Region:
+  Balkan Region:
+  Daşoguz Region:
+  Lebap Region:
+  Mary Region:
 
 Kyrgyzstan:
+  Bishkek:
+    Bishkek:
+      nameHistory:
+        - { period: "-1926", ru: Пишпе́к, ky: Пишпек }
+        - { period: "1926-1991", ru: Фру́нзе, ky: Фрунзе }
+        - { period: "1991-", ru: Бишке́к, ky: Бишкек }
+  Osh:
+  Batken Region:
+  Chüy Region:
+  Jalal-Abad Region:
+  Naryn Region:
+  Osh Region:
+  Talas Region:
+  Issyk-Kul Region:
 
 Kazakhstan:
+  Almaty:
+  Baikonur:
+  Nur-Sultan:
+    Nur-Sultan:
+      nameHistory:
+        - { period: "-1961", ru: Акмо́линск, kk: Ақмолинск }
+        - { period: "1961-1992", ru: Целиногра́д, kk: Целиноград }
+        - { period: "1992-1998", ru: Акмола́, kk: Ақмола }
+        - { period: "1998-2019", ru: Астана́, kk: Астана }
+        - { period: "2019-", ru: Нур-Султа́н, kk: Нұр-Сұлтан }
+  Abai Region:
+  Akmola Region:
+  Aktobe Region:
+  Almaty Region:
+  Atyrau Region:
+  East Kazakhstan Region:
+  Jambyl Region:
+  Jetisu Region:
+  Karaganda Region:
+  Kostanay Region:
+  Kyzylorda Region:
+  Mangystau Region:
+  North Kazakhstan Region:
+  Pavlodar Region:
+  Shymkent:
+  Turkistan Region:
+  Ulytau Region:
+  West Kazakhstan Region:
 
 Georgia:
+  Abkhazia:
+  Adjara:
+  Tbilisi:
+    Tbilisi:
+      nameHistory:
+        - { period: "-1936", ru: Тифли́с, ka: ტფილისი }
+        - { period: "1936-", ru: Тбили́си, ka: თბილისი }
+
+  Imereti:
+  Kvemo Kartli:
+  Samegrelo and Zemo Svaneti:
+  Kakheti:
+  Shida Kartli:
+  Samtskhe-Javakheti:
+  Guria:
+  Mtskheta-Mtianeti:
+  Racha-Lechkhumi and Kvemo Svaneti:
 
 Armenia:
+  Aragatsotn:
+  Ararat:
+  Armavir:
+  Gegharkunik:
+  Kotayk:
+  Lori:
+  Shirak:
+  Syunik:
+  Tavush:
+  Vayots Dzor:
+  Yerevan:
+    Yerevan:
+      nameHistory:
+        - { period: "-1936", ru: Эрива́нь, hy: Էրիվան }
+        - { period: "1936-", ru: Ерева́н, hy: Երևան }
 
 Azerbaijan:
+  # Baku
+  Baku:
+    Baku:
+      nameHistory:
+        - { period: "-", ru: Баку́, az: Bakı }
+  # Absheron-Khizi
+  # Ganja-Dashkasan
+  # Shaki-Zagatala
+  # Lankaran-Astara
+  # Guba-Khachmaz
+  # Central Aran
+  # Karabakh
+  # East Zangezur
+  # Mountainous Shirvan
+  # Nakhchivan Autonomous Republic
+  # Gazakh-Tovuz
+  # Mil-Mughan
+  # Shirvan-Salyan
