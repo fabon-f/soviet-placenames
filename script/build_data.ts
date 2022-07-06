@@ -62,11 +62,25 @@ type OriginalNameHistory = {
   [key: string]: string
 }
 
+function compareNameHistory(a: NameHistory, b: NameHistory) {
+  const [aPeriod, bPeriod] = [a,b].map(n => n.period.split('-')[1] === '' ? 100000 : parseInt(n.period.split('-')[1]))
+  if (aPeriod < bPeriod) {
+    return -1
+  } else if (aPeriod > bPeriod) {
+    return 1
+  } else {
+    return 0
+  }
+}
+
 function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names: string[], country: string, subject: string, cityId: number): City {
   const convertedNameHistory = {
-    nameHistory: cityData.nameHistory.map(n => {
+    nameHistory: [] as NameHistory[]
+  }
+  for (const n of cityData.nameHistory) {
+    for (const period of n.period.split(/, ?/)) {
       const name = {
-        period: n.period,
+        period,
         langs: {}
       } as NameHistory
       for (const lang in n) {
@@ -76,9 +90,10 @@ function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names
           name: transliterations[lang][n[lang].replaceAll("\u0301", "")]
         }
       }
-      return name
-    })
+      convertedNameHistory.nameHistory.push(name)
+    }
   }
+  convertedNameHistory.nameHistory.sort(compareNameHistory)
 
   return Object.assign({
     id: cityId,
