@@ -61,4 +61,12 @@ h1 {
   /* https://iconmonstr.com/arrow-65-svg/ */
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCA3LjMzbDIuODI5LTIuODMgOS4xNzUgOS4zMzkgOS4xNjctOS4zMzkgMi44MjkgMi44My0xMS45OTYgMTIuMTd6Ii8+PC9zdmc+')
 }
+
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 1px solid #999;
+  padding: 0.5em 0.5em;
+}
 </style>
