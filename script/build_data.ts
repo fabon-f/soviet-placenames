@@ -2,6 +2,7 @@ import fs from 'node:fs/promises'
 import { load } from 'js-yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
+import { NameHistory} from '../src/types'
 
 type OriginalCitiesData = {
   [key: string]: {
@@ -34,11 +35,28 @@ type OriginalNameHistory = {
 }
 
 function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names: string[], country: string, subject: string): City {
+  const convertedNameHistory = {
+    nameHistory: cityData.nameHistory.map(n => {
+      const name = {
+        period: n.period,
+        langs: {}
+      } as NameHistory
+      for (const lang in n) {
+        if (lang === 'period') { continue }
+        name.langs[lang] = {
+          original: n[lang],
+          name: transliterations[lang][n[lang].replaceAll("\u0301", "")]
+        }
+      }
+      return name
+    })
+  }
+
   return Object.assign({
     name: names.filter((name, index, self) => self.indexOf(name) === index),
     country: country,
     subject: subject
-  }, cityData)
+  }, convertedNameHistory)
 }
 
 function searchLatestName(nameHistory: OriginalNameHistory[], language: string) {
@@ -82,7 +100,7 @@ type City = {
   name: string[]
   country: string
   subject: string
-  nameHistory: OriginalNameHistory[]
+  nameHistory: NameHistory[]
 }
 
 type NameEntry = {
@@ -130,7 +148,7 @@ for (const country in cities) {
       data.cities.push(cityData)
       const cityId = data.cities.length - 1
 
-      for (const name of cityData.nameHistory) {
+      for (const name of cities[country][subject][city].nameHistory) {
         for (const period of name.period.split(/, ?/)) {
           for (const language in name) {
             if (language === 'period') { continue }

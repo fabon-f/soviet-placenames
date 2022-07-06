@@ -7,10 +7,9 @@ const opened = ref(false)
 
 function nameToString(name: CityData['nameHistory'][0]) {
   let out = ''
-  for (const lang in name) {
-    if (lang === 'period') { continue }
-    if (name[lang] === undefined) { continue }
-    out += `${out === '' ? '' : ', '}${lang}: ${name[lang]}`
+  for (const lang in name.langs) {
+    if (name.langs[lang] === undefined) { continue }
+    out += `${out === '' ? '' : ', '}${lang}: ${name.langs[lang]?.name}`
   }
   return out
 }
@@ -23,7 +22,7 @@ function nameToString(name: CityData['nameHistory'][0]) {
     <p>{{ `${city.country}、${city.subject}` }}</p>
   </div>
   <div v-if="opened">
-    {{ nameToString(city.nameHistory.find(n => n.period === '-') || { period: '' }) }}
+    {{ nameToString(city.nameHistory.find(n => n.period === '-') || { period: '', langs: {} }) }}
     <table v-if="city.nameHistory.length !== 1 || city.nameHistory[0].period !== '-'">
       <thead>
         <tr><th>期間</th><th>名前</th></tr>
