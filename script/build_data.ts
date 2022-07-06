@@ -7,7 +7,7 @@ type OriginalCitiesData = {
   [key: string]: {
     [key: string]: {
       [key: string]: {
-        nameHistory: NameHistory[]
+        nameHistory: OriginalNameHistory[]
       }
     }
   }
@@ -28,12 +28,20 @@ function getJapanese(orig: string, lang: string) {
   return transliterate(orig, lang)
 }
 
-type NameHistory = {
+type OriginalNameHistory = {
   period: string,
   [key: string]: string
 }
 
-function searchLatestName(nameHistory: NameHistory[], language: string) {
+function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names: string[], country: string, subject: string): City {
+  return Object.assign({
+    name: names.filter((name, index, self) => self.indexOf(name) === index),
+    country: country,
+    subject: subject
+  }, cityData)
+}
+
+function searchLatestName(nameHistory: OriginalNameHistory[], language: string) {
   const result = nameHistory.find(name => name.period.endsWith('-') && typeof name[language] === 'string');
   if (result === undefined) { throw new Error('') }
   return result[language]
@@ -74,7 +82,7 @@ type City = {
   name: string[]
   country: string
   subject: string
-  nameHistory: NameHistory[]
+  nameHistory: OriginalNameHistory[]
 }
 
 type NameEntry = {
@@ -118,11 +126,7 @@ for (const country in cities) {
     }
     for (const city in cities[country][subject]) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(cities[country][subject][city].nameHistory, lang), lang))
-      const cityData = Object.assign({
-        name: latestNames.filter((name, index, self) => self.indexOf(name) === index),
-        country: countryName,
-        subject: subjectName
-      }, cities[country][subject][city])
+      const cityData = convertCityData(cities[country][subject][city], latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName)
       data.cities.push(cityData)
       const cityId = data.cities.length - 1
 
