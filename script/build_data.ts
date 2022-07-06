@@ -4,6 +4,34 @@ import * as url from 'url'
 import { transliterate } from 'tensha'
 import { NameHistory} from '../src/types'
 
+const languageNames = {
+  'ru': 'ロシア語',
+  'uk': 'ウクライナ語',
+  'be': 'ベラルーシ語',
+  'et': 'エストニア語',
+  'lv': 'ラトビア語',
+  'lt': 'リトアニア語',
+  'uz': 'ウズベク語',
+  'tg': 'タジク語',
+  'tk': 'トルクメン語',
+  'ky': 'キルギス語',
+  'kk': 'カザフ語',
+  'ka': 'グルジア語',
+  'hy': 'アルメニア語',
+  'az': 'アゼルバイジャン語',
+  'de': 'ドイツ語',
+  'pl': 'ポーランド語',
+  'hu': 'ハンガリー語',
+  'cs': 'チェコ語',
+  'sk': 'スロバキア語',
+  'ro': 'ルーマニア語',
+  'ja': '日本語',
+  'en': '英語',
+  'cv': 'チュヴァシ語',
+  'sah': 'サハ語',
+  'os': 'オセット語'
+} as { [key: string]: string }
+
 type OriginalCitiesData = {
   [key: string]: {
     [key: string]: {
@@ -43,7 +71,7 @@ function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names
       } as NameHistory
       for (const lang in n) {
         if (lang === 'period') { continue }
-        name.langs[lang] = {
+        name.langs[languageNames[lang]] = {
           original: n[lang],
           name: transliterations[lang][n[lang].replaceAll("\u0301", "")]
         }
@@ -157,7 +185,7 @@ for (const country in cities) {
               cityId,
               name: getJapanese(name[language], language),
               originalName: name[language],
-              lang: language
+              lang: languageNames[language]
             })
           }
         }
