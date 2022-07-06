@@ -9,8 +9,7 @@ import CityDescription from './components/CityDescription.vue'
 
 const fuse = new Fuse(data.names.map(n => Object.assign({_search:katakanaToRomaji(n.name, true)},n)), {
   keys: ['_search'],
-  threshold: 0.4,
-  distance: 10
+  threshold: 0.3
 })
 
 const query = ref('')
