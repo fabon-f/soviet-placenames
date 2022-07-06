@@ -9,6 +9,7 @@ export type NameHistory = {
 }
 
 export type CityData = {
+  id: number
   name: string[]
   country: string
   subject: string

@@ -28,7 +28,7 @@ const matchedCities = computed(() => {
   </div>
   ヒット数: {{ matchedCities.length }} / {{ data.cities.length }}
   <ul id="cities">
-    <li v-for="city in matchedCities"><CityDescription :city="city"></CityDescription></li>
+    <li v-for="city in matchedCities" :key="city.id"><CityDescription :city="city"></CityDescription></li>
   </ul>
 </template>
 

@@ -62,7 +62,7 @@ type OriginalNameHistory = {
   [key: string]: string
 }
 
-function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names: string[], country: string, subject: string): City {
+function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names: string[], country: string, subject: string, cityId: number): City {
   const convertedNameHistory = {
     nameHistory: cityData.nameHistory.map(n => {
       const name = {
@@ -81,6 +81,7 @@ function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names
   }
 
   return Object.assign({
+    id: cityId,
     name: names.filter((name, index, self) => self.indexOf(name) === index),
     country: country,
     subject: subject
@@ -125,6 +126,7 @@ const cities = await (async () => {
 }) ()
 
 type City = {
+  id: number
   name: string[]
   country: string
   subject: string
@@ -172,9 +174,9 @@ for (const country in cities) {
     }
     for (const city in cities[country][subject]) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(cities[country][subject][city].nameHistory, lang), lang))
-      const cityData = convertCityData(cities[country][subject][city], latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName)
+      const cityId = data.cities.length
+      const cityData = convertCityData(cities[country][subject][city], latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName, cityId)
       data.cities.push(cityData)
-      const cityId = data.cities.length - 1
 
       for (const name of cities[country][subject][city].nameHistory) {
         for (const period of name.period.split(/, ?/)) {
