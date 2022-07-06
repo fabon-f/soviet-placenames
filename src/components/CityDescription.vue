@@ -28,9 +28,9 @@ function nameToString(name: CityData['nameHistory'][0]) {
         <tr><th>期間</th><th>名前</th></tr>
       </thead>
       <tbody>
-        <tr v-for="name in city.nameHistory.filter(n => n.period !== '-')">
-          <td>{{ name.period.replace('-', '〜') }}</td>
-          <td>{{ nameToString(name) }}</td>
+        <tr v-for="nameEntry in city.nameHistory.filter(n => n.period !== '-')">
+          <td>{{ nameEntry.period.replace('-', '〜') }}</td>
+          <td><span v-for="(name, lang) in nameEntry.langs"><strong>{{ lang }}</strong>: {{ name?.name }} ({{ name?.original }})<br></span></td>
         </tr>
       </tbody>
     </table>
