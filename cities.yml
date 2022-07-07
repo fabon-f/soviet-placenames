@@ -1028,6 +1028,12 @@ Belarus:
 
 Moldova:
   Bălți:
+    Bălți:
+      nameHistory:
+        - { period: "-1812", ro: Bălți }
+        - { period: "1812-1917", ru: Бе́льцы }
+        - { period: "1918-1940", ro: Bălți }
+        - { period: "1940-", ru: Бе́льцы, ro: Bălți }
   Chișinău:
     Chișinău:
       nameHistory:
@@ -1035,6 +1041,12 @@ Moldova:
         - { period: "1918-1940", ro: Chișinău }
         - { period: "1940-", ru: Кишинёв }
   Tighina:
+
+  Gagauzia:
+  Transnistria:
+    Tiraspol:
+      nameHistory:
+        - { period: "1795-", ru: Тира́споль, ro: Tiraspol, uk: Тира́споль }
 
   Briceni District:
   Dondușeni District:
@@ -1080,6 +1092,9 @@ Estonia:
         - { period: "1940-", ru: Та́ллин, et: Tallinn }
   Hiiu County:
   Ida-Viru County:
+    Narva:
+      nameHistory:
+        - { period: "-", ru: На́рва, et: Narva }
   Jõgeva County:
   Järva County:
   Lääne County:
@@ -1089,6 +1104,12 @@ Estonia:
   Rapla County:
   Saare County:
   Tartu County:
+    Tartu:
+      nameHistory:
+        - { period: "1704-1893", ru: Дерпт }
+        - { period: "1893-1919", ru: Ю́рьев }
+        - { period: "1919-1940", et: Tartu }
+        - { period: "1940-", ru: Тарту, et: Tartu }
   Valga County:
   Viljandi County:
   Võru County:
@@ -1146,10 +1167,27 @@ Latvia:
 Lithuania:
   Alytus County:
   Kaunas County:
+    Kaunas:
+      nameHistory:
+        - { period: "-1795", pl: Kowno }
+        - { period: "1795-1915", ru: Ко́вно }
+        - { period: "1918-1940", lt: Kaunas }
+        - { period: "1940-", ru: Ка́унас, lt: Kaunas }
   Klaipėda County:
+    Klaipėda:
+      nameHistory:
+        - { period: "-1920", lt: Klaipėda, de: Memel }
+        - { period: "1923-1939", lt: Klaipėda }
+        - { period: "1945-", ru: Кла́йпеда, lt: Klaipėda }
   Marijampolė County:
   Panevėžys County:
   Šiauliai County:
+    Šiauliai:
+      nameHistory:
+        - { period: "-1795", pl: Szawle }
+        - { period: "1795-1917", ru: Шавли }
+        - { period: "1918-1940", lt: Šiauliai }
+        - { period: "1940-", ru: Шяуля́й, lt: Šiauliai }
   Tauragė County:
   Telšiai County:
   Utena County:
