@@ -639,6 +639,9 @@ Ukraine:
     Sloviansk:
       nameHistory:
         - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
+    Pavlohrad:
+      nameHistory:
+        - { period: "-", ru: Павлогра́д, uk: Павлогра́д }
   Donetsk Oblast:
     Donetsk:
       nameHistory:
@@ -716,6 +719,15 @@ Ukraine:
       nameHistory:
         - { period: "1882-1935, 1958-1970, 1990-", ru: Луга́нск, uk: Луга́нськ }
         - { period: "1935-1958, 1970-1990", ru: Ворошиловгра́д, uk: Ворошиловгра́д }
+    Alchevsk:
+      nameHistory:
+        - { period: "1903-1931, 1991-", ru: Алче́вск, uk: Алче́вськ }
+        - { period: "1931-1961", ru: Вороши́ловск, uk: Вороши́ловськ }
+        - { period: "1961-1991", ru: Коммуна́рск, uk: Комуна́рськ }
+    Sievierodonetsk:
+      nameHistory:
+        - { period: "1934-1950", ru: Лисхимстрой, uk: Лисхімстрой }
+        - { period: "1950-", ru: Северодоне́цк, uk: Сєвєродоне́цьк }
   Lviv Oblast:
     Lviv:
       nameHistory:
@@ -813,13 +825,72 @@ Belarus:
   Minsk:
     Minsk:
       nameHistory:
-        - { period: "-", ru: Минск, be: Мінск }
+        - { period: "-1793", pl: Mińsk }
+        - { period: "1793-", ru: Минск, be: Мінск }
   Brest Oblast:
+    Brest:
+      nameHistory:
+        - { period: "1795-", ru: Брест-Лито́вск }
+        - { period: "1921-1923", pl: Brześć Litewski }
+        - { period: "1923-1939", pl: Brześć nad Bugiem }
+        - { period: "1939-", ru: Брест, be: Брэст }
+    Baranavichy:
+      nameHistory:
+        - { period: "-1921", ru: Бара́новичи }
+        - { period: "1921-1939", pl: Baranowicze }
+        - { period: "1939-", ru: Бара́новичи, be: Бара́навічы }
+    Pinsk:
+      nameHistory:
+        - { period: "-1793", pl: Pińsk }
+        - { period: "1793-", ru: Пинск, be: Пінск }
   Gomel Oblast:
+    Gomel:
+      nameHistory:
+        - { period: "-1772", pl: Homel }
+        - { period: "1772-", ru: Го́мель, be: Го́мель }
+    Mazyr:
+      nameHistory:
+        - { period: "-1793", pl: Mozyrz }
+        - { period: "1793-", ru: Мо́зырь, be: Мазы́р }
   Grodno Oblast:
+    Grodno:
+      nameHistory:
+        - { period: "-1795", pl: Grodno }
+        - { period: "1795-", ru: Гро́дно, be: Гро́дна }
+    Lida:
+      nameHistory:
+        - { period: "-1795", pl: Lida }
+        - { period: "1795-", ru: Ли́да, be: Лі́да }
   Mogilev Oblast:
+    Mogilev:
+      nameHistory:
+        - { period: "-1772", pl: Mohylew }
+        - { period: "1772-", ru: Могилёв, be: Магілё́ў }
+    Babruysk:
+      nameHistory:
+        - { period: "-1793", pl: Bobrujsk }
+        - { period: "1793-", ru: Бобру́йск, be: Бабру́йск }
   Minsk Oblast:
+    Barysaw:
+      nameHistory:
+        - { period: "-1793", pl: Borysów }
+        - { period: "1793-", ru: Бори́сов, be: Бары́саў }
+    Salihorsk:
+      nameHistory:
+        - { period: "1958-", ru: Солиго́рск, be: Саліго́рск }
   Vitebsk Oblast:
+    Vitebsk:
+      nameHistory:
+        - { period: "-1772", pl: Witebsk }
+        - { period: "1772-", ru: Ви́тебск, be: Ві́цебск }
+    Orsha:
+      nameHistory:
+        - { period: "-1772", pl: Orsza }
+        - { period: "1772-", ru: О́рша, be: О́рша }
+    Novopolotsk:
+      nameHistory:
+        - { period: "1959-1963", ru: По́лоцкий, be: По́лацкі }
+        - { period: "1963-", ru: Новопо́лоцк, be: Навапо́лацк }
 
 Moldova:
   Bălți:
