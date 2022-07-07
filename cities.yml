@@ -19,6 +19,9 @@ Russia:
     Kovrov:
       nameHistory:
         - { period: "-", ru: Ковро́в }
+    Murom:
+      nameHistory:
+        - { period: "-", ru: Му́ром }
   Voronezh Oblast:
     Voronezh:
       nameHistory:
@@ -43,10 +46,16 @@ Russia:
     Kursk:
       nameHistory:
         - { period: "-", ru: Курск }
+    Zheleznogorsk:
+      nameHistory:
+        - { period: "1958-", ru: Железного́рск }
   Lipetsk Oblast:
     Lipetsk:
       nameHistory:
         - { period: "-", ru: Ли́пецк }
+    Yelets:
+      nameHistory:
+        - { period: "-", ru: Еле́ц }
   Moscow Oblast:
     Balashikha:
       nameHistory:
@@ -98,6 +107,29 @@ Russia:
       nameHistory:
         - { period: "1935-1938", ru: Дирижаблестрой }
         - { period: "1938-", ru: Долгопру́дный }
+    Orekhovo-Zuyevo:
+      nameHistory:
+        - { period: "1917-", ru: Оре́хово-Зу́ево }
+    Pushkino:
+      nameHistory:
+        - { period: "-", ru: Пу́шкино }
+    Reutov:
+      nameHistory:
+        - { period: "-1940", ru: Ре́утово }
+        - { period: "1940-", ru: Ре́утов }
+    Zhukovsky:
+      nameHistory:
+        - { period: "1935-1947", ru: Стаха́ново }
+        - { period: "1947-", ru: Жуко́вский }
+    Noginsk:
+      nameHistory:
+        - { period: "1781-1930", ru: Богоро́дск }
+        - { period: "1930-", ru: Ноги́нск }
+    Sergiyev Posad:
+      nameHistory:
+        - { period: "1919-1930", ru: Се́ргиев }
+        - { period: "1930-1991", ru: Заго́рск }
+        - { period: "1991-", ru: Се́ргиев Поса́д }
   Oryol Oblast:
     Oryol:
       nameHistory:
@@ -203,6 +235,10 @@ Russia:
       nameHistory:
         - { period: "-", ru: Майко́п }
   Kalmykia:
+    Elista:
+      nameHistory:
+        - { period: "1862-1944, 1957-", ru: Элиста́ }
+        - { period: "1944-1957", ru: Степно́й }
   # Republic of Crimea:
   Krasnodar Krai:
     Krasnodar:
@@ -218,6 +254,9 @@ Russia:
     Armavir:
       nameHistory:
         - { period: "1876-", ru: Армави́р }
+    Anapa:
+      nameHistory:
+        - { period: "1846-", ru: Ана́па }
   Astrakhan Oblast:
     Astrakhan:
       nameHistory:
@@ -232,6 +271,10 @@ Russia:
       nameHistory:
         - { period: "-1952", ru: Безро́дное }
         - { period: "1952-", ru: Во́лжский }
+    Kamyshin:
+      nameHistory:
+        - { period: "-1780", ru: Дми́триевск }
+        - { period: "1780-", ru: Камы́шин }
   Rostov Oblast:
     Rostov-on-Don:
       nameHistory:
@@ -252,6 +295,9 @@ Russia:
     Bataysk:
       nameHistory:
         - { period: "-", ru: Бата́йск }
+    Novoshakhtinsk:
+      nameHistory:
+        - { period: "1939-", ru: Новоша́хтинск }
   # Sevastopol:
 
   # Северо-Кавказский
@@ -311,6 +357,17 @@ Russia:
     Kislovodsk:
       nameHistory:
         - { period: "1903-", ru: Кислово́дск }
+    Yessentuki:
+      nameHistory:
+        - { period: "-", ru: Ессентуки́ }
+    Nevinnomyssk:
+      nameHistory:
+        - { period: "1939-", ru: Невинномы́сск }
+    Mikhaylovsk:
+      nameHistory:
+        - { period: "-1963", ru: Миха́йловское }
+        - { period: "1963-1998", ru: Шпа́ковское }
+        - { period: "1999-", ru: Миха́йловск }
 
   # Приволжский
   Bashkortostan:
@@ -326,6 +383,10 @@ Russia:
     Neftekamsk:
       nameHistory:
         - { period: "1959-", ru: Нефтека́мск }
+    Oktyabrsky:
+      nameHistory:
+        - { period: "1937-1942", ru: Соцгород }
+        - { period: "1942-", ru: Октя́брьский }
   Mari El:
     Yoshkar-Ola:
       nameHistory:
@@ -350,11 +411,23 @@ Russia:
     Almetyevsk:
       nameHistory:
         - { period: "-", ru: Альме́тьевск }
+    Zelenodolsk:
+      nameHistory:
+        - { period: "1865-1897", ru: Кабачищи }
+        - { period: "1897-1928", ru: Паратск }
+        - { period: "1928-1932", ru: Зелёный Дол }
+        - { period: "1932-", ru: Зеленодо́льск }
   Udmurtia:
     Izhevsk:
       nameHistory:
         - { period: "-1984, 1987-", ru: Иже́вск }
         - { period: "1984-1987", ru: Усти́нов }
+    Votkinsk:
+      nameHistory:
+        - { period: "-", ru: Во́ткинск }
+    Sarapul:
+      nameHistory:
+        - { period: "-", ru: Сара́пул }
   Chuvashia:
     Cheboksary:
       nameHistory:
@@ -386,6 +459,15 @@ Russia:
         - { period: "-1927", ru: Чёрное }
         - { period: "1927-1929", ru: Растя́пино }
         - { period: "1929-", ru: Дзержи́нск }
+    Arzamas:
+      nameHistory:
+        - { period: "-", ru: Арзама́с }
+    Sarov:
+      nameHistory:
+        - { period: "1954-1960, 1994-1995", ru: Кремлёв }
+        - { period: "1960-1966", ru: Арзама́с-75 }
+        - { period: "1966-1994", ru: Арзама́с-16 }
+        - { period: "1995-", ru: Саро́в }
   Orenburg Oblast:
     Orenburg:
       nameHistory:
@@ -410,6 +492,10 @@ Russia:
     Syzran:
       nameHistory:
         - { period: "-", ru: Сы́зрань }
+    Novokuybyshevsk:
+      nameHistory:
+        - { period: "1949-1952", ru: Ново-Куйбышевский }
+        - { period: "1952-", ru: Новоку́йбышевск }
   Saratov Oblast:
     Saratov:
       nameHistory:
@@ -427,6 +513,10 @@ Russia:
         - { period: "1648-1780", ru: Синби́рск }
         - { period: "1780-1924", ru: Симби́рск }
         - { period: "1924-", ru: Улья́новск }
+    Dimitrovgrad:
+      nameHistory:
+        - { period: "1877-1972", ru: Мелеке́сс }
+        - { period: "1972-", ru: Димитровгра́д }
 
   # Уральский
   Kurgan Oblast:
@@ -445,10 +535,21 @@ Russia:
       nameHistory:
         - { period: "-1940", ru: Ка́менск }
         - { period: "1940-", ru: Ка́менск-Ура́льский }
+    Pervouralsk:
+      nameHistory:
+        - { period: "1920-", ru: Первоура́льск }
+    Serov:
+      nameHistory:
+        - { period: "-1934, 1937-1939", ru: Наде́ждинск }
+        - { period: "1934-1937", ru: Кабако́вск }
+        - { period: "1939-", ru: Серо́в }
   Tyumen Oblast:
     Tyumen:
       nameHistory:
         - { period: "1586-", ru: Тюме́нь }
+    Tobolsk:
+      nameHistory:
+        - { period: "-", ru: Тобо́льск }
   Chelyabinsk Oblast:
     Chelyabinsk:
       nameHistory:
@@ -475,7 +576,18 @@ Russia:
     Nefteyugansk:
       nameHistory:
         - { period: "1961-", ru: Нефтеюга́нск }
+    Khanty-Mansiysk:
+      nameHistory:
+        - { period: "1931-1940", ru: Остяко-Вогульск }
+        - { period: "1940-", ru: Ха́нты-Манси́йск }
   Yamalo-Nenets Autonomous Okrug:
+    Novy Urengoy:
+      nameHistory:
+        - { period: "1975-", ru: Но́вый Уренго́й }
+    Noyabrsk:
+      nameHistory:
+        - { period: "1977-1979", ru: Ноя́брьский }
+        - { period: "1979-", ru: Ноя́брьск }
 
   # Сибирский
   Altai Republic:
@@ -509,6 +621,9 @@ Russia:
     Norilsk:
       nameHistory:
         - { period: "-", ru: Нори́льск }
+    Achinsk:
+      nameHistory:
+        - { period: "-", ru: А́чинск }
   Irkutsk Oblast:
     Irkutsk:
       nameHistory:
@@ -532,6 +647,14 @@ Russia:
     Prokopyevsk:
       nameHistory:
         - { period: "1931-", ru: Проко́пьевск }
+    Mezhdurechensk:
+      nameHistory:
+        - { period: "1955-", ru: Междуре́ченск }
+    Leninsk-Kuznetsky:
+      nameHistory:
+        - { period: "-1922", ru: Кольчу́гино }
+        - { period: "1922-1925", ru: Ле́нино }
+        - { period: "1925-", ru: Ле́нинск-Кузне́цкий }
   Novosibirsk Oblast:
     Novosibirsk:
       nameHistory:
@@ -539,6 +662,11 @@ Russia:
         - { period: "1895-1903", ru: Новоникола́евский }
         - { period: "1903-1926", ru: Но́во-Никола́евск }
         - { period: "1926-", ru: Новосиби́рск }
+    Berdsk:
+      nameHistory:
+        - { period: "1783-1797", ru: Колыва́нь }
+        - { period: "1797-1929", ru: Бе́рдское }
+        - { period: "1929-", ru: Бердск }
   Omsk Oblast:
     Omsk:
       nameHistory:
@@ -547,6 +675,9 @@ Russia:
     Tomsk:
       nameHistory:
         - { period: "1604-", ru: Томск }
+    Seversk:
+      nameHistory:
+        - { period: "1954-", ru: Се́верск }
 
   # Дальневосточный
   Buryatia:
@@ -582,6 +713,9 @@ Russia:
     Nakhodka:
       nameHistory:
         - { period: "-", ru: Нахо́дка }
+    Artyom:
+      nameHistory:
+        - { period: "1924-", ru: Артём }
   Khabarovsk Krai:
     Khabarovsk:
       nameHistory:
