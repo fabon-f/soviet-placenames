@@ -1116,9 +1116,33 @@ Estonia:
 
 Latvia:
   Daugavpils:
+    Daugavpils:
+      nameHistory:
+        - { period: "-1656", pl: Dyneburg }
+        - { period: "1656-1667", ru: Борисоглебов }
+        - { period: "1667-1772", pl: Dyneburg }
+        - { period: "1772-1893", ru: Динабу́рг }
+        - { period: "1893-1917", ru: Двинск }
+        - { period: "1920-1940", lv: Daugavpils }
+        - { period: "1940-", ru: Да́угавпилс, lv: Daugavpils }
   Jelgava:
+    Jelgava:
+      nameHistory:
+        - { period: "-1795", de: Mitau, pl: Mitawa }
+        - { period: "1795-1917", ru: Мита́ва }
+        - { period: "1919-1940", lv: Jelgava }
+        - { period: "1940-", ru: Е́лгава, lv: Jelgava }
   Jūrmala:
+    Jūrmala:
+      nameHistory:
+        - { period: "1959-", ru: Ю́рмала, lv: Jūrmala }
   Liepāja:
+    Liepāja:
+      nameHistory:
+        - { period: "-1795", de: Libau, pl: Lipawa }
+        - { period: "1795-1917", ru: Либа́ва }
+        - { period: "1920-1940", lv: Liepāja }
+        - { period: "1940-", ru: Лиепая, lv: Liepāja }
   Rēzekne:
   Riga:
     Riga:
@@ -1166,6 +1190,12 @@ Latvia:
 
 Lithuania:
   Alytus County:
+    Alytus:
+      nameHistory:
+        - { period: "-1795", pl: Olita }
+        - { period: "1795-1940", ru: Олита }
+        - { period: "1918-1940", lt: Alytus }
+        - { period: "1940-", lt: Alytus, ru: Алитус }
   Kaunas County:
     Kaunas:
       nameHistory:
@@ -1181,6 +1211,12 @@ Lithuania:
         - { period: "1945-", ru: Кла́йпеда, lt: Klaipėda }
   Marijampolė County:
   Panevėžys County:
+    Panevėžys:
+      nameHistory:
+        - { period: "-1795", pl: Poniewież }
+        - { period: "1795-1917", ru: Поневе́ж }
+        - { period: "1918-1940", lt: Panevėžys }
+        - { period: "1940-", ru: Паневежис, lt: Panevėžys }
   Šiauliai County:
     Šiauliai:
       nameHistory:
