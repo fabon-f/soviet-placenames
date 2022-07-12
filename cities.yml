@@ -1237,18 +1237,82 @@ Lithuania:
 
 Uzbekistan:
   Andijan Region:
+    Andijan:
+      nameHistory:
+        - { period: "-", ru: Андижа́н, uz: Andijon }
   Bukhara Region:
+    Bukhara:
+      nameHistory:
+        - { period: "-", ru: Бухара́, uz: Buxoro }
+    Kogon:
+      nameHistory:
+        - { period: "1888-1935", ru: Но́вая Бухара́, uz: Yangi Buxoro }
+        - { period: "1935-", ru: Кага́н, uz: Kogon }
   Fergana Region:
+    Fergana:
+      nameHistory:
+        - { period: "1876-1907", ru: Но́вый Маргела́н }
+        - { period: "1907-1924", ru: Ско́белев }
+        - { period: "1924-", ru: Фергана́, uz: Farg‘ona }
+    Kokand:
+      nameHistory:
+        - { period: "-", ru: Кока́нд, uz: Qo‘qon }
+    Margilan:
+      nameHistory:
+        - { period: "-", ru: Маргила́н, uz: Marg‘ilon }
   Jizzakh Region:
+    Jizzakh:
+      nameHistory:
+        - { period: "-", ru: Джиза́к, uz: Jizzax }
   Xorazm Region:
+    Urgench:
+      nameHistory:
+        - { period: "-1929", ru: Но́вый Урге́нч, uz: Yangi Urganch }
+        - { period: "1929-", ru: Урге́нч, uz: Urganch }
   Namangan Region:
+    Namangan:
+      nameHistory:
+        - { period: "-", ru: Наманга́н, uz: Namangan }
   Navoiy Region:
+    Navoiy:
+      nameHistory:
+        - { period: "1958-", ru: Навои́, uz: Navoiy }
   Qashqadaryo Region:
+    Qarshi:
+      nameHistory:
+        - { period: "-1926, 1937-", ru: Карши́, uz: Qarshi }
+        - { period: "1926-1937", ru: Бекбуди, uz: Behbudiy }
+    Shahrisabz:
+      nameHistory:
+        - { period: "-", ru: Шахриса́бз, uz: Shahrisabz }
   Samarqand Region:
+    Samarqand:
+      nameHistory:
+        - { period: "-", ru: Самарка́нд, uz: Samarqand, tg: Самарқанд }
   Sirdaryo Region:
+    Guliston:
+      nameHistory:
+        - { period: "1922-1961", ru: Мирзачуль, uz: Mirzachoʻl }
+        - { period: "1961-", ru: Гулиста́н, uz: Guliston }
   Surxondaryo Region:
+    Termez:
+      nameHistory:
+        - { period: "1928-", ru: Терме́з, uz: Termiz }
   Tashkent Region:
+    Angren:
+      nameHistory:
+        - { period: "-1946", ru: Ангреншахтстрой }
+        - { period: "1946-", ru: Ангре́н, uz: Angren }
+    Chirchiq:
+      nameHistory:
+        - { period: "1935-", ru: Чирчи́к, uz: Chirchiq }
+    Olmaliq:
+      nameHistory:
+        - { period: "-", ru: Алмалы́к, uz: Olmaliq }
   Karakalpakstan:
+    Nukus:
+      nameHistory:
+        - { period: "-", ru: Нуку́с, uz: Nukus }
   Tashkent:
     Tashkent:
       nameHistory:
