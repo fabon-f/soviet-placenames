@@ -1361,6 +1361,11 @@ Kyrgyzstan:
 
 Kazakhstan:
   Almaty:
+    Almaty:
+      nameHistory:
+        - { period: "1867-1921", ru: Ве́рный }
+        - { period: "1921-", ru: Алма́-Ата́, kk: Алматы }
+        - { period: "1997-", ru: Алматы́ }
   Baikonur:
   Nur-Sultan:
     Nur-Sultan:
@@ -1371,23 +1376,152 @@ Kazakhstan:
         - { period: "1998-2019", ru: Астана́, kk: Астана }
         - { period: "2019-", ru: Нур-Султа́н, kk: Нұр-Сұлтан }
   Abai Region:
+    Semey:
+      nameHistory:
+        - { period: "-2007", ru: Семипала́тинск, kk: Семей }
+        - { period: "2007-", ru: Семе́й, kk: Семей }
   Akmola Region:
+    Kokshetau:
+      nameHistory:
+        - { period: "1868-1993", ru: Кокчета́в, kk: Көкшетау }
+        - { period: "1993-", ru: Кокшета́у, kk: Көкшетау }
+    Stepnogorsk:
+      nameHistory:
+        - { period: "1964-", ru: Степного́рск, kk: Степногорск }
   Aktobe Region:
+    Aktobe:
+      nameHistory:
+        - { period: "-1891", ru: Ак-Тюбе }
+        - { period: "1891-1999", ru: Актю́бинск }
+        - { period: "1999-", ru: Актобе́, kk: Ақтөбе }
   Almaty Region:
+    Konaev:
+      nameHistory:
+        - { period: "-1970", ru: Новоилийск }
+        - { period: "1970-2022", ru: Капшагай, kk: Қапшағай }
+        - { period: "2022-", ru: Кона́ев, kk: Қонаев }
+    Kaskelen:
+      nameHistory:
+        - { period: "1929-", ru: Каскеле́н, kk: Қаскелең }
   Atyrau Region:
+    Atyrau:
+      nameHistory:
+        - { period: "-1991", ru: Гу́рьев, kk: Гурьев }
+        - { period: "1991-", ru: Атыра́у, kk: Атырау }
+    Kulsary:
+      nameHistory:
+        - { period: "-", ru: Кульсары́, kk: Құлсары }
   East Kazakhstan Region:
+    Oskemen:
+      nameHistory:
+        - { period: "-", ru: Усть-Каменого́рск, kk: Өскемен }
   Jambyl Region:
+    Taraz:
+      nameHistory:
+        - { period: "1856-1936", ru: Аулие-Ата, kk: Әулие-Ата }
+        - { period: "1936-1938", ru: Мирзоя́н, kk: Мирзоян }
+        - { period: "1938-1993", ru: Джамбу́л, kk: Жамбыл }
+        - { period: "1993-1997", ru: Жамбы́л, kk: Жамбыл }
+        - { period: "1997-", ru: Тара́з, kk: Тараз }
   Jetisu Region:
+    Taldykorgan:
+      nameHistory:
+        - { period: "1920-1993", ru: Талды-Курга́н, kk: Талды-Қорған }
+        - { period: "1993-", ru: Талдыкорга́н, kk: Талдықорған }
   Karaganda Region:
+    Karaganda:
+      nameHistory:
+        - { period: "1931-", ru: Караганда́, kk: Қарағанды }
+        # - { period: "?-", ru: Караганды́ }
+    Temirtau:
+      nameHistory:
+        - { period: "-1934", ru: Самарка́ндский }
+        - { period: "1934-1945", ru: Самарка́нд }
+        - { period: "1945-", ru: Темирта́у, kk: Теміртау }
+    Balkhash:
+      nameHistory:
+        - { period: "-", ru: Балха́ш, kk: Балқаш }
   Kostanay Region:
+    Kostanay:
+      nameHistory:
+        - { period: "-1895", ru: Никола́евск }
+        - { period: "-1997", ru: Кустана́й }
+        - { period: "1997-", ru: Костана́й, kk: Қостанай }
+    Rudny:
+      nameHistory:
+        - { period: "1957-", ru: Ру́дный, kk: Рудный }
   Kyzylorda Region:
+    Kyzylorda:
+      nameHistory:
+        - { period: "1922-1925", ru: Ак-Мечеть }
+        - { period: "1925-1997", ru: Кзыл-Орда }
+        - { period: "1997-", ru: Кызылорда́, kk: Қызылорда }
   Mangystau Region:
+    Aktau:
+      nameHistory:
+        - { period: "1961-1963", ru: Акта́уский }
+        - { period: "1963-1964", ru: Акта́у, kk: Ақтау }
+        - { period: "1964-1991", ru: Шевче́нко }
+        - { period: "1991-", ru: Акта́у, kk: Ақтау }
+    Zhanaozen:
+      nameHistory:
+        - { period: "1968-1993", ru: Но́вый Узе́нь, kk: Жаңаөзен }
+        - { period: "1993-", ru: Жанаозе́н, kk: Жаңаөзен }
+    Beyneu:
+      nameHistory:
+        - { period: "1960-", ru: Бейнеу, kk: Бейнеу }
   North Kazakhstan Region:
+    Petropavl:
+      nameHistory:
+        - { period: "-", ru: Петропа́вловск, kk: Петропавл }
   Pavlodar Region:
+    Pavlodar:
+      nameHistory:
+        - { period: "1861-", ru: Павлода́р, kk: Павлодар }
+    Ekibastuz:
+      nameHistory:
+        - { period: "-1939", ru: Экибасту́з, kk: Екібастұз }
+        - { period: "1939-1957", ru: Экибастузуголь }
+        - { period: "1957-", ru: Экибасту́з, kk: Екібастұз }
+    Aksu:
+      nameHistory:
+        - { period: "-1993", ru: Ерма́к, kk: Ермак }
+        - { period: "1993-", ru: Аксу́, kk: Ақсу }
   Shymkent:
+    Shymkent:
+      nameHistory:
+        - { period: "-1914", ru: Чимке́нт }
+        - { period: "1914-1924", ru: Черня́ев }
+        - { period: "1924-1992", ru: Чимке́нт, uz: Chimkent }
+        - { period: "1992-", ru: Шымке́нт, kk: Шымкент }
   Turkistan Region:
+    Turkistan:
+      nameHistory:
+        - { period: "-", ru: Туркеста́н, kk: Түркістан }
+    Kentau:
+      nameHistory:
+        - { period: "1955-", ru: Кента́у, kk: Кентау }
+    Arys:
+      nameHistory:
+        - { period: "1956-", ru: Ары́с, kk: Арыс }
   Ulytau Region:
+    Jezkazgan:
+      nameHistory:
+        - { period: "1939-1941", ru: Кенгир, kk: Кеңгір }
+        - { period: "1941-1954", ru: Большой Джезказган, kk: Үлкен Жезқазған }
+        - { period: "1954-1992", ru: Джезказган, kk: Жезқазған }
+        - { period: "1992-", ru: Жезказга́н, kk: Жезқазған }
+    Satbayev:
+      nameHistory:
+        - { period: "1956-1990", ru: Нико́льский }
+        - { period: "1990-", ru: Сатпа́ев, kk: Сәтбаев }
   West Kazakhstan Region:
+    Oral:
+      nameHistory:
+        - { period: "1775-", ru: Ура́льск, kk: Орал }
+    Zashagan:
+      nameHistory:
+        - { period: "-", ru: Зачаганск, kk: Зашаған }
 
 Georgia:
   Abkhazia:
