@@ -3,7 +3,7 @@
   "name": "soviet-placenames",
   "type": "module",
   "scripts": {
-    "dev": "vite --clearScreen false & ts-node-esm script/build_data.ts && chokidar \"*.yml\" script/build_data.ts -c \"ts-node-esm script/build_data.ts\"",
+    "dev": "chokidar \"*.yml\" script/build_data.ts -c \"ts-node-esm script/build_data.ts\" & vite --clearScreen false",
     "build": "rimraf \"data/*.json\" dist && ts-node-esm script/build_data.ts && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
