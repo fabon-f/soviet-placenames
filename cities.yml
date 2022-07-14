@@ -1338,10 +1338,50 @@ Turkmenistan:
         - { period: "1919-1927", ru: Полтора́цк }
         - { period: "1927-", ru: Ашхаба́д, tk: Aşgabat }
   Ahal Region:
+    Tejen:
+      nameHistory:
+        - { period: "-", ru: Теджен, tk: Tejen }
   Balkan Region:
+    Balkanabad:
+      nameHistory:
+        - { period: "-1999", ru: Неби́т-Даг, tk: Nebitdag }
+        - { period: "1999-", ru: Балканаба́д, tk: Balkanabat }
+    Serdar:
+      nameHistory:
+        - { period: "-1999", ru: Кизи́л-Арва́т, tk: Gyzylarbat }
+        - { period: "1999-", ru: Серда́р, tk: Serdar }
+    Türkmenbaşy:
+      nameHistory:
+        - { period: "1869-1993", ru: Красново́дск }
+        - { period: "1993-", ru: Туркменбашы́, tk: Türkmenbaşy }
   Daşoguz Region:
+    Daşoguz:
+      nameHistory:
+        - { period: "-1992", ru: Ташауз }
+        - { period: "1992-1999", ru: Дашховуз }
+        - { period: "1999-", ru: Дашогу́з, tk: Daşoguz }
   Lebap Region:
+    Türkmenabat:
+      nameHistory:
+        - { period: "-1924", ru: Чарджу́й }
+        - { period: "1924-1927", ru: Ле́нинск }
+        - { period: "1927-1940", ru: Чарджу́й }
+        - { period: "1940-1992", ru: Чарджо́у }
+        - { period: "1992-1999", ru: Чардже́в }
+        - { period: "1999-", ru: Туркменаба́д, tk: Türkmenabat }
+    Magdanly:
+      nameHistory:
+        - { period: "-2002", ru: Говурдак }
+        - { period: "2002-", ru: Магданлы, tk: Magdanly }
   Mary Region:
+    Mary:
+      nameHistory:
+        - { period: "-1937", ru: Мерв, tk: Merw }
+        - { period: "1937-", ru: Мары́, tk: Mary }
+    Baýramaly:
+      nameHistory:
+        # - { period: "1886-", ru: Байра́м-Али́, tk: Baýramaly }
+        - { period: "-", ru: Байрамали, tk: Baýramaly }
 
 Kyrgyzstan:
   Bishkek:
@@ -1351,13 +1391,31 @@ Kyrgyzstan:
         - { period: "1926-1991", ru: Фру́нзе, ky: Фрунзе }
         - { period: "1991-", ru: Бишке́к, ky: Бишкек }
   Osh:
+    Osh:
+      nameHistory:
+        - { period: "-", ru: Ош, ky: Ош }
   Batken Region:
   Chüy Region:
+    Tokmok:
+      nameHistory:
+        - { period: "-", ru: Токмак, ky: Токмок }
   Jalal-Abad Region:
+    Jalal-Abad:
+      nameHistory:
+        - { period: "1870-1936", ru: Джаля́ль-Аба́д, ky: Жалал-Абад }
+        - { period: "1936-2002, 2008-", ru: Джала́л-Аба́д, ky: Жалал-Абад }
+        - { period: "2002-2008", ru: Жалалабат, ky: Жалалабат }
   Naryn Region:
   Osh Region:
+    Özgön:
+      nameHistory:
+        - { period: "-", ru: Узге́н, ky: Өзгөн }
   Talas Region:
   Issyk-Kul Region:
+    Karakol:
+      nameHistory:
+        - { period: "1889-1922, 1939-1992", ru: Пржевальск, ky: Пржевальск }
+        - { period: "1922-1939, 1992-", ru: Карако́л, ky: Каракол }
 
 Kazakhstan:
   Almaty:
