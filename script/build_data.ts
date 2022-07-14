@@ -159,12 +159,14 @@ type NameEntry = {
 
 const data = {
   cities: [] as City[],
-  names: [] as NameEntry[]
+  names: [] as NameEntry[],
+  divisions: {} as Record<string, string[]>
 }
 
 for (const country in cities) {
   const countryName = transliterations.en[country]
   if (typeof countryName !== 'string') { throw new Error('') }
+  data.divisions[countryName] = []
 
   const primaryLanguages = ({
     'Ukraine': ['uk', 'ru'],
@@ -185,9 +187,11 @@ for (const country in cities) {
 
   for (const subject in cities[country]) {
     const subjectName = transliterations.en[subject]
-    if (cities[country][subject] !== null && typeof subjectName !== 'string') {
+    if (cities[country][subject] === null) { continue }
+    if (typeof subjectName !== 'string') {
       throw new Error(`Unavailable administrative division: ${subject}`)
     }
+    data.divisions[countryName].push(subjectName)
     for (const city in cities[country][subject]) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(cities[country][subject][city].nameHistory, lang), lang))
       const cityId = data.cities.length

@@ -2,12 +2,24 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import CityDescription from './components/CityDescription.vue'
-import { query, matchedCities, cityCount } from './city_searcher'
+import { query, country, subject, countryList, subjectList, matchedCities, cityCount } from './city_searcher'
 </script>
 
 <template>
   <div id="searchbox">
     <input type="text" placeholder="都市名を入力" v-model="query">
+    <div class="search-detail">
+      <label>
+        国: <select v-model="country">
+          <option v-for="countryName in countryList">{{ countryName }}</option>
+        </select>
+      </label>
+      <label>
+        行政区分: <select v-model="subject">
+          <option v-for="subjectName in subjectList">{{ subjectName }}</option>
+        </select>
+      </label>
+    </div>
   </div>
   ヒット数: {{ matchedCities.length }} / {{ cityCount }}
   <ul id="cities">
@@ -35,5 +47,14 @@ import { query, matchedCities, cityCount } from './city_searcher'
 }
 #cities li:last-child {
   border-bottom: 1px solid #222;
+}
+.search-detail select {
+  width: 15em;
+}
+.search-detail {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 </style>
