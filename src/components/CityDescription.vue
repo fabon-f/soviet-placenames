@@ -5,14 +5,6 @@ defineProps<{ city: CityData }>()
 
 const opened = ref(false)
 
-function nameToString(name: CityData['nameHistory'][0]) {
-  let out = ''
-  for (const lang in name.langs) {
-    if (name.langs[lang] === undefined) { continue }
-    out += `${out === '' ? '' : ', '}${lang}: ${name.langs[lang]?.name}`
-  }
-  return out
-}
 </script>
 
 <template>
@@ -22,7 +14,11 @@ function nameToString(name: CityData['nameHistory'][0]) {
     <p>{{ `${city.country}、${city.subject}` }}</p>
   </div>
   <div v-if="opened">
-    {{ nameToString(city.nameHistory.find(n => n.period === '-') || { period: '', langs: {} }) }}
+    <p v-if="city.nameHistory.find(n => n.period === '-')">
+      <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs">
+        <strong>{{ lang }}</strong>: {{ name?.name }} ({{ name?.original }})<br/>
+      </span>
+    </p>
     <table v-if="city.nameHistory.length !== 1 || city.nameHistory[0].period !== '-'">
       <thead>
         <tr><th>期間</th><th>名前</th></tr>
