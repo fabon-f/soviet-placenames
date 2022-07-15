@@ -1326,9 +1326,44 @@ Tajikistan:
         - { period: "1929-1961", ru: Сталинаба́д, tg: Сталинобод }
         - { period: "1961-", ru: Душанбе́, tg: Душанбе }
   Region of Republican Subordination:
+    Tursunzoda:
+      nameHistory:
+        - { period: "-1978", ru: Регар, tg: Регар }
+        - { period: "1978-", ru: Турсунзаде́, tg: Турсунзода }
+    Vahdat:
+      nameHistory:
+        - { period: "1927-1936", ru: Янгибазар, tg: Янгибозор }
+        - { period: "1936-1992", ru: Орджоникидзеаба́д, tg: Орҷоникидзеобод }
+        - { period: "1992-2003", ru: Кофарнихо́н, tg: Кофарниҳон }
+        - { period: "2003-", ru: Вахда́т, tg: Ваҳдат }
   Gorno-Badakhshan Autonomous Region:
   Sughd Region:
+    Khujand:
+      nameHistory:
+        - { period: "-1936", ru: Ходжент, tg: Хуҷанд }
+        - { period: "1936-1991", ru: Ленинаба́д, tg: Ленинобод }
+        - { period: "-", ru: Худжа́нд, tg: Хуҷанд }
+    Istaravshan:
+      nameHistory:
+        - { period: "-2000", ru: Ура-Тюбе, tg: Ӯротеппа }
+        - { period: "2000-", ru: Истаравша́н, tg: Истаравшан }
+    Konibodom:
+      nameHistory:
+        - { period: "-", ru: Канибада́м, tg: Конибодом }
+    Isfara:
+      nameHistory:
+        - { period: "-", ru: Исфара́, tg: Исфара }
+    Panjakent:
+      nameHistory:
+        - { period: "-", ru: Пенджике́нт, tg: Панҷакент }
   Khatlon Region:
+    Bokhtar:
+      nameHistory:
+        - { period: "-2018", ru: Курган-Тюбе, tg: Қурғонтеппа }
+        - { period: "2018-", ru: Бохта́р, tg: Бохтар }
+    Kulab:
+      nameHistory:
+        - { period: "-", ru: Куля́б, tg: Кӯлоб }
 
 Turkmenistan:
   Ashgabat:
