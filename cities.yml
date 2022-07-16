@@ -1109,7 +1109,7 @@ Estonia:
         - { period: "1704-1893", ru: Дерпт }
         - { period: "1893-1919", ru: Ю́рьев }
         - { period: "1919-1940", et: Tartu }
-        - { period: "1940-", ru: Тарту, et: Tartu }
+        - { period: "1940-", ru: Та́рту, et: Tartu }
   Valga County:
   Viljandi County:
   Võru County:
@@ -1340,7 +1340,7 @@ Tajikistan:
   Sughd Region:
     Khujand:
       nameHistory:
-        - { period: "-1936", ru: Ходжент, tg: Хуҷанд }
+        - { period: "-1936", ru: Ходже́нт, tg: Хуҷанд }
         - { period: "1936-1991", ru: Ленинаба́д, tg: Ленинобод }
         - { period: "-", ru: Худжа́нд, tg: Хуҷанд }
     Istaravshan:
@@ -1375,7 +1375,7 @@ Turkmenistan:
   Ahal Region:
     Tejen:
       nameHistory:
-        - { period: "-", ru: Теджен, tk: Tejen }
+        - { period: "-", ru: Тедже́н, tk: Tejen }
   Balkan Region:
     Balkanabad:
       nameHistory:
@@ -1392,8 +1392,8 @@ Turkmenistan:
   Daşoguz Region:
     Daşoguz:
       nameHistory:
-        - { period: "-1992", ru: Ташауз }
-        - { period: "1992-1999", ru: Дашховуз }
+        - { period: "-1992", ru: Ташау́з }
+        - { period: "1992-1999", ru: Дашхову́з }
         - { period: "1999-", ru: Дашогу́з, tk: Daşoguz }
   Lebap Region:
     Türkmenabat:
@@ -1449,7 +1449,7 @@ Kyrgyzstan:
   Issyk-Kul Region:
     Karakol:
       nameHistory:
-        - { period: "1889-1922, 1939-1992", ru: Пржевальск, ky: Пржевальск }
+        - { period: "1889-1922, 1939-1992", ru: Пржева́льск, ky: Пржевальск }
         - { period: "1922-1939, 1992-", ru: Карако́л, ky: Каракол }
 
 Kazakhstan:
