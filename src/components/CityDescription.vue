@@ -16,7 +16,7 @@ const opened = ref(false)
   <div v-if="opened">
     <p v-if="city.nameHistory.find(n => n.period === '-')">
       <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs">
-        <strong>{{ lang }}</strong>: {{ name?.name }} ({{ name?.original }})<br/>
+        <strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br/>
       </span>
     </p>
     <table v-if="city.nameHistory.length !== 1 || city.nameHistory[0].period !== '-'">
@@ -26,7 +26,7 @@ const opened = ref(false)
       <tbody>
         <tr v-for="nameEntry in city.nameHistory.filter(n => n.period !== '-')">
           <td>{{ nameEntry.period.replace('-', '〜') }}</td>
-          <td><span v-for="(name, lang) in nameEntry.langs"><strong>{{ lang }}</strong>: {{ name?.name }} ({{ name?.original }})<br></span></td>
+          <td><span v-for="(name, lang) in nameEntry.langs"><strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br></span></td>
         </tr>
       </tbody>
     </table>
@@ -56,6 +56,11 @@ h1 {
 .opened .summary h1::before {
   /* https://iconmonstr.com/arrow-65-svg/ */
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCA3LjMzbDIuODI5LTIuODMgOS4xNzUgOS4zMzkgOS4xNjctOS4zMzkgMi44MjkgMi44My0xMS45OTYgMTIuMTd6Ii8+PC9zdmc+')
+}
+
+.orig {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.08em;
 }
 
 table {
