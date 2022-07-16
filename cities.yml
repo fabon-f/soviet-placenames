@@ -1710,11 +1710,50 @@ Azerbaijan:
       nameHistory:
         - { period: "-", ru: Баку́, az: Bakı }
   # Absheron-Khizi
+  Sumgait:
+    Sumgait:
+      nameHistory:
+        - { period: "-", ru: Сумгаи́т, az: Sumqayıt }
+        - { period: "1991?-", ru: Сумгайыт }
+  Absheron District:
+    Xırdalan:
+      nameHistory:
+        - { period: "-", ru: Хырдалан, az: Xırdalan }
   # Ganja-Dashkasan
+  Ganja:
+    Ganja:
+      nameHistory:
+        - { period: "1804-1918", ru: Елисаветполь, az: Yelizavetpol }
+        - { period: "1918-1935", ru: Ганджа́, az: Gəncə }
+        - { period: "1935-1989", ru: Кироваба́д, az: Kirovabad }
+        - { period: "1989-", ru: Гянджа́, az: Gəncə }
   # Shaki-Zagatala
+  Shaki District:
+    Shaki:
+      nameHistory:
+        - { period: "-1968", ru: Нуха́, az: Nuxa }
+        - { period: "1968-", ru: Шеки́, az: Şəki }
   # Lankaran-Astara
+  Lankaran District:
+    Lankaran:
+      nameHistory:
+        - { period: "-", ru: Ленкорань, az: Lənkəran }
+  Jalilabad District:
+    Cəlilabad:
+      nameHistory:
+        - { period: "-1967", ru: Астрахан-Базар, az: Astraxanbazar }
+        - { period: "1967-", ru: Джалилаба́д, az: Cəlilabad }
   # Guba-Khachmaz
   # Central Aran
+  Mingachevir:
+    Mingachevir:
+      nameHistory:
+        - { period: "-", ru: Мингечау́р, az: Mingəçevir }
+        - { period: "1991?-", ru: Мингечевир }
+  Yevlakh District:
+    Yevlakh:
+      nameHistory:
+        - { period: "-", ru: Евлах, az: Yevlax }
   # Karabakh
   Khankendi:
     Khankendi:
@@ -1726,6 +1765,16 @@ Azerbaijan:
   # East Zangezur
   # Mountainous Shirvan
   # Nakhchivan Autonomous Republic
+  Nakhchivan Autonomous Republic:
+    Nakhchivan:
+      nameHistory:
+        - { period: "-", ru: Нахичева́нь, az: Naxçıvan }
   # Gazakh-Tovuz
   # Mil-Mughan
   # Shirvan-Salyan
+  Şirvan:
+    Şirvan:
+      nameHistory:
+        - { period: "1938-2008", ru: Али-Байрамлы, az: Əli-Bayramlı }
+        - { period: "2008-", ru: Ширва́н, az: Şirvan }
+
