@@ -1040,13 +1040,22 @@ Moldova:
         - { period: "1812-", ru: Кишинёв, ro: Chișinău }
         - { period: "1918-1940", ro: Chișinău }
         - { period: "1940-", ru: Кишинёв }
-  Tighina:
+  Bender:
+    Bender:
+      nameHistory:
+        - { period: "-1918", ru: Бенде́ры }
+        - { period: "1918-1940", ro: Tighina }
+        - { period: "1940-1941", ru: Бенде́ры, ro: Bender }
+        - { period: "1944-", ru: Бенде́ры, ro: Bender }
 
   Gagauzia:
   Transnistria:
     Tiraspol:
       nameHistory:
         - { period: "1795-", ru: Тира́споль, ro: Tiraspol, uk: Тира́споль }
+    Rîbnița:
+      nameHistory:
+        - { period: "1793-", ru: Ры́бница, ro: Rîbnița, uk: Ри́бниця }
 
   Briceni District:
   Dondușeni District:
