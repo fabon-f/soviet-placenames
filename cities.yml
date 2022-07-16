@@ -1628,6 +1628,10 @@ Kazakhstan:
 Georgia:
   Abkhazia:
   Adjara:
+    Batumi:
+      nameHistory:
+        - { period: "1878-1936", ru: Бату́м, ka: ბათუმი }
+        - { period: "1936-", ru: Бату́ми, ka: ბათუმი }
   Tbilisi:
     Tbilisi:
       nameHistory:
@@ -1635,10 +1639,20 @@ Georgia:
         - { period: "1936-", ru: Тбили́си, ka: თბილისი }
 
   Imereti:
+    Kutaisi:
+      nameHistory:
+        - { period: "-1936", ru: Кутаис, ka: ქუთაისი }
+        - { period: "1936-", ru: Кутаи́си, ka: ქუთაისი }
   Kvemo Kartli:
+    Rustavi:
+      nameHistory:
+        - { period: "-", ru: Руста́ви, ka: რუსთავი }
   Samegrelo and Zemo Svaneti:
   Kakheti:
   Shida Kartli:
+    Gori:
+      nameHistory:
+        - { period: "-", ru: Го́ри, ka: გორი }
   Samtskhe-Javakheti:
   Guria:
   Mtskheta-Mtianeti:
@@ -1648,11 +1662,39 @@ Armenia:
   Aragatsotn:
   Ararat:
   Armavir:
+    Vagharshapat:
+      nameHistory:
+        - { period: "-1945", ru: Вагаршапа́т, hy:  Վաղարշապատ }
+        - { period: "1945-1992", ru: Эчмиадзи́н, hy: Էջմիածին }
+        - { period: "1992-", ru: Вагаршапа́т, hy: Վաղարշապատ }
   Gegharkunik:
   Kotayk:
+    Hrazdan:
+      nameHistory:
+        - { period: "-1959", ru: Ахта, hy: Ներքին Ախտա }
+        - { period: "1959-", ru: Разда́н, hy: Հրազդան }
+    Abovyan:
+      nameHistory:
+        - { period: "-1961", ru: Элар, hy: Էլար }
+        - { period: "1961-", ru: Абовя́н, hy: Աբովյան }
   Lori:
+    Vanadzor:
+      nameHistory:
+        - { period: "-1935", ru: Каракилиса, hy: Ղարաքիլիսա }
+        - { period: "1935-1992", ru: Кировакан, hy: Կիրովական }
+        - { period: "1992-", ru: Ванадзо́р, hy: Վանաձոր }
   Shirak:
+    Gyumri:
+      nameHistory:
+        - { period: "1837-1924", ru: Александро́поль, hy: Ալեքսանդրապոլ }
+        - { period: "1924-1990", ru: Ленинака́н, hy: Լենինական }
+        - { period: "1990-1992", ru: Кумайри, hy: Կումայրի }
+        - { period: "1992-", ru: Гюмри́, hy: Գյումրի }
   Syunik:
+    Kapan:
+      nameHistory:
+        - { period: "-1991", ru: Кафа́н, hy: Ղափան }
+        - { period: "1991-", ru: Капа́н, hy: Կապան }
   Tavush:
   Vayots Dzor:
   Yerevan:
@@ -1674,6 +1716,13 @@ Azerbaijan:
   # Guba-Khachmaz
   # Central Aran
   # Karabakh
+  Khankendi:
+    Khankendi:
+      nameHistory:
+        - { period: "1847-1923", ru: Ханкенди́ }
+        - { period: "1923-", ru: Степанаке́рт }
+        - { period: "1991-", ru: Ханкенди́ }
+        - { period: "-", az: Xankəndi, hy: Ստեփանակերտ }
   # East Zangezur
   # Mountainous Shirvan
   # Nakhchivan Autonomous Republic
