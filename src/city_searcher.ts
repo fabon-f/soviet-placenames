@@ -16,13 +16,18 @@ export const matchedCities = computed(() => {
       return city.country === country.value && city.subject === subject.value
     }
   })
+
+  if (query.value === '' && (new Set(filteredData.map(c => c.cityId))).size <= 100) {
+    return [...new Set(filteredData.map(c => data.cities[c.cityId]))]
+  }
+
   const fuse = new Fuse(filteredData, {
     keys: ['_search'],
     threshold: 0.3
   })
 
   const result = fuse.search(katakanaToRomaji(query.value), {
-    limit: 10
+    limit: 150
   }).map(c => data.cities[c.item.cityId])
   return [...new Set(result)]
 })
