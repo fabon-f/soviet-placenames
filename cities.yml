@@ -797,12 +797,27 @@ Ukraine:
     Kramatorsk:
       nameHistory:
         - { period: "-", ru: Крамато́рск, uk: Крамато́рськ }
+    Yenakiieve:
+      nameHistory:
+        - { period: "-1928, 1943-", ru: Ена́киево, uk: Єна́кієве }
+        - { period: "1928-1937", ru: Ры́ково, uk: Ри́кове }
+        - { period: "1937-1943", ru: Орджоники́дзе, uk: Орджонікі́дзе }
+    Kostiantynivka:
+      nameHistory:
+        - { period: "-", ru: Константи́новка, uk: Костянти́нівка }
+    Bakhmut:
+      nameHistory:
+        - { period: "-1924, 2016-", ru: Бахму́т, uk: Бахмут }
+        - { period: "1924-2016", ru: Артёмовск, uk: Артемівськ }
   Zhytomyr Oblast:
     Zhytomyr:
       nameHistory:
         - { period: "-", ru: Жито́мир, uk: Жито́мир, pl: Żytomierz }
         - { period: "-1793", pl: Żytomierz }
         - { period: "1793-", ru: Жито́мир, uk: Жито́мир }
+    Berdychiv:
+      nameHistory:
+        - { period: "-", ru: Берди́чев, uk: Берди́чів }
   Zakarpattia Oblast:
     Uzhhorod:
       nameHistory:
@@ -811,6 +826,12 @@ Ukraine:
         - { period: "1919-1938", cs: Užhorod }
         - { period: "1938-1945", hu: Ungvár }
         - { period: "1945-", ru: У́жгород, uk: У́жгород, hu: Ungvár, sk: Užhorod }
+    Mukachevo:
+      nameHistory:
+        - { period: "-1919", hu: Munkács, de: Munkatsch }
+        - { period: "1919-1938", cs: Mukačevo }
+        - { period: "-2017", ru: Мука́чево, uk: Мука́чеве }
+        - { period: "2017-", ru: Мука́чево, uk: Мука́чево }
   Zaporizhzhia Oblast:
     Zaporizhzhia:
       nameHistory:
@@ -848,6 +869,10 @@ Ukraine:
         - { period: "1934-1939", ru: Ки́рово, uk: Кі́рово }
         - { period: "1939-2016", ru: Кировогра́д, uk: Кіровогра́д }
         - { period: "2016-", ru: Кропивни́цкий, uk: Кропивни́цький }
+    Oleksandriia:
+      nameHistory:
+        - { period: "1784-17xx", ru: Александрийск, uk: Олександрі́йськ }
+        - { period: "17xx-", ru: Александри́я, uk: Олександрі́я }
   Luhansk Oblast:
     Luhansk:
       nameHistory:
@@ -862,6 +887,19 @@ Ukraine:
       nameHistory:
         - { period: "1934-1950", ru: Лисхимстрой, uk: Лисхімстрой }
         - { period: "1950-", ru: Северодоне́цк, uk: Сєвєродоне́цьк }
+    Lysychansk:
+      nameHistory:
+        - { period: "-", ru: Лисича́нск, uk: Лисича́нськ }
+    Krasnyi Luch:
+      nameHistory:
+        - { period: "-1920", ru: Криндачёвка, uk: Криндачі́вка }
+        - { period: "1920-2016", ru: Кра́сный Луч, uk: Кра́сний Луч }
+        - { period: "2016-", ru: Хруста́льный, uk: Хруста́льний }
+    Kadiivka:
+      nameHistory:
+        - { period: "-1937, 1943-1978, 2016-", ru: Кадиевка, uk: Кадіївка }
+        - { period: "1937-1943", ru: Серго́, uk: Серго }
+        - { period: "1978-2016", ru: Стаха́нов, uk: Стаха́нов }
   Lviv Oblast:
     Lviv:
       nameHistory:
@@ -877,6 +915,10 @@ Ukraine:
     Odessa:
       nameHistory:
         - { period: "1795-", ru: Оде́сса, uk: Оде́са }
+    Izmail:
+      nameHistory:
+        - { period: "1809-1856, 1878-1918, 1940-", ru: Измаи́л, uk: Ізмаї́л }
+        - { period: "1856-1878, 1918-1940", ro: Ismail }
   Poltava Oblast:
     Poltava:
       nameHistory:
@@ -897,6 +939,12 @@ Ukraine:
     Sumy:
       nameHistory:
         - { period: "-", ru: Су́мы, uk: Су́ми }
+    Konotop:
+      nameHistory:
+        - { period: "-", ru: Коното́п, uk: Коното́п }
+    Shostka:
+      nameHistory:
+        - { period: "-", ru: Шо́стка, uk: Шо́стка }
   Ternopil Oblast:
     Ternopil:
       nameHistory:
@@ -918,12 +966,19 @@ Ukraine:
       nameHistory:
         - { period: "1795-1954", ru: Проску́ров, uk: Проску́рів }
         - { period: "1954-", ru: Хмельни́цкий, uk: Хмельни́цький }
+    Kamianets-Podilskyi:
+      nameHistory:
+        - { period: "1793-1944", ru: Ка́менец-Подо́льск, uk: Кам'янець-Поді́льськ }
+        - { period: "1944-", ru: Ка́менец-Подо́льский, uk: Кам'янець-Поді́льський }
   Cherkasy Oblast:
     Cherkasy:
       nameHistory:
         - { period: "-", ru: Черка́ссы, uk: Черка́си, pl: Czerkasy }
         - { period: "-1793", pl: Czerkasy }
         - { period: "1793-", ru: Черка́ссы, uk: Черка́си }
+    Uman:
+      nameHistory:
+        - { period: "-", ru: У́мань, uk: У́мань }
   Chernihiv Oblast:
     Chernihiv:
       nameHistory:
@@ -954,6 +1009,9 @@ Ukraine:
     Yevpatoria:
       nameHistory:
         - { period: "1784-", ru: Евпато́рия, uk: Євпато́рія }
+    Yalta:
+      nameHistory:
+        - { period: "1783-", ru: Я́лта, uk: Я́лта }
 
 Belarus:
   Minsk:
