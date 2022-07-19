@@ -53,7 +53,7 @@ function getJapanese(orig: string, lang: string) {
   if (transliterations[lang][orig.replaceAll('\u0301', '')]) {
     return transliterations[lang][orig.replaceAll('\u0301', '')]
   }
-  if (lang !== 'ru') { throw new Error(); }
+  if (lang !== 'ru') { throw new Error(`${lang}: ${orig}`); }
   console.log(`${lang} ${orig.replaceAll('\u0301', '')}`)
   return transliterate(orig, lang)
 }
