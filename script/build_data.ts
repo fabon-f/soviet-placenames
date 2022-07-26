@@ -33,15 +33,17 @@ const languageNames = {
   'tyv': 'トゥヴァ語'
 } as { [key: string]: string }
 
+type OriginalCityData = {
+  wikipedia?: { [key: string]: string }
+  latitude?: number
+  longitude?: number
+  nameHistory: OriginalNameHistory[]
+}
+
 type OriginalCitiesData = {
   [key: string]: {
     [key: string]: {
-      [key: string]: {
-        wikipedia?: { [key: string]: string }
-        latitude?: number
-        longitude?: number
-        nameHistory: OriginalNameHistory[]
-      }
+      [key: string]: OriginalCityData
     }
   }
 }
@@ -77,7 +79,7 @@ function compareNameHistory(a: NameHistory, b: NameHistory) {
   }
 }
 
-function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names: string[], country: string, subject: string, cityId: number): City {
+function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number): City {
   const convertedNameHistory = {
     nameHistory: [] as NameHistory[]
   }
@@ -103,7 +105,10 @@ function convertCityData(cityData: { nameHistory: OriginalNameHistory[] }, names
     id: cityId,
     name: names.filter((name, index, self) => self.indexOf(name) === index),
     country: country,
-    subject: subject
+    subject: subject,
+    // key with value `undefined` will be omitted in `JSON.stringify`
+    latitude: cityData.latitude,
+    longitude: cityData.longitude
   }, convertedNameHistory)
 }
 
@@ -162,6 +167,8 @@ type City = {
   country: string
   subject: string
   nameHistory: NameHistory[]
+  latitude?: number
+  longitude?: number
 }
 
 type NameEntry = {
