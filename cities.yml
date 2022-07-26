@@ -732,46 +732,94 @@ Russia:
   # Приволжский
   Bashkortostan:
     Ufa:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D1%84%D0%B0
+      latitude: 54.735229
+      longitude: 55.958553
       nameHistory:
         - { period: "-", ru: Уфа́ }
     Sterlitamak:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D1%80%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B0%D0%BA
+      latitude: 53.630399
+      longitude: 55.930792
       nameHistory:
         - { period: "-", ru: Стерлитама́к }
     Salavat:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D0%B2%D0%B0%D1%82
+      latitude: 53.373575
+      longitude: 55.925275
       nameHistory:
         - { period: "-", ru: Салава́т }
     Neftekamsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D1%84%D1%82%D0%B5%D0%BA%D0%B0%D0%BC%D1%81%D0%BA
+      latitude: 56.093399
+      longitude: 54.268618
       nameHistory:
         - { period: "1959-", ru: Нефтека́мск }
     Oktyabrsky:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 54.482887
+      longitude: 53.473651
       nameHistory:
         - { period: "1937-1942", ru: Соцгород }
         - { period: "1942-", ru: Октя́брьский }
   Mari El:
     Yoshkar-Ola:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%99%D0%BE%D1%88%D0%BA%D0%B0%D1%80-%D0%9E%D0%BB%D0%B0
+      latitude: 56.629240
+      longitude: 47.896016
       nameHistory:
         - { period: "-1919", ru: Царевококша́йск }
         - { period: "1919-1928", ru: Краснококша́йск }
         - { period: "1928-", ru: Йошка́р-Ола́ }
   Mordovia:
     Saransk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D0%BD%D1%81%D0%BA
+      latitude: 54.194725
+      longitude: 45.178149
       nameHistory:
         - { period: "-", ru: Сара́нск }
   Tatarstan:
     Kazan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C
+      latitude: 55.796280
+      longitude: 49.103527
       nameHistory:
         - { period: "-", ru: Каза́нь }
     Naberezhnye Chelny:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5_%D0%A7%D0%B5%D0%BB%D0%BD%D1%8B
+      latitude: 55.728886
+      longitude: 52.391435
       nameHistory:
         - { period: "-1982, 1988-", ru: На́бережные Челны́ }
         - { period: "1982-1988", ru: Бре́жнев }
     Nizhnekamsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B6%D0%BD%D0%B5%D0%BA%D0%B0%D0%BC%D1%81%D0%BA
+      latitude: 55.620418
+      longitude: 51.818342
       nameHistory:
         - { period: "1966-", ru: Нижнека́мск }
     Almetyevsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B5%D1%82%D1%8C%D0%B5%D0%B2%D1%81%D0%BA
+      latitude: 54.904027
+      longitude: 52.317919
       nameHistory:
         - { period: "-", ru: Альме́тьевск }
     Zelenodolsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA
+      latitude: 55.846163
+      longitude: 48.508739
       nameHistory:
         - { period: "1865-1897", ru: Кабачищи }
         - { period: "1897-1928", ru: Паратск }
@@ -779,50 +827,98 @@ Russia:
         - { period: "1932-", ru: Зеленодо́льск }
   Udmurtia:
     Izhevsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%98%D0%B6%D0%B5%D0%B2%D1%81%D0%BA
+      latitude: 56.845365
+      longitude: 53.226635
       nameHistory:
         - { period: "-1984, 1987-", ru: Иже́вск }
         - { period: "1984-1987", ru: Усти́нов }
     Votkinsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%82%D0%BA%D0%B8%D0%BD%D1%81%D0%BA
+      latitude: 57.052379
+      longitude: 53.996896
       nameHistory:
         - { period: "-", ru: Во́ткинск }
     Sarapul:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D0%BF%D1%83%D0%BB
+      latitude: 56.454725
+      longitude: 53.789421
       nameHistory:
         - { period: "-", ru: Сара́пул }
   Chuvashia:
     Cheboksary:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%B1%D0%BE%D0%BA%D1%81%D0%B0%D1%80%D1%8B
+      latitude: 56.123352
+      longitude: 47.252992
       nameHistory:
         - { period: "-", ru: Чебокса́ры, cv: Шупашкар }
     Novocheboksarsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D1%87%D0%B5%D0%B1%D0%BE%D0%BA%D1%81%D0%B0%D1%80%D1%81%D0%BA
+      latitude: 56.109300
+      longitude: 47.494169
       nameHistory:
         - { period: "1965-", ru: Новочебокса́рск }
   Perm Krai:
     Perm:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BC%D1%8C
+      latitude: 58.006727
+      longitude: 56.228462
       nameHistory:
         - { period: "1781-1940, 1957-", ru: Пермь }
         - { period: "1940-1957", ru: Мо́лотов }
     Berezniki:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8
+      latitude: 59.408920
+      longitude: 56.798184
       nameHistory:
         - { period: "-", ru: Березники́ }
   Kirov Oblast:
     Kirov:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%80%D0%BE%D0%B2
+      latitude: 58.593745
+      longitude: 49.668790
       nameHistory:
         - { period: "-1457, 1780-1934", ru: Вя́тка }
         - { period: "1457-1780", ru: Хлы́нов }
         - { period: "1934-", ru: Ки́ров }
   Nizhny Novgorod Oblast:
     Nizhny Novgorod:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9_%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4
+      latitude: 56.318893
+      longitude: 43.965225
       nameHistory:
         - { period: "-1932, 1990-", ru: Ни́жний Но́вгород }
         - { period: "1932-1990", ru: Го́рький }
     Dzerzhinsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%B7%D0%B5%D1%80%D0%B6%D0%B8%D0%BD%D1%81%D0%BA_(%D0%9D%D0%B8%D0%B6%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C)
+      latitude: 56.237679
+      longitude: 43.461741
       nameHistory:
         - { period: "-1927", ru: Чёрное }
         - { period: "1927-1929", ru: Растя́пино }
         - { period: "1929-", ru: Дзержи́нск }
     Arzamas:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B7%D0%B0%D0%BC%D0%B0%D1%81
+      latitude: 55.396949
+      longitude: 43.830116
       nameHistory:
         - { period: "-", ru: Арзама́с }
     Sarov:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%BE%D0%B2
+      latitude: 54.9272
+      longitude: 43.3167
       nameHistory:
         - { period: "1954-1960, 1994-1995", ru: Кремлёв }
         - { period: "1960-1966", ru: Арзама́с-75 }
@@ -830,50 +926,98 @@ Russia:
         - { period: "1995-", ru: Саро́в }
   Orenburg Oblast:
     Orenburg:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3
+      latitude: 51.767463
+      longitude: 55.097552
       nameHistory:
         - { period: "-1938, 1957-", ru: Оренбу́рг }
         - { period: "1938-1957", ru: Чка́лов }
     Orsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%81%D0%BA
+      latitude: 51.228984
+      longitude: 58.475320
       nameHistory:
         - { period: "1741-", ru: Орск }
   Penza Oblast:
     Penza:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0
+      latitude: 53.210345
+      longitude: 44.998832
       nameHistory:
         - { period: "-", ru: Пе́нза }
   Samara Oblast:
     Samara:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0
+      latitude: 53.203679
+      longitude: 50.159691
       nameHistory:
         - { period: "-1935, 1991-", ru: Сама́ра }
         - { period: "1935-1991", ru: Ку́йбышев }
     Tolyatti:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8
+      latitude: 53.510260
+      longitude: 49.418199
       nameHistory:
         - { period: "1737-1964", ru: Ста́врополь }
         - { period: "1964-", ru: Толья́тти }
     Syzran:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D1%8B%D0%B7%D1%80%D0%B0%D0%BD%D1%8C
+      latitude: 53.152285
+      longitude: 48.451211
       nameHistory:
         - { period: "-", ru: Сы́зрань }
     Novokuybyshevsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D1%81%D0%BA
+      latitude: 53.095250
+      longitude: 49.951956
       nameHistory:
         - { period: "1949-1952", ru: Ново-Куйбышевский }
         - { period: "1952-", ru: Новоку́йбышевск }
   Saratov Oblast:
     Saratov:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2
+      latitude: 51.545998
+      longitude: 46.015118
       nameHistory:
         - { period: "1590-", ru: Сара́тов }
     Engels:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 51.497087
+      longitude: 46.114555
       nameHistory:
         - { period: "1914-1931", ru: Покро́вск }
         - { period: "1931-", ru: Э́нгельс }
     Balakovo:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%B0%D0%BA%D0%BE%D0%B2%D0%BE
+      latitude: 52.019663
+      longitude: 47.782768
       nameHistory:
         - { period: "-", ru: Балако́во }
   Ulyanovsk Oblast:
     Ulyanovsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA
+      latitude: 54.308055
+      longitude: 48.396389
       nameHistory:
         - { period: "1648-1780", ru: Синби́рск }
         - { period: "1780-1924", ru: Симби́рск }
         - { period: "1924-", ru: Улья́новск }
     Dimitrovgrad:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B3%D1%80%D0%B0%D0%B4_(%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F)
+      latitude: 54.219217
+      longitude: 49.617264
       nameHistory:
         - { period: "1877-1972", ru: Мелеке́сс }
         - { period: "1972-", ru: Димитровгра́д }
