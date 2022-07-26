@@ -1,11 +1,30 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+import { ref } from 'vue'
 import CityDescription from './components/CityDescription.vue'
+import MapViewer from './components/MapViewer.vue'
+import * as data from '../data/cities_data.ja.json'
 import { query, country, subject, countryList, subjectList, matchedCities, cityCount } from './city_searcher'
+
+const citiesGeoData = data.cities.map(c => {
+  return {
+    id: c.id,
+    name: c.name.join(" / "),
+    latitude: c.latitude || Infinity,
+    longitude: c.longitude || Infinity
+  }
+}).filter(c => c.latitude !== Infinity && c.longitude !== Infinity)
+
+const mapOpened = ref(false)
 </script>
 
 <template>
+  <a href="javascript:void(0)" @click="mapOpened = !mapOpened">{{ mapOpened ? '地図を閉じる' : '地図を見る' }}</a>
+  <div>
+    <p v-show="mapOpened">※開発中: 位置データがなく地図に表示されていない都市があります。</p>
+    <MapViewer :show="mapOpened" class="map-viewer" :cities="citiesGeoData"></MapViewer>
+  </div>
   <div id="searchbox">
     <input type="text" placeholder="都市名を入力" v-model="query" autofocus>
     <div class="search-detail">
@@ -56,5 +75,10 @@ import { query, country, subject, countryList, subjectList, matchedCities, cityC
   display: flex;
   justify-content: center;
   gap: 5px;
+}
+.map-viewer {
+  height: 500px;
+  max-height: 80vh;
+  margin-bottom: 5px;
 }
 </style>

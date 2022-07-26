@@ -1,0 +1,80 @@
+<script setup lang="ts">
+import { reactive, onMounted, onUpdated } from 'vue'
+import { map as lMap, tileLayer, marker } from 'leaflet'
+import type { Map as LMap } from 'leaflet'
+
+type City = {
+  id: number
+  name: string
+  latitude: number
+  longitude: number
+}
+
+const props = defineProps<{ cities: City[], show: boolean }>()
+
+const bound = reactive({
+  west: 0,
+  east: 0,
+  north: 0,
+  south: 0
+})
+
+const mapId = `mapviewer-${Math.floor(Math.random() * 1048576).toString(16)}`
+
+let map: LMap | null = null
+
+onUpdated(() => {
+  map && map.invalidateSize()
+})
+
+onMounted(() => {
+  // TODO: reflect props change
+  const newMap = lMap(mapId).setView([58, 100], 3)
+  tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(newMap);
+
+  for (const city of props.cities) {
+    marker([city.latitude, city.longitude]).addTo(newMap)
+      .bindPopup(city.name)
+  }
+
+  const firstBound = newMap.getBounds()
+  bound.east = firstBound.getEast()
+  bound.west = firstBound.getWest()
+  bound.north = firstBound.getNorth()
+  bound.south = firstBound.getSouth()
+
+  newMap.on('move', e => {
+    const newBound = newMap.getBounds()
+    bound.east = newBound.getEast()
+    bound.west = newBound.getWest()
+    bound.north = newBound.getNorth()
+    bound.south = newBound.getSouth()
+  })
+
+  map = newMap
+})
+
+// workaround, the problem will be fixed in next version of leaflet
+// https://github.com/Leaflet/Leaflet/pull/8160
+window.addEventListener('hashchange', () => {
+  if (location.hash === '#close') {
+    const oldUrl = new URL(location.href)
+    oldUrl.hash = ''
+    history.replaceState(null, '', oldUrl.toString())
+  }
+}, false)
+</script>
+
+<template>
+<div v-show="show" :id="mapId"></div>
+</template>
+
+<style>
+@import 'leaflet';
+</style>
+
+<style scoped>
+
+</style>

@@ -2,11 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/js-yaml': ^4.0.5
+  '@types/leaflet': ^1.7.11
   '@types/node': ^18.0.6
   '@vitejs/plugin-vue': ^3.0.1
   chokidar-cli: ^3.0.0
   fuse.js: ^6.6.2
   js-yaml: ^4.1.0
+  leaflet: ^1.8.0
   rimraf: ^3.0.2
   tensha: ^0.1.1
   ts-node: ^10.9.1
@@ -17,10 +19,12 @@ specifiers:
 
 dependencies:
   fuse.js: 6.6.2
+  leaflet: 1.8.0
   vue: 3.2.37
 
 devDependencies:
   '@types/js-yaml': 4.0.5
+  '@types/leaflet': 1.7.11
   '@types/node': 18.0.6
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
   chokidar-cli: 3.0.0
@@ -91,8 +95,18 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
+  /@types/geojson/7946.0.10:
+    resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
+    dev: true
+
   /@types/js-yaml/4.0.5:
     resolution: {integrity: sha512-FhpRzf927MNQdRZP0J5DLIdTXhjLYzeUTmLAu69mnVksLH9CJY3IuSeEgbKUki7GQZm0WqDkGzyxju2EZGD2wA==}
+    dev: true
+
+  /@types/leaflet/1.7.11:
+    resolution: {integrity: sha512-VwAYom2pfIAf/pLj1VR5aLltd4tOtHyvfaJlNYCoejzP2nu52PrMi1ehsLRMUS+bgafmIIKBV1cMfKeS+uJ0Vg==}
+    dependencies:
+      '@types/geojson': 7946.0.10
     dev: true
 
   /@types/node/18.0.6:
@@ -677,6 +691,10 @@ packages:
     dependencies:
       argparse: 2.0.1
     dev: true
+
+  /leaflet/1.8.0:
+    resolution: {integrity: sha512-gwhMjFCQiYs3x/Sf+d49f10ERXaEFCPr+nVTryhAW8DWbMGqJqt9G4XuIaHmFW08zYvhgdzqXGr8AlW8v8dQkA==}
+    dev: false
 
   /locate-path/3.0.0:
     resolution: {integrity: sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==}
