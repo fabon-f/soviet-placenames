@@ -47,7 +47,10 @@ onMounted(() => {
 
   for (const city of props.cities) {
     marker([city.latitude, city.longitude], { icon: myIcon }).addTo(newMap)
-      .bindPopup(city.name)
+      .bindPopup(city.name, {
+        // TODO: https://github.com/Leaflet/Leaflet/issues/8159
+        closeButton: false
+      })
   }
 
   const firstBound = newMap.getBounds()
@@ -66,16 +69,6 @@ onMounted(() => {
 
   map = newMap
 })
-
-// workaround, the problem will be fixed in next version of leaflet
-// https://github.com/Leaflet/Leaflet/pull/8160
-window.addEventListener('hashchange', () => {
-  if (location.hash === '#close') {
-    const oldUrl = new URL(location.href)
-    oldUrl.hash = ''
-    history.replaceState(null, '', oldUrl.toString())
-  }
-}, false)
 </script>
 
 <template>
