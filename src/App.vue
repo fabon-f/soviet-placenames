@@ -7,7 +7,7 @@ import { query, country, subject, countryList, subjectList, matchedCities, cityC
 
 <template>
   <div id="searchbox">
-    <input type="text" placeholder="都市名を入力" v-model="query">
+    <input type="text" placeholder="都市名を入力" v-model="query" autofocus>
     <div class="search-detail">
       <label>
         国: <select v-model="country">
