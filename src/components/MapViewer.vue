@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, onMounted, onUpdated } from 'vue'
-import { map as lMap, tileLayer, marker } from 'leaflet'
+import { map as lMap, tileLayer, marker, icon } from 'leaflet'
 import type { Map as LMap } from 'leaflet'
 
 type City = {
@@ -34,8 +34,19 @@ onMounted(() => {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(newMap);
 
+  const myIcon = icon({
+    iconUrl: './marker-icon.png',
+    iconRetinaUrl: './marker-icon.png',
+    shadowUrl: './marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    tooltipAnchor: [16, -28],
+    shadowSize: [41, 41]
+  })
+
   for (const city of props.cities) {
-    marker([city.latitude, city.longitude]).addTo(newMap)
+    marker([city.latitude, city.longitude], { icon: myIcon }).addTo(newMap)
       .bindPopup(city.name)
   }
 
