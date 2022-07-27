@@ -34,9 +34,9 @@ const languageNames = {
 } as { [key: string]: string }
 
 type OriginalCityData = {
-  wikipedia?: { [key: string]: string }
-  latitude?: number
-  longitude?: number
+  wikipedia: { [key: string]: string }
+  latitude: number
+  longitude: number
   nameHistory: OriginalNameHistory[]
 }
 
@@ -141,15 +141,16 @@ const cities = await (async () => {
     for (const b in cities[a]) {
       for (const c in cities[a][b]) {
         const city = cities[a][b][c]
-        if (city.wikipedia) {
-          if (Object.entries(city.wikipedia).some(n => typeof n[0] !== 'string' || typeof n[1] !== 'string')) {
-            throw new Error(`Invalid Wikipedia entry: ${a}, ${b}, ${c}`)
-          }
+        if (typeof city.wikipedia !== 'object' || city.wikipedia === null) {
+          throw new Error(`Wikipedia entry unavailable: ${a}, ${b}, ${c}`)
         }
-        if (city.latitude !== undefined && typeof city.latitude !== 'number') {
+        if (Object.entries(city.wikipedia).some(n => typeof n[0] !== 'string' || typeof n[1] !== 'string')) {
+          throw new Error(`Invalid Wikipedia entry: ${a}, ${b}, ${c}`)
+        }
+        if (typeof city.latitude !== 'number') {
           throw new Error(`Invalid latitude: ${a}, ${b}, ${c}`)
         }
-        if (city.longitude !== undefined && typeof city.longitude !== 'number') {
+        if (typeof city.longitude !== 'number') {
           throw new Error(`Invalid longitude: ${a}, ${b}, ${c}`)
         }
         if (city.nameHistory.some(n => Object.keys(n).every(k => typeof n[k] !== 'string'))) {

@@ -11,20 +11,17 @@ const citiesGeoData = computed(() => matchedCities.value.map(c => {
   return {
     id: c.id,
     name: c.name.join(" / "),
-    latitude: c.latitude || Infinity,
-    longitude: c.longitude || Infinity
+    latitude: c.latitude,
+    longitude: c.longitude
   }
-}).filter(c => c.latitude !== Infinity && c.longitude !== Infinity))
+}))
 
 const mapOpened = ref(false)
 </script>
 
 <template>
   <a href="javascript:void(0)" @click="mapOpened = !mapOpened">{{ mapOpened ? '地図を閉じる' : '地図を見る' }}</a>
-  <div>
-    <p v-show="mapOpened">※開発中: 位置データがなく地図に表示されていない都市があります。</p>
-    <MapViewer :show="mapOpened" class="map-viewer" :cities="citiesGeoData"></MapViewer>
-  </div>
+  <MapViewer :show="mapOpened" class="map-viewer" :cities="citiesGeoData"></MapViewer>
   <div id="searchbox">
     <input type="text" placeholder="都市名を入力" v-model="query" autofocus>
     <div class="search-detail">
