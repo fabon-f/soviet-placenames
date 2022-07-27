@@ -1724,70 +1724,130 @@ Ukraine:
 Belarus:
   Minsk:
     Minsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA
+      latitude: 53.900617
+      longitude: 27.558968
       nameHistory:
         - { period: "-1793", pl: Mińsk }
         - { period: "1793-", ru: Минск, be: Мінск }
   Brest Oblast:
     Brest:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B5%D1%81%D1%82
+      latitude: 52.087692
+      longitude: 23.702672
       nameHistory:
         - { period: "1795-", ru: Брест-Лито́вск }
         - { period: "1921-1923", pl: Brześć Litewski }
         - { period: "1923-1939", pl: Brześć nad Bugiem }
         - { period: "1939-", ru: Брест, be: Брэст }
     Baranavichy:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%B8
+      latitude: 53.126088
+      longitude: 26.021707
       nameHistory:
         - { period: "-1921", ru: Бара́новичи }
         - { period: "1921-1939", pl: Baranowicze }
         - { period: "1939-", ru: Бара́новичи, be: Бара́навічы }
     Pinsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D0%BD%D1%81%D0%BA
+      latitude: 52.124668
+      longitude: 26.085998
       nameHistory:
         - { period: "-1793", pl: Pińsk }
         - { period: "1793-", ru: Пинск, be: Пінск }
   Gomel Oblast:
     Gomel:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C
+      latitude: 52.431278
+      longitude: 30.993674
       nameHistory:
         - { period: "-1772", pl: Homel }
         - { period: "1772-", ru: Го́мель, be: Го́мель }
     Mazyr:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B7%D1%8B%D1%80%D1%8C
+      latitude: 52.044058
+      longitude: 29.250031
       nameHistory:
         - { period: "-1793", pl: Mozyrz }
         - { period: "1793-", ru: Мо́зырь, be: Мазы́р }
   Grodno Oblast:
     Grodno:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE
+      latitude: 53.672291
+      longitude: 23.826540
       nameHistory:
         - { period: "-1795", pl: Grodno }
         - { period: "1795-", ru: Гро́дно, be: Гро́дна }
     Lida:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B4%D0%B0
+      latitude: 53.895519
+      longitude: 25.295906
       nameHistory:
         - { period: "-1795", pl: Lida }
         - { period: "1795-", ru: Ли́да, be: Лі́да }
   Mogilev Oblast:
     Mogilev:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%91%D0%B2
+      latitude: 53.896245
+      longitude: 30.337070
       nameHistory:
         - { period: "-1772", pl: Mohylew }
         - { period: "1772-", ru: Могилёв, be: Магілё́ў }
     Babruysk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B1%D1%80%D1%83%D0%B9%D1%81%D0%BA
+      latitude: 53.139749
+      longitude: 29.224592
       nameHistory:
         - { period: "-1793", pl: Bobrujsk }
         - { period: "1793-", ru: Бобру́йск, be: Бабру́йск }
   Minsk Oblast:
     Barysaw:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 54.224028
+      longitude: 28.511757
       nameHistory:
         - { period: "-1793", pl: Borysów }
         - { period: "1793-", ru: Бори́сов, be: Бары́саў }
     Salihorsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA
+      latitude: 52.788502
+      longitude: 27.531537
       nameHistory:
         - { period: "1958-", ru: Солиго́рск, be: Саліго́рск }
   Vitebsk Oblast:
     Vitebsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA
+      latitude: 55.192987
+      longitude: 30.202191
       nameHistory:
         - { period: "-1772", pl: Witebsk }
         - { period: "1772-", ru: Ви́тебск, be: Ві́цебск }
     Orsha:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%88%D0%B0
+      latitude: 54.512614
+      longitude: 30.423992
       nameHistory:
         - { period: "-1772", pl: Orsza }
         - { period: "1772-", ru: О́рша, be: О́рша }
     Novopolotsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%86%D0%BA
+      latitude: 55.532469
+      longitude: 28.659245
       nameHistory:
         - { period: "1959-1963", ru: По́лоцкий, be: По́лацкі }
         - { period: "1963-", ru: Новопо́лоцк, be: Навапо́лацк }
