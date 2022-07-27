@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, onMounted, onUpdated, watch, toRef } from 'vue'
-import { map as lMap, tileLayer, marker, icon, layerGroup } from 'leaflet'
+import { map as lMap, tileLayer, marker, icon, featureGroup } from 'leaflet'
 import type { Map as LMap } from 'leaflet'
 
 type City = {
@@ -33,7 +33,7 @@ const markerIcon = icon({
 })
 
 const createMarkersLayerGroup = (cities: City[]) => {
-  const layer = layerGroup()
+  const layer = featureGroup()
   for (const city of cities) {
     marker([city.latitude, city.longitude], { icon: markerIcon }).addTo(layer)
       .bindPopup(city.name, {
@@ -56,6 +56,7 @@ watch(toRef(props, 'cities'), (newCities, _oldCities) => {
   map.removeLayer(markersLayer)
   markersLayer = createMarkersLayerGroup(newCities)
   markersLayer.addTo(map)
+  map.fitBounds(markersLayer.getBounds(), { maxZoom: 7 })
 })
 
 onMounted(() => {
