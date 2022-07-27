@@ -1795,6 +1795,10 @@ Belarus:
 Moldova:
   Bălți:
     Bălți:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D1%8C%D1%86%D1%8B
+      latitude: 47.759891
+      longitude: 27.922091
       nameHistory:
         - { period: "-1812", ro: Bălți }
         - { period: "1812-1917", ru: Бе́льцы }
@@ -1802,12 +1806,20 @@ Moldova:
         - { period: "1940-", ru: Бе́льцы, ro: Bălți }
   Chișinău:
     Chișinău:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%88%D0%B8%D0%BD%D1%91%D0%B2
+      latitude: 47.015785
+      longitude: 28.845653
       nameHistory:
         - { period: "1812-", ru: Кишинёв, ro: Chișinău }
         - { period: "1918-1940", ro: Chișinău }
         - { period: "1940-", ru: Кишинёв }
   Bender:
     Bender:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B
+      latitude: 46.822313
+      longitude: 29.477515
       nameHistory:
         - { period: "-1918", ru: Бенде́ры }
         - { period: "1918-1940", ro: Tighina }
@@ -1817,9 +1829,17 @@ Moldova:
   Gagauzia:
   Transnistria:
     Tiraspol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D1%8C
+      latitude: 46.839931
+      longitude: 29.614665
       nameHistory:
         - { period: "1795-", ru: Тира́споль, ro: Tiraspol, uk: Тира́споль }
     Rîbnița:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A0%D1%8B%D0%B1%D0%BD%D0%B8%D1%86%D0%B0
+      latitude: 47.762992
+      longitude: 29.004748
       nameHistory:
         - { period: "1793-", ru: Ры́бница, ro: Rîbnița, uk: Ри́бниця }
 
@@ -1861,6 +1881,10 @@ Moldova:
 Estonia:
   Harju County:
     Tallinn:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Tallinn
+      latitude: 59.436375
+      longitude: 24.744535
       nameHistory:
         - { period: "-1918", ru: Ре́вель }
         - { period: "1918-1940", et: Tallinn, ru: Та́ллин }
@@ -1868,6 +1892,10 @@ Estonia:
   Hiiu County:
   Ida-Viru County:
     Narva:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Narva
+      latitude: 59.379643
+      longitude: 28.179303
       nameHistory:
         - { period: "-", ru: На́рва, et: Narva }
   Jõgeva County:
@@ -1880,6 +1908,10 @@ Estonia:
   Saare County:
   Tartu County:
     Tartu:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Tartu
+      latitude: 58.377983
+      longitude: 26.729032
       nameHistory:
         - { period: "1704-1893", ru: Дерпт }
         - { period: "1893-1919", ru: Ю́рьев }
@@ -1892,6 +1924,10 @@ Estonia:
 Latvia:
   Daugavpils:
     Daugavpils:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Daugavpils
+      latitude: 55.875256
+      longitude: 26.534441
       nameHistory:
         - { period: "-1656", pl: Dyneburg }
         - { period: "1656-1667", ru: Борисоглебов }
@@ -1902,6 +1938,10 @@ Latvia:
         - { period: "1940-", ru: Да́угавпилс, lv: Daugavpils }
   Jelgava:
     Jelgava:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Jelgava
+      latitude: 56.651655
+      longitude: 23.722213
       nameHistory:
         - { period: "-1795", de: Mitau, pl: Mitawa }
         - { period: "1795-1917", ru: Мита́ва }
@@ -1909,10 +1949,18 @@ Latvia:
         - { period: "1940-", ru: Е́лгава, lv: Jelgava }
   Jūrmala:
     Jūrmala:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/J%C5%ABrmala
+      latitude: 56.971880
+      longitude: 23.782180
       nameHistory:
         - { period: "1959-", ru: Ю́рмала, lv: Jūrmala }
   Liepāja:
     Liepāja:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Liep%C4%81ja
+      latitude: 56.520794
+      longitude: 21.016368
       nameHistory:
         - { period: "-1795", de: Libau, pl: Lipawa }
         - { period: "1795-1917", ru: Либа́ва }
@@ -1921,6 +1969,10 @@ Latvia:
   Rēzekne:
   Riga:
     Riga:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Riga
+      latitude: 56.953016
+      longitude: 24.104810
       nameHistory:
         - { period: "-", ru: Ри́га, lv: Rīga }
   Ventspils:
@@ -1966,6 +2018,10 @@ Latvia:
 Lithuania:
   Alytus County:
     Alytus:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Alytus
+      latitude: 54.396051
+      longitude: 24.046069
       nameHistory:
         - { period: "-1795", pl: Olita }
         - { period: "1795-1940", ru: Олита }
@@ -1973,6 +2029,10 @@ Lithuania:
         - { period: "1940-", lt: Alytus, ru: Алитус }
   Kaunas County:
     Kaunas:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Kaunas
+      latitude: 54.904065
+      longitude: 23.915939
       nameHistory:
         - { period: "-1795", pl: Kowno }
         - { period: "1795-1915", ru: Ко́вно }
@@ -1980,6 +2040,10 @@ Lithuania:
         - { period: "1940-", ru: Ка́унас, lt: Kaunas }
   Klaipėda County:
     Klaipėda:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Klaip%C4%97da
+      latitude: 55.710121
+      longitude: 21.133331
       nameHistory:
         - { period: "-1920", lt: Klaipėda, de: Memel }
         - { period: "1923-1939", lt: Klaipėda }
@@ -1987,6 +2051,10 @@ Lithuania:
   Marijampolė County:
   Panevėžys County:
     Panevėžys:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys
+      latitude: 55.733451
+      longitude: 24.357974
       nameHistory:
         - { period: "-1795", pl: Poniewież }
         - { period: "1795-1917", ru: Поневе́ж }
@@ -1994,6 +2062,10 @@ Lithuania:
         - { period: "1940-", ru: Паневежис, lt: Panevėžys }
   Šiauliai County:
     Šiauliai:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/%C5%A0iauliai
+      latitude: 55.925212
+      longitude: 23.328039
       nameHistory:
         - { period: "-1795", pl: Szawle }
         - { period: "1795-1917", ru: Шавли }
@@ -2004,6 +2076,10 @@ Lithuania:
   Utena County:
   Vilnius County:
     Vilnius:
+      wikipedia:
+        en: https://en.wikipedia.org/wiki/Vilnius
+      latitude: 54.687221
+      longitude: 25.279561
       nameHistory:
         - { period: "-1918", ru: Ви́льна }
         - { period: "1922-1939", pl: Wilno }
