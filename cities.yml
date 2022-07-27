@@ -1454,11 +1454,19 @@ Russia:
 Ukraine:
   Vinnytsia Oblast:
     Vinnytsia:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%B0
+      latitude: 49.232888
+      longitude: 28.4691
       nameHistory:
         - { period: "-1793", pl: Winnica }
         - { period: "1793-", ru: Ви́нница, uk: Ві́нниця }
   Volyn Oblast:
     Lutsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D1%86%D0%BA
+      latitude: 50.745762
+      longitude: 25.338033
       nameHistory:
         - { period: "-", pl: Łuck, ru: Луцк, uk: Луцьк }
         - { period: "-1795", pl: Łuck }
@@ -1467,71 +1475,139 @@ Ukraine:
         - { period: "1939-", ru: Луцк, uk: Луцьк }
   Dnipropetrovsk Oblast:
     Dnipro:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%BD%D0%B5%D0%BF%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 48.460814
+      longitude: 35.026621
       nameHistory:
         - { period: "1776-1796, 1802-1926", ru: Екатериносла́в }
         - { period: "1796-1802", ru: Новоросси́йск }
         - { period: "1926-2016", ru: Днепропетро́вск, uk: Дніпропетровськ }
         - { period: "2016-", ru: Днепр, uk: Дніпро́ }
     Kryvyi Rih:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%B2%D0%BE%D0%B9_%D0%A0%D0%BE%D0%B3
+      latitude: 47.888180
+      longitude: 33.393835
       nameHistory:
         - { period: "1775-", ru: "Криво́й Рог", uk: "Криви́й Ріг" }
     Kamianske:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B5
+      latitude: 48.516215
+      longitude: 34.613224
       nameHistory:
         - { period: "-1936, 2016-", ru: Каменское, uk: "Кам'янське" }
         - { period: "1936-2016", ru: Днепродзержинск, uk: Дніпродзержинськ }
     Nikopol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4,_%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0)
+      latitude: 47.569189
+      longitude: 34.391673
       nameHistory:
         - { period: "-", ru: Ни́кополь, uk: Ні́кополь }
     Pavlohrad:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B3%D1%80%D0%B0%D0%B4
+      latitude: 48.530267
+      longitude: 35.86985
       nameHistory:
         - { period: "-", ru: Павлогра́д, uk: Павлогра́д }
   Donetsk Oblast:
     Donetsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA
+      latitude: 47.989909
+      longitude: 37.792933
       nameHistory:
         - { period: "1869-1924", ru: Юзовка }
         - { period: "1924-1929", ru: Ста́лин, uk: Ста́лін }
         - { period: "1929-1961", ru: Ста́лино, uk: Ста́ліно }
         - { period: "1961-", ru: Доне́цк, uk: Доне́цьк }
     Mariupol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B8%D1%83%D0%BF%D0%BE%D0%BB%D1%8C
+      latitude: 47.097112
+      longitude: 37.543323
       nameHistory:
         - { period: "1779-1948, 1989-", ru: Мариу́поль, uk: Маріу́поль }
         - { period: "1948-1989", ru: Жда́нов }
     Makiivka:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B5%D0%B5%D0%B2%D0%BA%D0%B0
+      latitude: 48.055100
+      longitude: 37.966128
       nameHistory:
         - { period: "-1931", ru: Дми́триевск, uk: Дмитріївськ }
         - { period: "1931-", ru: Маке́евка, uk: Макі́ївка }
     Horlivka:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0
+      latitude: 48.308867
+      longitude: 38.021553
       nameHistory:
         - { period: "-", ru: Го́рловка, uk: Го́рлівка }
     Kramatorsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D1%81%D0%BA
+      latitude: 48.736815
+      longitude: 37.582692
       nameHistory:
         - { period: "-", ru: Крамато́рск, uk: Крамато́рськ }
     Yenakiieve:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%95%D0%BD%D0%B0%D0%BA%D0%B8%D0%B5%D0%B2%D0%BE
+      latitude: 48.230271
+      longitude: 38.208002
       nameHistory:
         - { period: "-1928, 1943-", ru: Ена́киево, uk: Єна́кієве }
         - { period: "1928-1937", ru: Ры́ково, uk: Ри́кове }
         - { period: "1937-1943", ru: Орджоники́дзе, uk: Орджонікі́дзе }
     Sloviansk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D1%81%D0%BA
+      latitude: 48.853199
+      longitude: 37.605204
       nameHistory:
         - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
     Kostiantynivka:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0
+      latitude: 48.525569
+      longitude: 37.709087
       nameHistory:
         - { period: "-", ru: Константи́новка, uk: Костянти́нівка }
     Bakhmut:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%85%D0%BC%D1%83%D1%82
+      latitude: 48.594633
+      longitude: 38.000983
       nameHistory:
         - { period: "-1924, 2016-", ru: Бахму́т, uk: Бахмут }
         - { period: "1924-2016", ru: Артёмовск, uk: Артемівськ }
   Zhytomyr Oblast:
     Zhytomyr:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80
+      latitude: 50.261574
+      longitude: 28.666635
       nameHistory:
         - { period: "-", ru: Жито́мир, uk: Жито́мир, pl: Żytomierz }
         - { period: "-1793", pl: Żytomierz }
         - { period: "1793-", ru: Жито́мир, uk: Жито́мир }
     Berdychiv:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B4%D0%B8%D1%87%D0%B5%D0%B2
+      latitude: 49.891291
+      longitude: 28.598853
       nameHistory:
         - { period: "-", ru: Берди́чев, uk: Берди́чів }
   Zakarpattia Oblast:
     Uzhhorod:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D0%B6%D0%B3%D0%BE%D1%80%D0%BE%D0%B4
+      latitude: 48.620021
+      longitude: 22.295288
       nameHistory:
         - { period: "-", hu: Ungvár, de: Ungwar, sk: Užhorod, cs: Užhorod, ru: У́жгород, uk: У́жгород }
         - { period: "-1919", hu: Ungvár, de: Ungwar, sk: Užhorod }
@@ -1539,6 +1615,10 @@ Ukraine:
         - { period: "1938-1945", hu: Ungvár }
         - { period: "1945-", ru: У́жгород, uk: У́жгород, hu: Ungvár, sk: Užhorod }
     Mukachevo:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D0%BA%D0%B0%D1%87%D0%B5%D0%B2%D0%BE
+      latitude: 48.440834
+      longitude: 22.721224
       nameHistory:
         - { period: "-1919", hu: Munkács, de: Munkatsch }
         - { period: "1919-1938", cs: Mukačevo }
@@ -1546,19 +1626,35 @@ Ukraine:
         - { period: "2017-", ru: Мука́чево, uk: Мука́чево }
   Zaporizhzhia Oblast:
     Zaporizhzhia:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D0%B5
+      latitude: 47.834406
+      longitude: 35.147765
       nameHistory:
         - { period: "-1921", ru: Алекса́ндровск, uk: Олекса́ндрівськ }
         - { period: "1921-", ru: Запоро́жье, uk: Запорі́жжя }
     Melitopol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BB%D0%B8%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C
+      latitude: 46.846672
+      longitude: 35.375005
       nameHistory:
         - { period: "1816-1842", ru: Новоалекса́ндровка, uk: Новоолекса́ндрівка }
         - { period: "1842-", ru: Мелито́поль, uk: Меліто́поль }
     Berdiansk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B4%D1%8F%D0%BD%D1%81%D0%BA
+      latitude: 46.773822
+      longitude: 36.797363
       nameHistory:
         - { period: "-1939, 1958-", ru: Бердя́нск, uk: Бердя́нськ }
         - { period: "1939-1958", ru: Осипе́нко, uk: Осипе́нко }
   Ivano-Frankivsk Oblast:
     Ivano-Frankivsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA
+      latitude: 48.918750
+      longitude: 24.710962
       nameHistory:
         - { period: "-1939", pl: Stanisławów, de: Stanislau, ru: Станисла́вов, uk: Станисла́вів }
         - { period: "1662-1772", pl: Stanisławów }
@@ -1568,13 +1664,25 @@ Ukraine:
         - { period: "1962-", ru: Ива́но-Франко́вск, uk: Іва́но-Франкі́вськ }
   Kyiv Oblast:
     Bila Tserkva:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C
+      latitude: 49.798042
+      longitude: 30.133224
       nameHistory:
         - { period: "-", ru: Бе́лая Це́рковь, uk: Бі́ла Це́рква }
     Brovary:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D1%8B
+      latitude: 50.505844
+      longitude: 30.797360
       nameHistory:
         - { period: "-", ru: Бровары́, uk: Бровари́ }
   Kirovohrad Oblast:
     Kropyvnytskyi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%BE%D0%BF%D0%B8%D0%B2%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9
+      latitude: 48.507093
+      longitude: 32.264205
       nameHistory:
         - { period: "-1924", ru: Елисаветгра́д, uk: Єлисаветгра́д }
         - { period: "1924-1934", ru: Зино́вьевск, uk: Зіно́в'євськ }
@@ -1582,38 +1690,70 @@ Ukraine:
         - { period: "1939-2016", ru: Кировогра́д, uk: Кіровогра́д }
         - { period: "2016-", ru: Кропивни́цкий, uk: Кропивни́цький }
     Oleksandriia:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D1%8F_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4,_%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0)
+      latitude: 48.669810
+      longitude: 33.117161
       nameHistory:
         - { period: "1784-17xx", ru: Александрийск, uk: Олександрі́йськ }
         - { period: "17xx-", ru: Александри́я, uk: Олександрі́я }
   Luhansk Oblast:
     Luhansk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D0%B3%D0%B0%D0%BD%D1%81%D0%BA
+      latitude: 48.568688
+      longitude: 39.315197
       nameHistory:
         - { period: "1882-1935, 1958-1970, 1990-", ru: Луга́нск, uk: Луга́нськ }
         - { period: "1935-1958, 1970-1990", ru: Ворошиловгра́д, uk: Ворошиловгра́д }
     Alchevsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%87%D0%B5%D0%B2%D1%81%D0%BA
+      latitude: 48.471480
+      longitude: 38.795543
       nameHistory:
         - { period: "1903-1931, 1991-", ru: Алче́вск, uk: Алче́вськ }
         - { period: "1931-1961", ru: Вороши́ловск, uk: Вороши́ловськ }
         - { period: "1961-1991", ru: Коммуна́рск, uk: Комуна́рськ }
     Sievierodonetsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%B4%D0%BE%D0%BD%D0%B5%D1%86%D0%BA
+      latitude: 48.947866
+      longitude: 38.492643
       nameHistory:
         - { period: "1934-1950", ru: Лисхимстрой, uk: Лисхімстрой }
         - { period: "1950-", ru: Северодоне́цк, uk: Сєвєродоне́цьк }
     Lysychansk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%81%D0%B8%D1%87%D0%B0%D0%BD%D1%81%D0%BA
+      latitude: 48.912907
+      longitude: 38.424116
       nameHistory:
         - { period: "-", ru: Лисича́нск, uk: Лисича́нськ }
     Krasnyi Luch:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D0%9B%D1%83%D1%87_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 48.144743
+      longitude: 38.923119
       nameHistory:
         - { period: "-1920", ru: Криндачёвка, uk: Криндачі́вка }
         - { period: "1920-2016", ru: Кра́сный Луч, uk: Кра́сний Луч }
         - { period: "2016-", ru: Хруста́льный, uk: Хруста́льний }
     Kadiivka:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%85%D0%B0%D0%BD%D0%BE%D0%B2_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 48.559703
+      longitude: 38.647731
       nameHistory:
         - { period: "-1937, 1943-1978, 2016-", ru: Кадиевка, uk: Кадіївка }
         - { period: "1937-1943", ru: Серго́, uk: Серго }
         - { period: "1978-2016", ru: Стаха́нов, uk: Стаха́нов }
   Lviv Oblast:
     Lviv:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2
+      latitude: 49.840593
+      longitude: 24.028327
       nameHistory:
         - { period: "-", ru: Львов, uk: Львів, pl: Lwów, de: Lemberg }
         - { period: "1772-1918", de: Lemberg }
@@ -1621,25 +1761,49 @@ Ukraine:
         - { period: "1944-", ru: Львов, uk: Львів }
   Mykolaiv Oblast:
     Mykolaiv:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2
+      latitude: 46.958994
+      longitude: 32.002615
       nameHistory:
         - { period: "1789-", ru: Никола́ев, uk: Микола́їв }
   Odessa Oblast:
     Odessa:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0
+      latitude: 46.473607
+      longitude: 30.725720
       nameHistory:
         - { period: "1795-", ru: Оде́сса, uk: Оде́са }
     Izmail:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%BC%D0%B0%D0%B8%D0%BB
+      latitude: 45.343810
+      longitude: 28.834993
       nameHistory:
         - { period: "1809-1856, 1878-1918, 1940-", ru: Измаи́л, uk: Ізмаї́л }
         - { period: "1856-1878, 1918-1940", ro: Ismail }
   Poltava Oblast:
     Poltava:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0
+      latitude: 49.589571
+      longitude: 34.550992
       nameHistory:
         - { period: "-", ru: Полта́ва, uk: Полта́ва }
     Kremenchuk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%87%D1%83%D0%B3
+      latitude: 49.077773
+      longitude: 33.423480
       nameHistory:
         - { period: "-", ru: Кременчу́г, uk: Кременчу́к }
   Rivne Oblast:
     Rivne:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B2%D0%BD%D0%BE
+      latitude: 50.619445
+      longitude: 26.249818
       nameHistory:
         - { period: "-", ru: Ро́вно, pl: Równe }
         - { period: "-1795", pl: Równe }
@@ -1649,16 +1813,32 @@ Ukraine:
         - { period: "1991-", ru: Ро́вно, uk: Рі́вне }
   Sumy Oblast:
     Sumy:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D0%BC%D1%8B
+      latitude: 50.906824
+      longitude: 34.801435
       nameHistory:
         - { period: "-", ru: Су́мы, uk: Су́ми }
     Konotop:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BF
+      latitude: 51.241909
+      longitude: 33.204576
       nameHistory:
         - { period: "-", ru: Коното́п, uk: Коното́п }
     Shostka:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A8%D0%BE%D1%81%D1%82%D0%BA%D0%B0
+      latitude: 51.864751
+      longitude: 33.487349
       nameHistory:
         - { period: "-", ru: Шо́стка, uk: Шо́стка }
   Ternopil Oblast:
     Ternopil:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C
+      latitude: 49.551351
+      longitude: 25.599558
       nameHistory:
         - { period: "-", pl: Tarnopol, de: Tarnopol, hu: Tarnopol }
         - { period: "1772-1918", de: Tarnopol, hu: Tarnopol }
@@ -1667,36 +1847,68 @@ Ukraine:
         - { period: "1944-", ru: Терно́поль, uk: Терно́піль }
   Kharkiv Oblast:
     Kharkiv:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2
+      latitude: 49.988432
+      longitude: 36.232773
       nameHistory:
         - { period: "-", ru: Ха́рьков, uk: Ха́рків }
   Kherson Oblast:
     Kherson:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD
+      latitude: 46.653711
+      longitude: 32.606372
       nameHistory:
         - { period: "1778-", ru: Херсо́н, uk: Херсо́н }
   Khmelnytskyi Oblast:
     Khmelnytskyi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 49.422659
+      longitude: 26.985282
       nameHistory:
         - { period: "1795-1954", ru: Проску́ров, uk: Проску́рів }
         - { period: "1954-", ru: Хмельни́цкий, uk: Хмельни́цький }
     Kamianets-Podilskyi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%B5%D1%86-%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9
+      latitude: 48.677800
+      longitude: 26.583801
       nameHistory:
         - { period: "1793-1944", ru: Ка́менец-Подо́льск, uk: Кам'янець-Поді́льськ }
         - { period: "1944-", ru: Ка́менец-Подо́льский, uk: Кам'янець-Поді́льський }
   Cherkasy Oblast:
     Cherkasy:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D1%8B
+      latitude: 49.441356
+      longitude: 32.064459
       nameHistory:
         - { period: "-", ru: Черка́ссы, uk: Черка́си, pl: Czerkasy }
         - { period: "-1793", pl: Czerkasy }
         - { period: "1793-", ru: Черка́ссы, uk: Черка́си }
     Uman:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%B0%D0%BD%D1%8C
+      latitude: 48.749349
+      longitude: 30.221445
       nameHistory:
         - { period: "-", ru: У́мань, uk: У́мань }
   Chernihiv Oblast:
     Chernihiv:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D0%B8%D0%B3%D0%BE%D0%B2
+      latitude: 51.497916
+      longitude: 31.288893
       nameHistory:
         - { period: "-", ru: Черни́гов, uk: Черні́гів }
   Chernivtsi Oblast:
     Chernivtsi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B2%D1%86%D1%8B
+      latitude: 48.293277
+      longitude: 25.936139
       nameHistory:
         - { period: "-1918", de: Czernowitz }
         - { period: "1918-1940", ro: Cernăuți }
@@ -1704,24 +1916,48 @@ Ukraine:
         - { period: "1944-", ru: Черновцы́, uk: Чернівці́ }
   Kyiv:
     Kyiv:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%B5%D0%B2
+      latitude: 50.441751
+      longitude: 30.512817
       nameHistory:
         - { period: "-", ru: Ки́ев, uk: Ки́їв }
   Sevastopol:
     Sevastopol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C
+      latitude: 44.594413
+      longitude: 33.528752
       nameHistory:
         - { period: "1783-1784, 1797-1826", ru: Ахтиар }
         - { period: "1784-1797, 1826-", ru: Севасто́поль, uk: Севасто́поль }
   Autonomous Republic of Crimea:
     Simferopol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BC%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C
+      latitude: 44.949836
+      longitude: 34.101265
       nameHistory:
         - { period: "1784-", ru: Симферо́поль, uk: Сімферо́поль }
     Kerch:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D1%80%D1%87%D1%8C
+      latitude: 45.356755
+      longitude: 36.475447
       nameHistory:
         - { period: "-", ru: Керчь, uk: Керч }
     Yevpatoria:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D0%BF%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F
+      latitude: 45.199432
+      longitude: 33.355062
       nameHistory:
         - { period: "1784-", ru: Евпато́рия, uk: Євпато́рія }
     Yalta:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%AF%D0%BB%D1%82%D0%B0
+      latitude: 44.497397
+      longitude: 34.166031
       nameHistory:
         - { period: "1783-", ru: Я́лта, uk: Я́лта }
 
