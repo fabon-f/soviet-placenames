@@ -1482,9 +1482,6 @@ Ukraine:
     Nikopol:
       nameHistory:
         - { period: "-", ru: Ни́кополь, uk: Ні́кополь }
-    Sloviansk:
-      nameHistory:
-        - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
     Pavlohrad:
       nameHistory:
         - { period: "-", ru: Павлогра́д, uk: Павлогра́д }
@@ -1514,6 +1511,9 @@ Ukraine:
         - { period: "-1928, 1943-", ru: Ена́киево, uk: Єна́кієве }
         - { period: "1928-1937", ru: Ры́ково, uk: Ри́кове }
         - { period: "1937-1943", ru: Орджоники́дзе, uk: Орджонікі́дзе }
+    Sloviansk:
+      nameHistory:
+        - { period: "-", ru: Славя́нск, uk: Слов'я́нськ }
     Kostiantynivka:
       nameHistory:
         - { period: "-", ru: Константи́новка, uk: Костянти́нівка }
