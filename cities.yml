@@ -1260,6 +1260,10 @@ Russia:
         - { period: "-", ru: Анга́рск }
   Kemerovo Oblast:
     Kemerovo:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%BE
+      latitude: 55.344596
+      longitude: 86.097425
       nameHistory:
         - { period: "1925-1932", ru: Щегло́вск }
         - { period: "1932-", ru: Ке́мерово }
