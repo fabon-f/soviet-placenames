@@ -2471,28 +2471,48 @@ Georgia:
   Abkhazia:
   Adjara:
     Batumi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%82%D1%83%D0%BC%D0%B8
+      latitude: 41.641809
+      longitude: 41.626647
       nameHistory:
         - { period: "1878-1936", ru: Бату́м, ka: ბათუმი }
         - { period: "1936-", ru: Бату́ми, ka: ბათუმი }
   Tbilisi:
     Tbilisi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%B1%D0%B8%D0%BB%D0%B8%D1%81%D0%B8
+      latitude: 41.700173
+      longitude: 44.796306
       nameHistory:
         - { period: "-1936", ru: Тифли́с, ka: ტფილისი }
         - { period: "1936-", ru: Тбили́си, ka: თბილისი }
 
   Imereti:
     Kutaisi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%82%D0%B0%D0%B8%D1%81%D0%B8
+      latitude: 42.261427
+      longitude: 42.704811
       nameHistory:
         - { period: "-1936", ru: Кутаис, ka: ქუთაისი }
         - { period: "1936-", ru: Кутаи́си, ka: ქუთაისი }
   Kvemo Kartli:
     Rustavi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D1%82%D0%B0%D0%B2%D0%B8
+      latitude: 41.543387
+      longitude: 45.010816
       nameHistory:
         - { period: "-", ru: Руста́ви, ka: რუსთავი }
   Samegrelo and Zemo Svaneti:
   Kakheti:
   Shida Kartli:
     Gori:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%B8
+      latitude: 41.986812
+      longitude: 44.109889
       nameHistory:
         - { period: "-", ru: Го́ри, ka: გორი }
   Samtskhe-Javakheti:
@@ -2505,6 +2525,10 @@ Armenia:
   Ararat:
   Armavir:
     Vagharshapat:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%B3%D0%B0%D1%80%D1%88%D0%B0%D0%BF%D0%B0%D1%82
+      latitude: 40.163139
+      longitude: 44.293510
       nameHistory:
         - { period: "-1945", ru: Вагаршапа́т, hy:  Վաղարշապատ }
         - { period: "1945-1992", ru: Эчмиадзи́н, hy: Էջմիածին }
@@ -2512,21 +2536,37 @@ Armenia:
   Gegharkunik:
   Kotayk:
     Hrazdan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B0%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 40.535448
+      longitude: 44.769679
       nameHistory:
         - { period: "-1959", ru: Ахта, hy: Ներքին Ախտա }
         - { period: "1959-", ru: Разда́н, hy: Հրազդան }
     Abovyan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%BE%D0%B2%D1%8F%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 40.272777
+      longitude: 44.627429
       nameHistory:
         - { period: "-1961", ru: Элар, hy: Էլար }
         - { period: "1961-", ru: Абовя́н, hy: Աբովյան }
   Lori:
     Vanadzor:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80
+      latitude: 40.813593
+      longitude: 44.486523
       nameHistory:
         - { period: "-1935", ru: Каракилиса, hy: Ղարաքիլիսա }
         - { period: "1935-1992", ru: Кировакан, hy: Կիրովական }
         - { period: "1992-", ru: Ванадзо́р, hy: Վանաձոր }
   Shirak:
     Gyumri:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D1%8E%D0%BC%D1%80%D0%B8
+      latitude: 40.787761
+      longitude: 43.845780
       nameHistory:
         - { period: "1837-1924", ru: Александро́поль, hy: Ալեքսանդրապոլ }
         - { period: "1924-1990", ru: Ленинака́н, hy: Լենինական }
@@ -2534,6 +2574,10 @@ Armenia:
         - { period: "1992-", ru: Гюмри́, hy: Գյումրի }
   Syunik:
     Kapan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BF%D0%B0%D0%BD
+      latitude: 39.206927
+      longitude: 46.405818
       nameHistory:
         - { period: "-1991", ru: Кафа́н, hy: Ղափան }
         - { period: "1991-", ru: Капа́н, hy: Կապան }
@@ -2541,6 +2585,10 @@ Armenia:
   Vayots Dzor:
   Yerevan:
     Yerevan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%95%D1%80%D0%B5%D0%B2%D0%B0%D0%BD
+      latitude: 40.177614
+      longitude: 44.512546
       nameHistory:
         - { period: "-1936", ru: Эрива́нь, hy: Էրիվան }
         - { period: "1936-", ru: Ерева́н, hy: Երևան }
@@ -2549,21 +2597,37 @@ Azerbaijan:
   # Baku
   Baku:
     Baku:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BA%D1%83
+      latitude: 40.391750
+      longitude: 49.862450
       nameHistory:
         - { period: "-", ru: Баку́, az: Bakı }
   # Absheron-Khizi
   Sumgait:
     Sumgait:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D0%BC%D0%B3%D0%B0%D0%B9%D1%8B%D1%82
+      latitude: 40.586906
+      longitude: 49.669993
       nameHistory:
         - { period: "-", ru: Сумгаи́т, az: Sumqayıt }
         - { period: "1991?-", ru: Сумгайыт }
   Absheron District:
     Xırdalan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A5%D1%8B%D1%80%D0%B4%D0%B0%D0%BB%D0%B0%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 40.457287
+      longitude: 49.734362
       nameHistory:
         - { period: "-", ru: Хырдалан, az: Xırdalan }
   # Ganja-Dashkasan
   Ganja:
     Ganja:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D1%8F%D0%BD%D0%B4%D0%B6%D0%B0
+      latitude: 40.681499
+      longitude: 46.361358
       nameHistory:
         - { period: "1804-1918", ru: Елисаветполь, az: Yelizavetpol }
         - { period: "1918-1935", ru: Ганджа́, az: Gəncə }
@@ -2572,16 +2636,28 @@ Azerbaijan:
   # Shaki-Zagatala
   Shaki District:
     Shaki:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BA%D0%B8
+      latitude: 41.193300
+      longitude: 47.169595
       nameHistory:
         - { period: "-1968", ru: Нуха́, az: Nuxa }
         - { period: "1968-", ru: Шеки́, az: Şəki }
   # Lankaran-Astara
   Lankaran District:
     Lankaran:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BD%D0%BA%D0%BE%D1%80%D0%B0%D0%BD%D1%8C
+      latitude: 38.758692
+      longitude: 48.851078
       nameHistory:
         - { period: "-", ru: Ленкорань, az: Lənkəran }
   Jalilabad District:
     Cəlilabad:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B0%D0%BB%D0%B8%D0%BB%D1%8C%D0%B0%D0%B1%D0%B0%D0%B4
+      latitude: 39.210341
+      longitude: 48.506408
       nameHistory:
         - { period: "-1967", ru: Астрахан-Базар, az: Astraxanbazar }
         - { period: "1967-", ru: Джалилаба́д, az: Cəlilabad }
@@ -2589,16 +2665,28 @@ Azerbaijan:
   # Central Aran
   Mingachevir:
     Mingachevir:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B3%D0%B5%D1%87%D0%B5%D0%B2%D0%B8%D1%80
+      latitude: 40.772097
+      longitude: 47.046898
       nameHistory:
         - { period: "-", ru: Мингечау́р, az: Mingəçevir }
         - { period: "1991?-", ru: Мингечевир }
   Yevlakh District:
     Yevlakh:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D0%BB%D0%B0%D1%85
+      latitude: 40.614500
+      longitude: 47.147872
       nameHistory:
         - { period: "-", ru: Евлах, az: Yevlax }
   # Karabakh
   Khankendi:
     Khankendi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%B0%D0%BA%D0%B5%D1%80%D1%82
+      latitude: 39.817708
+      longitude: 46.752864
       nameHistory:
         - { period: "1847-1923", ru: Ханкенди́ }
         - { period: "1923-", ru: Степанаке́рт }
@@ -2609,6 +2697,10 @@ Azerbaijan:
   # Nakhchivan Autonomous Republic
   Nakhchivan Autonomous Republic:
     Nakhchivan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%85%D0%B8%D1%87%D0%B5%D0%B2%D0%B0%D0%BD%D1%8C
+      latitude: 39.202713
+      longitude: 45.408828
       nameHistory:
         - { period: "-", ru: Нахичева́нь, az: Naxçıvan }
   # Gazakh-Tovuz
@@ -2616,6 +2708,10 @@ Azerbaijan:
   # Shirvan-Salyan
   Şirvan:
     Şirvan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D1%80%D0%B2%D0%B0%D0%BD_(%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD)
+      latitude: 39.932575
+      longitude: 48.921978
       nameHistory:
         - { period: "1938-2008", ru: Али-Байрамлы, az: Əli-Bayramlı }
         - { period: "2008-", ru: Ширва́н, az: Şirvan }
