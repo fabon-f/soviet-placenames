@@ -2089,99 +2089,191 @@ Lithuania:
 Uzbekistan:
   Andijan Region:
     Andijan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D0%B8%D0%B6%D0%B0%D0%BD
+      latitude: 40.783353
+      longitude: 72.350653
       nameHistory:
         - { period: "-", ru: Андижа́н, uz: Andijon }
   Bukhara Region:
     Bukhara:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0
+      latitude: 39.776402
+      longitude: 64.418862
       nameHistory:
         - { period: "-", ru: Бухара́, uz: Buxoro }
     Kogon:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B3%D0%B0%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 39.724936
+      longitude: 64.545498
       nameHistory:
         - { period: "1888-1935", ru: Но́вая Бухара́, uz: Yangi Buxoro }
         - { period: "1935-", ru: Кага́н, uz: Kogon }
   Fergana Region:
     Fergana:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D1%80%D0%B3%D0%B0%D0%BD%D0%B0
+      latitude: 40.380143
+      longitude: 71.789318
       nameHistory:
         - { period: "1876-1907", ru: Но́вый Маргела́н }
         - { period: "1907-1924", ru: Ско́белев }
         - { period: "1924-", ru: Фергана́, uz: Farg‘ona }
     Kokand:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%B0%D0%BD%D0%B4
+      latitude: 40.538369
+      longitude: 70.939243
       nameHistory:
         - { period: "-", ru: Кока́нд, uz: Qo‘qon }
     Margilan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B3%D0%B8%D0%BB%D0%B0%D0%BD
+      latitude: 40.477803
+      longitude: 71.721196
       nameHistory:
         - { period: "-", ru: Маргила́н, uz: Marg‘ilon }
   Jizzakh Region:
     Jizzakh:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B8%D0%B7%D0%B0%D0%BA
+      latitude: 40.118043
+      longitude: 67.849795
       nameHistory:
         - { period: "-", ru: Джиза́к, uz: Jizzax }
   Xorazm Region:
     Urgench:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D1%80%D0%B3%D0%B5%D0%BD%D1%87
+      latitude: 41.548362
+      longitude: 60.620996
       nameHistory:
         - { period: "-1929", ru: Но́вый Урге́нч, uz: Yangi Urganch }
         - { period: "1929-", ru: Урге́нч, uz: Urganch }
   Namangan Region:
     Namangan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%BC%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD
+      latitude: 40.998125
+      longitude: 71.641917
       nameHistory:
         - { period: "-", ru: Наманга́н, uz: Namangan }
   Navoiy Region:
     Navoiy:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%BE%D0%B8_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 40.101186
+      longitude: 65.364980
       nameHistory:
         - { period: "1958-", ru: Навои́, uz: Navoiy }
   Qashqadaryo Region:
     Qarshi:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%88%D0%B8
+      latitude: 38.854092
+      longitude: 65.791801
       nameHistory:
         - { period: "-1926, 1937-", ru: Карши́, uz: Qarshi }
         - { period: "1926-1937", ru: Бекбуди, uz: Behbudiy }
     Shahrisabz:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D1%80%D0%B8%D1%81%D0%B0%D0%B1%D0%B7
+      latitude: 39.050203
+      longitude: 66.835237
       nameHistory:
         - { period: "-", ru: Шахриса́бз, uz: Shahrisabz }
   Samarqand Region:
     Samarqand:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4
+      latitude: 39.653419
+      longitude: 66.975879
       nameHistory:
         - { period: "-", ru: Самарка́нд, uz: Samarqand, tg: Самарқанд }
   Sirdaryo Region:
     Guliston:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D1%83%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BD
+      latitude: 40.495374
+      longitude: 68.775402
       nameHistory:
         - { period: "1922-1961", ru: Мирзачуль, uz: Mirzachoʻl }
         - { period: "1961-", ru: Гулиста́н, uz: Guliston }
   Surxondaryo Region:
     Termez:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%BC%D0%B5%D0%B7
+      latitude: 37.236004
+      longitude: 67.289421
       nameHistory:
         - { period: "1928-", ru: Терме́з, uz: Termiz }
   Tashkent Region:
     Angren:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D1%80%D0%B5%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 41.008103
+      longitude: 70.075634
       nameHistory:
         - { period: "-1946", ru: Ангреншахтстрой }
         - { period: "1946-", ru: Ангре́н, uz: Angren }
     Chirchiq:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%80%D1%87%D0%B8%D0%BA_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 41.462725
+      longitude: 69.576594
       nameHistory:
         - { period: "1935-", ru: Чирчи́к, uz: Chirchiq }
     Olmaliq:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BC%D0%B0%D0%BB%D1%8B%D0%BA
+      latitude: 40.856801
+      longitude: 69.591838
       nameHistory:
         - { period: "-", ru: Алмалы́к, uz: Olmaliq }
   Karakalpakstan:
     Nukus:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D1%83%D0%BA%D1%83%D1%81
+      latitude: 42.463111
+      longitude: 59.604734
       nameHistory:
         - { period: "-", ru: Нуку́с, uz: Nukus }
   Tashkent:
     Tashkent:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82
+      latitude: 41.311868
+      longitude: 69.241249
       nameHistory:
         - { period: "-", ru: Ташке́нт, uz: Toshkent }
 
 Tajikistan:
   Dushanbe:
     Dushanbe:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D1%83%D1%88%D0%B0%D0%BD%D0%B1%D0%B5
+      latitude: 38.558424
+      longitude: 68.761986
       nameHistory:
         - { period: "1924-1929", ru: Дюшамбе́, tg: Душанбе }
         - { period: "1929-1961", ru: Сталинаба́д, tg: Сталинобод }
         - { period: "1961-", ru: Душанбе́, tg: Душанбе }
   Region of Republican Subordination:
     Tursunzoda:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D1%81%D1%83%D0%BD%D0%B7%D0%B0%D0%B4%D0%B5
+      latitude: 38.512837
+      longitude: 68.225791
       nameHistory:
         - { period: "-1978", ru: Регар, tg: Регар }
         - { period: "1978-", ru: Турсунзаде́, tg: Турсунзода }
     Vahdat:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D1%85%D0%B4%D0%B0%D1%82
+      latitude: 38.556622
+      longitude: 69.009906
       nameHistory:
         - { period: "1927-1936", ru: Янгибазар, tg: Янгибозор }
         - { period: "1936-1992", ru: Орджоникидзеаба́д, tg: Орҷоникидзеобод }
@@ -2190,64 +2282,120 @@ Tajikistan:
   Gorno-Badakhshan Autonomous Region:
   Sughd Region:
     Khujand:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B4%D0%B6%D0%B0%D0%BD%D0%B4
+      latitude: 40.277734
+      longitude: 69.641027
       nameHistory:
         - { period: "-1936", ru: Ходже́нт, tg: Хуҷанд }
         - { period: "1936-1991", ru: Ленинаба́д, tg: Ленинобод }
         - { period: "-", ru: Худжа́нд, tg: Хуҷанд }
     Istaravshan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%82%D0%B0%D1%80%D0%B0%D0%B2%D1%88%D0%B0%D0%BD
+      latitude: 39.911508
+      longitude: 69.004437
       nameHistory:
         - { period: "-2000", ru: Ура-Тюбе, tg: Ӯротеппа }
         - { period: "2000-", ru: Истаравша́н, tg: Истаравшан }
     Konibodom:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D0%B8%D0%B1%D0%B0%D0%B4%D0%B0%D0%BC
+      latitude: 40.295680
+      longitude: 70.427412
       nameHistory:
         - { period: "-", ru: Канибада́м, tg: Конибодом }
     Isfara:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%84%D0%B0%D1%80%D0%B0
+      latitude: 40.124181
+      longitude: 70.620255
       nameHistory:
         - { period: "-", ru: Исфара́, tg: Исфара }
     Panjakent:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8%D0%BA%D0%B5%D0%BD%D1%82
+      latitude: 39.496615
+      longitude: 67.609168
       nameHistory:
         - { period: "-", ru: Пенджике́нт, tg: Панҷакент }
   Khatlon Region:
     Bokhtar:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%85%D1%82%D0%B0%D1%80
+      latitude: 37.836602
+      longitude: 68.777591
       nameHistory:
         - { period: "-2018", ru: Курган-Тюбе, tg: Қурғонтеппа }
         - { period: "2018-", ru: Бохта́р, tg: Бохтар }
     Kulab:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D1%8F%D0%B1
+      latitude: 37.918108
+      longitude: 69.783649
       nameHistory:
         - { period: "-", ru: Куля́б, tg: Кӯлоб }
 
 Turkmenistan:
   Ashgabat:
     Ashgabat:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D1%88%D1%85%D0%B0%D0%B1%D0%B0%D0%B4
+      latitude: 37.939487
+      longitude: 58.381073
       nameHistory:
         - { period: "1881-1919", ru: Асхаба́д, tk: Aşgabat }
         - { period: "1919-1927", ru: Полтора́цк }
         - { period: "1927-", ru: Ашхаба́д, tk: Aşgabat }
   Ahal Region:
     Tejen:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%B4%D0%B6%D0%B5%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 37.376762
+      longitude: 60.499643
       nameHistory:
         - { period: "-", ru: Тедже́н, tk: Tejen }
   Balkan Region:
     Balkanabad:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%BA%D0%B0%D0%BD%D0%B0%D0%B1%D0%B0%D0%B4
+      latitude: 39.517328
+      longitude: 54.342804
       nameHistory:
         - { period: "-1999", ru: Неби́т-Даг, tk: Nebitdag }
         - { period: "1999-", ru: Балканаба́д, tk: Balkanabat }
     Serdar:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B4%D0%B0%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 38.977347
+      longitude: 56.277775
       nameHistory:
         - { period: "-1999", ru: Кизи́л-Арва́т, tk: Gyzylarbat }
         - { period: "1999-", ru: Серда́р, tk: Serdar }
     Türkmenbaşy:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%BA%D0%BC%D0%B5%D0%BD%D0%B1%D0%B0%D1%88%D1%8B
+      latitude: 40.002816
+      longitude:  52.990224
       nameHistory:
         - { period: "1869-1993", ru: Красново́дск }
         - { period: "1993-", ru: Туркменбашы́, tk: Türkmenbaşy }
   Daşoguz Region:
     Daşoguz:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%88%D0%BE%D0%B3%D1%83%D0%B7
+      latitude: 41.836486
+      longitude: 59.958310
       nameHistory:
         - { period: "-1992", ru: Ташау́з }
         - { period: "1992-1999", ru: Дашхову́з }
         - { period: "1999-", ru: Дашогу́з, tk: Daşoguz }
   Lebap Region:
     Türkmenabat:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%BA%D0%BC%D0%B5%D0%BD%D0%B0%D0%B1%D0%B0%D0%B4
+      latitude: 39.072780
+      longitude: 63.586796
       nameHistory:
         - { period: "-1924", ru: Чарджу́й }
         - { period: "1924-1927", ru: Ле́нинск }
@@ -2256,15 +2404,27 @@ Turkmenistan:
         - { period: "1992-1999", ru: Чардже́в }
         - { period: "1999-", ru: Туркменаба́д, tk: Türkmenabat }
     Magdanly:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B4%D0%B0%D0%BD%D0%BB%D1%8B
+      latitude: 37.807933
+      longitude: 66.053410
       nameHistory:
         - { period: "-2002", ru: Говурдак }
         - { period: "2002-", ru: Магданлы, tk: Magdanly }
   Mary Region:
     Mary:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D1%8B
+      latitude: 37.592580
+      longitude: 61.852691
       nameHistory:
         - { period: "-1937", ru: Мерв, tk: Merw }
         - { period: "1937-", ru: Мары́, tk: Mary }
     Baýramaly:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D1%80%D0%B0%D0%BC%D0%B0%D0%BB%D0%B8
+      latitude: 37.621726
+      longitude: 62.154385
       nameHistory:
         # - { period: "1886-", ru: Байра́м-Али́, tk: Baýramaly }
         - { period: "-", ru: Байрамали, tk: Baýramaly }
@@ -2272,21 +2432,37 @@ Turkmenistan:
 Kyrgyzstan:
   Bishkek:
     Bishkek:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%88%D0%BA%D0%B5%D0%BA
+      latitude: 42.875981
+      longitude: 74.603688
       nameHistory:
         - { period: "-1926", ru: Пишпе́к, ky: Пишпек }
         - { period: "1926-1991", ru: Фру́нзе, ky: Фрунзе }
         - { period: "1991-", ru: Бишке́к, ky: Бишкек }
   Osh:
     Osh:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D1%88_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4,_%D0%9A%D0%B8%D1%80%D0%B3%D0%B8%D0%B7%D0%B8%D1%8F)
+      latitude: 40.523681
+      longitude: 72.808047
       nameHistory:
         - { period: "-", ru: Ош, ky: Ош }
   Batken Region:
   Chüy Region:
     Tokmok:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%BC%D0%B0%D0%BA_(%D0%9A%D0%B8%D1%80%D0%B3%D0%B8%D0%B7%D0%B8%D1%8F)
+      latitude: 42.829372
+      longitude: 75.290250
       nameHistory:
         - { period: "-", ru: Токмак, ky: Токмок }
   Jalal-Abad Region:
     Jalal-Abad:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B0%D0%BB%D0%B0%D0%BB-%D0%90%D0%B1%D0%B0%D0%B4
+      latitude: 40.932167
+      longitude: 72.981158
       nameHistory:
         - { period: "1870-1936", ru: Джаля́ль-Аба́д, ky: Жалал-Абад }
         - { period: "1936-2002, 2008-", ru: Джала́л-Аба́д, ky: Жалал-Абад }
@@ -2294,11 +2470,19 @@ Kyrgyzstan:
   Naryn Region:
   Osh Region:
     Özgön:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D0%B7%D0%B3%D0%B5%D0%BD
+      latitude: 40.770107
+      longitude: 73.311757
       nameHistory:
         - { period: "-", ru: Узге́н, ky: Өзгөн }
   Talas Region:
   Issyk-Kul Region:
     Karakol:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D0%BB
+      latitude: 42.479756
+      longitude: 78.397050
       nameHistory:
         - { period: "1889-1922, 1939-1992", ru: Пржева́льск, ky: Пржевальск }
         - { period: "1922-1939, 1992-", ru: Карако́л, ky: Каракол }
