@@ -1,20 +1,20 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import CityDescription from './components/CityDescription.vue'
 import MapViewer from './components/MapViewer.vue'
-import * as data from '../data/cities_data.ja.json'
 import { query, country, subject, countryList, subjectList, matchedCities, cityCount } from './city_searcher'
 
-const citiesGeoData = data.cities.map(c => {
+const displayCities = computed(() => matchedCities.value.slice(0, 100))
+const citiesGeoData = computed(() => matchedCities.value.map(c => {
   return {
     id: c.id,
     name: c.name.join(" / "),
     latitude: c.latitude || Infinity,
     longitude: c.longitude || Infinity
   }
-}).filter(c => c.latitude !== Infinity && c.longitude !== Infinity)
+}).filter(c => c.latitude !== Infinity && c.longitude !== Infinity))
 
 const mapOpened = ref(false)
 </script>
@@ -42,7 +42,7 @@ const mapOpened = ref(false)
   </div>
   ヒット数: {{ matchedCities.length }} / {{ cityCount }}
   <ul id="cities">
-    <li v-for="city in matchedCities" :key="city.id"><CityDescription :city="city"></CityDescription></li>
+    <li v-for="city in displayCities" :key="city.id"><CityDescription :city="city"></CityDescription></li>
   </ul>
 </template>
 
