@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import { load } from 'js-yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
-import { NameHistory} from '../src/types'
+import { NameHistory, CityData, NameEntry } from '../src/types'
 
 const languageNames = {
   'ru': 'ロシア語',
@@ -79,7 +79,7 @@ function compareNameHistory(a: NameHistory, b: NameHistory) {
   }
 }
 
-function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number): City {
+function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number): CityData {
   const convertedNameHistory = {
     nameHistory: [] as NameHistory[]
   }
@@ -162,26 +162,8 @@ const cities = await (async () => {
   return cities
 }) ()
 
-type City = {
-  id: number
-  name: string[]
-  country: string
-  subject: string
-  nameHistory: NameHistory[]
-  latitude?: number
-  longitude?: number
-}
-
-type NameEntry = {
-  cityId: number
-  name: string
-  originalName: string
-  lang: string
-  period: string
-}
-
 const data = {
-  cities: [] as City[],
+  cities: [] as CityData[],
   names: [] as NameEntry[],
   divisions: {} as Record<string, string[]>
 }

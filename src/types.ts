@@ -14,17 +14,14 @@ export type CityData = {
   country: string
   subject: string
   nameHistory: NameHistory[]
+  latitude: number
+  longitude: number
 }
 
-export type NameData = {
+export type NameEntry = {
   period: string
   cityId: number
   name: string
   originalName: string
   lang: string
-}
-
-export type JsonData = {
-  names: NameData[]
-  cities: CityData[]
 }
