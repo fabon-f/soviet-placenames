@@ -3,6 +3,7 @@ import { load } from 'js-yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
 import { NameHistory, CityData, NameEntry } from '../src/types'
+import { PopulationData } from './population.js'
 
 const languageNames = {
   'ru': 'ロシア語',
@@ -79,7 +80,7 @@ function compareNameHistory(a: NameHistory, b: NameHistory) {
   }
 }
 
-function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number): CityData {
+function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number, population?: number): CityData {
   const convertedNameHistory = {
     nameHistory: [] as NameHistory[]
   }
@@ -106,9 +107,10 @@ function convertCityData(cityData: OriginalCityData, names: string[], country: s
     name: names.filter((name, index, self) => self.indexOf(name) === index),
     country: country,
     subject: subject,
-    // key with value `undefined` will be omitted in `JSON.stringify`
     latitude: cityData.latitude,
-    longitude: cityData.longitude
+    longitude: cityData.longitude,
+    // key with value `undefined` will be omitted in `JSON.stringify`
+    population
   }, convertedNameHistory)
 }
 
@@ -162,6 +164,9 @@ const cities = await (async () => {
   return cities
 }) ()
 
+const populationData = new PopulationData()
+await populationData.load()
+
 const data = {
   cities: [] as CityData[],
   names: [] as NameEntry[],
@@ -199,8 +204,13 @@ for (const country in cities) {
     data.divisions[countryName].push(subjectName)
     for (const city in cities[country][subject]) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(cities[country][subject][city].nameHistory, lang), lang))
+      let population: number | undefined = undefined
+      try {
+        const latestName = searchLatestName(cities[country][subject][city].nameHistory, populationData.dataLanguage(country))
+        population = populationData.get(country, subject, latestName)
+      } catch {}
       const cityId = data.cities.length
-      const cityData = convertCityData(cities[country][subject][city], latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName, cityId)
+      const cityData = convertCityData(cities[country][subject][city], latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName, cityId, population)
       data.cities.push(cityData)
 
       for (const name of cities[country][subject][city].nameHistory) {

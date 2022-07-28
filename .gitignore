@@ -25,4 +25,5 @@ dist-ssr
 
 
 /data/*
+!/data/population
 !/data/.keep
