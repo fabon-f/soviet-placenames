@@ -47,8 +47,17 @@ const createMarkersLayerGroup = (cities: City[]) => {
 let map: LMap | null = null
 let markersLayer = createMarkersLayerGroup(props.cities)
 
+let shown = false
+
 onUpdated(() => {
-  map && map.invalidateSize()
+  if (!map) { return }
+  if (props.show && (!shown)) {
+    map.invalidateSize()
+  }
+  if (props.show) {
+    map.fitBounds(markersLayer.getBounds(), { maxZoom: 7 })
+  }
+  shown = props.show
 })
 
 watch(toRef(props, 'cities'), (newCities, _oldCities) => {
@@ -56,7 +65,7 @@ watch(toRef(props, 'cities'), (newCities, _oldCities) => {
   map.removeLayer(markersLayer)
   markersLayer = createMarkersLayerGroup(newCities)
   markersLayer.addTo(map)
-  map.fitBounds(markersLayer.getBounds(), { maxZoom: 7 })
+  // map.fitBounds(markersLayer.getBounds(), { maxZoom: 7 })
 })
 
 onMounted(() => {
