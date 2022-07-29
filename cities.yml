@@ -1978,7 +1978,7 @@ Belarus:
       latitude: 52.087692
       longitude: 23.702672
       nameHistory:
-        - { period: "1795-", ru: Брест-Лито́вск }
+        - { period: "1795-1921", ru: Брест-Лито́вск }
         - { period: "1921-1923", pl: Brześć Litewski }
         - { period: "1923-1939", pl: Brześć nad Bugiem }
         - { period: "1939-", ru: Брест, be: Брэст }
