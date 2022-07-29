@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 if (location.protocol === 'http:' && ['lab.fabon.info', 'fabon-f.github.io'].includes(location.host)) {
-  location.replace(location.href.replace("http:", "https:"))
+  location.replace(location.href.replace('http:', 'https:'))
 }
 
 createApp(App).mount('#app')

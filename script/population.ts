@@ -26,29 +26,29 @@ export class PopulationData {
 
   dataLanguage(country: string) {
     const lang = ({
-      "Russia": "ru",
-      "Ukraine": "uk",
+      'Russia': 'ru',
+      'Ukraine': 'uk',
       'Belarus': 'ru',
-      "Kazakhstan": "kk"
+      'Kazakhstan': 'kk'
     })[country]
     if (!lang) { throw new Error('Country not found') }
     return lang
   }
 
   get(country: string, subject: string, city: string): number {
-    city = city.replace(/\u0301/g, "")
+    city = city.replace(/\u0301/g, '')
     if (!this.data) { throw new Error('Population data not loaded') }
-    const result = this.data[country][subject].find(c => c.name.replace(/ё/g, "е") === city.replace(/ё/g, "е"))
+    const result = this.data[country][subject].find(c => c.name.replace(/ё/g, 'е') === city.replace(/ё/g, 'е'))
     if (result) {
       return result.population
     } else {
       // workaround for Kazakhstan
       if (country === 'Kazakhstan') {
-        const redirects = { "Abai Region": "East Kazakhstan Region", "Jetisu Region": "Almaty Region", "Ulytau Region": "Karaganda Region" } as Record<string, string>
+        const redirects = { 'Abai Region': 'East Kazakhstan Region', 'Jetisu Region': 'Almaty Region', 'Ulytau Region': 'Karaganda Region' } as Record<string, string>
         if (redirects[subject]) {
           return this.get(country, redirects[subject], city)
         }
-        const redirect_cities = { "Қонаев": "Қапшағай", "Степногорск": "Степногор", "Зашаған": "Зачаганск" } as Record<string, string>
+        const redirect_cities = { 'Қонаев': 'Қапшағай', 'Степногорск': 'Степногор', 'Зашаған': 'Зачаганск' } as Record<string, string>
         if (redirect_cities[city]) {
           return this.get(country, subject, redirect_cities[city])
         }
