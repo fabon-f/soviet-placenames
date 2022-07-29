@@ -10,7 +10,7 @@ export class PopulationData {
     this.data = null
   }
   async load() {
-    const countries = ['Russia', 'Ukraine', 'Kazakhstan']
+    const countries = ['Russia', 'Ukraine', 'Belarus', 'Kazakhstan']
     this.data = {}
     for (const country of countries) {
       const populationFile = url.fileURLToPath(new URL(`../data/population/${country.toLowerCase()}.yml`, import.meta.url))
@@ -28,6 +28,7 @@ export class PopulationData {
     const lang = ({
       "Russia": "ru",
       "Ukraine": "uk",
+      'Belarus': 'ru',
       "Kazakhstan": "kk"
     })[country]
     if (!lang) { throw new Error('Country not found') }
