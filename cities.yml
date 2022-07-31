@@ -16,6 +16,13 @@ Russia:
       nameHistory:
         - { period: "-1655", ru: Оско́л }
         - { period: "1655-", ru: Ста́рый Оско́л }
+    Gubkin:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D1%83%D0%B1%D0%BA%D0%B8%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 51.277121
+      longitude: 37.541032
+      nameHistory:
+        - { period: "1939-", ru: Гу́бкин }
   Bryansk Oblast:
     Bryansk:
       wikipedia:
@@ -274,6 +281,21 @@ Russia:
         - { period: "1919-1930", ru: Се́ргиев }
         - { period: "1930-1991", ru: Заго́рск }
         - { period: "1991-", ru: Се́ргиев Поса́д }
+    Voskresensk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA
+      latitude: 55.296339
+      longitude: 38.722202
+      nameHistory:
+        - { period: "-1934", ru: Воскресе́нское }
+        - { period: "1934-", ru: Воскресе́нск }
+    Lobnya:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B1%D0%BD%D1%8F
+      latitude: 56.013074
+      longitude: 37.483287
+      nameHistory:
+        - { period: "-", ru: Ло́бня }
   Oryol Oblast:
     Oryol:
       wikipedia:
@@ -307,6 +329,14 @@ Russia:
       longitude: 41.444018
       nameHistory:
         - { period: "-", ru: Тамбо́в }
+    Michurinsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D1%81%D0%BA
+      latitude: 52.893862
+      longitude: 40.498133
+      nameHistory:
+        - { period: "-1932", ru: Козло́в }
+        - { period: "1932-", ru: Мичу́ринск }
   Tver Oblast:
     Tver:
       wikipedia:
@@ -377,6 +407,14 @@ Russia:
       nameHistory:
         - { period: "1780-1930", ru: Усть-Сысо́льск }
         - { period: "1930-", ru: Сыктывка́р }
+    Ukhta:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D1%85%D1%82%D0%B0
+      latitude: 63.557568
+      longitude: 53.696801
+      nameHistory:
+        - { period: "1929-1939", ru: Чибью }
+        - { period: "1939-", ru: Ухта́ }
   Arkhangelsk Oblast:
     Arkhangelsk:
       wikipedia:
@@ -419,6 +457,16 @@ Russia:
         - { period: "-1946", de: Königsberg }
         - { period: "1946-", ru: Калинингра́д }
   Leningrad Oblast:
+    Gatchina:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%82%D1%87%D0%B8%D0%BD%D0%B0
+      latitude: 59.562155
+      longitude: 30.115149
+      nameHistory:
+        - { period: "-1923", ru: Га́тчина }
+        - { period: "1923-1929", ru: Троцк }
+        - { period: "1929-1944", ru: Красногварде́йск }
+        - { period: "1944-", ru: Га́тчина }
   Murmansk Oblast:
     Murmansk:
       wikipedia:
@@ -445,6 +493,14 @@ Russia:
       longitude: 28.339848
       nameHistory:
         - { period: "-", ru: Псков }
+    Velikiye Luki:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B5_%D0%9B%D1%83%D0%BA%D0%B8
+      latitude: 56.341257
+      longitude:  30.563005
+      nameHistory:
+        - { period: "-1406", ru: Лу́ки }
+        - { period: "1406-", ru: Вели́кие Лу́ки }
   Nenets Autonomous Okrug:
   Saint Petersburg:
     Saint Petersburg:
@@ -513,6 +569,13 @@ Russia:
       longitude: 37.315939
       nameHistory:
         - { period: "1846-", ru: Ана́па }
+    Yeysk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%95%D0%B9%D1%81%D0%BA
+      latitude: 46.713980
+      longitude: 38.275255
+      nameHistory:
+        - { period: "-", ru: Ейск }
   Astrakhan Oblast:
     Astrakhan:
       wikipedia:
@@ -598,6 +661,15 @@ Russia:
       longitude: 39.935758
       nameHistory:
         - { period: "1939-", ru: Новоша́хтинск }
+    Kamensk-Shakhtinsky:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D0%BA-%D0%A8%D0%B0%D1%85%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9
+      latitude: 48.314715
+      longitude: 40.266517
+      nameHistory:
+        - { period: "-1927", ru: Ка́менская }
+        - { period: "1927-1929", ru: Ка́менск }
+        - { period: "1929-", ru: Ка́менск-Ша́хтинский }
   # Sevastopol:
 
   # Северо-Кавказский
@@ -848,6 +920,13 @@ Russia:
       longitude: 53.789421
       nameHistory:
         - { period: "-", ru: Сара́пул }
+    Glazov:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B7%D0%BE%D0%B2
+      latitude: 58.133599
+      longitude: 52.661155
+      nameHistory:
+        - { period: "-", ru: Гла́зов }
   Chuvashia:
     Cheboksary:
       wikipedia:
@@ -879,6 +958,13 @@ Russia:
       longitude: 56.798184
       nameHistory:
         - { period: "-", ru: Березники́ }
+    Solikamsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0%D0%BC%D1%81%D0%BA
+      latitude: 59.648366
+      longitude: 56.770955
+      nameHistory:
+        - { period: "-", ru: Солика́мск }
   Kirov Oblast:
     Kirov:
       wikipedia:
@@ -940,6 +1026,13 @@ Russia:
       longitude: 58.475320
       nameHistory:
         - { period: "1741-", ru: Орск }
+    Buzuluk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%B7%D1%83%D0%BB%D1%83%D0%BA
+      latitude: 52.783693
+      longitude: 52.258888
+      nameHistory:
+        - { period: "-", ru: Бузулу́к }
   Penza Oblast:
     Penza:
       wikipedia:
@@ -1236,6 +1329,13 @@ Russia:
       longitude: 90.492108
       nameHistory:
         - { period: "-", ru: А́чинск }
+    Kansk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D1%81%D0%BA
+      latitude: 56.217407
+      longitude: 95.715229
+      nameHistory:
+        - { period: "-", ru: Канск }
   Irkutsk Oblast:
     Irkutsk:
       wikipedia:
@@ -1299,6 +1399,13 @@ Russia:
         - { period: "-1922", ru: Кольчу́гино }
         - { period: "1922-1925", ru: Ле́нино }
         - { period: "1925-", ru: Ле́нинск-Кузне́цкий }
+    Kiselyovsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%81%D0%B5%D0%BB%D1%91%D0%B2%D1%81%D0%BA
+      latitude: 54.007532
+      longitude: 86.63996
+      nameHistory:
+        - { period: "1936-", ru: Киселёвск }
   Novosibirsk Oblast:
     Novosibirsk:
       wikipedia:
@@ -1438,6 +1545,13 @@ Russia:
       nameHistory:
         - { period: "1858-", ru: Благове́щенск }
   Magadan Oblast:
+    Magadan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D0%BD
+      latitude: 59.559525
+      longitude: 150.812810
+      nameHistory:
+        - { period: "1929-", ru: Магада́н }
   Sakhalin Oblast:
     Yuzhno-Sakhalinsk:
       wikipedia:
