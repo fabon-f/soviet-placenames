@@ -2913,18 +2913,18 @@ Kazakhstan:
         - { period: "1921-", ru: Алма́-Ата́, kk: Алматы }
         - { period: "1997-", ru: Алматы́ }
   Baikonur:
-  Nur-Sultan:
-    Nur-Sultan:
+  Astana:
+    Astana:
       wikipedia:
-        ru: https://ru.wikipedia.org/wiki/%D0%9D%D1%83%D1%80-%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D1%81%D1%82%D0%B0%D0%BD%D0%B0
       latitude: 51.151906
       longitude: 71.444518
       nameHistory:
         - { period: "-1961", ru: Акмо́линск, kk: Ақмолинск }
         - { period: "1961-1992", ru: Целиногра́д, kk: Целиноград }
         - { period: "1992-1998", ru: Акмола́, kk: Ақмола }
-        - { period: "1998-2019", ru: Астана́, kk: Астана }
-        - { period: "2019-", ru: Нур-Султа́н, kk: Нұр-Сұлтан }
+        - { period: "1998-2019, 2022-", ru: Астана́, kk: Астана }
+        - { period: "2019-2022", ru: Нур-Султа́н, kk: Нұр-Сұлтан }
   Abai Region:
     Semey:
       wikipedia:
