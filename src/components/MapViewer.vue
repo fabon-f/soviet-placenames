@@ -36,10 +36,7 @@ const createMarkersLayerGroup = (cities: City[]) => {
   const layer = featureGroup()
   for (const city of cities) {
     marker([city.latitude, city.longitude], { icon: markerIcon }).addTo(layer)
-      .bindPopup(city.name, {
-        // TODO: https://github.com/Leaflet/Leaflet/issues/8159
-        closeButton: false
-      })
+      .bindPopup(city.name)
   }
   return layer
 }
