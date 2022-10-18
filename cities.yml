@@ -70,6 +70,13 @@ Russia:
       nameHistory:
         - { period: "1871-1932", ru: Ива́ново-Вознесе́нск }
         - { period: "1932-", ru: Ива́ново }
+    Kineshma:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BD%D0%B5%D1%88%D0%BC%D0%B0
+      latitude: 57.442840
+      longitude: 42.149159
+      nameHistory:
+        - { period: "-", ru: Ки́нешма }
   Kaluga Oblast:
     Kaluga:
       wikipedia:
@@ -296,6 +303,29 @@ Russia:
       longitude: 37.483287
       nameHistory:
         - { period: "-", ru: Ло́бня }
+    Ivanteyevka:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D1%82%D0%B5%D0%B5%D0%B2%D0%BA%D0%B0
+      latitude: 55.971725
+      longitude: 37.924221
+      nameHistory:
+        - { period: "-1928", ru: Вантеево }
+        - { period: "1928-1938", ru: Иванте́евский }
+        - { period: "1938-", ru: Иванте́евка }
+    Klin:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 56.332446
+      longitude: 36.727406
+      nameHistory:
+        - { period: "-", ru: Клин }
+    Vidnoe:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5
+      latitude: 55.546630
+      longitude: 37.692039
+      nameHistory:
+        - { period: "-", ru: Ви́дное }
   Oryol Oblast:
     Oryol:
       wikipedia:
@@ -467,6 +497,13 @@ Russia:
         - { period: "1923-1929", ru: Троцк }
         - { period: "1929-1944", ru: Красногварде́йск }
         - { period: "1944-", ru: Га́тчина }
+    Murino:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D1%80%D0%B8%D0%BD%D0%BE
+      latitude: 60.046489
+      longitude: 30.454664
+      nameHistory:
+        - { period: "-", ru: Му́рино }
   Murmansk Oblast:
     Murmansk:
       wikipedia:
@@ -670,6 +707,13 @@ Russia:
         - { period: "-1927", ru: Ка́менская }
         - { period: "1927-1929", ru: Ка́менск }
         - { period: "1929-", ru: Ка́менск-Ша́хтинский }
+    Azov:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%B7%D0%BE%D0%B2
+      latitude: 47.099308
+      longitude: 39.418362
+      nameHistory:
+        - { period: "-", ru: Азо́в }
   # Sevastopol:
 
   # Северо-Кавказский
@@ -897,6 +941,13 @@ Russia:
         - { period: "1897-1928", ru: Паратск }
         - { period: "1928-1932", ru: Зелёный Дол }
         - { period: "1932-", ru: Зеленодо́льск }
+    Bugulma:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%B3%D1%83%D0%BB%D1%8C%D0%BC%D0%B0
+      latitude: 54.529610
+      longitude: 52.803842
+      nameHistory:
+        - { period: "-", ru: Бугульма́ }
   Udmurtia:
     Izhevsk:
       wikipedia:
@@ -965,6 +1016,13 @@ Russia:
       longitude: 56.770955
       nameHistory:
         - { period: "-", ru: Солика́мск }
+    Chaykovsky:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 56.769294
+      longitude: 54.122997
+      nameHistory:
+        - { period: "1955-", ru: Чайко́вский }
   Kirov Oblast:
     Kirov:
       wikipedia:
@@ -1033,6 +1091,14 @@ Russia:
       longitude: 52.258888
       nameHistory:
         - { period: "-", ru: Бузулу́к }
+    Novotroitsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D1%82%D1%80%D0%BE%D0%B8%D1%86%D0%BA
+      latitude: 51.200363
+      longitude: 58.310898
+      nameHistory:
+        - { period: "-1945", ru: Ново-Тро́ицк }
+        - { period: "1945-", ru: Новотро́ицк }
   Penza Oblast:
     Penza:
       wikipedia:
@@ -1041,6 +1107,14 @@ Russia:
       longitude: 44.998832
       nameHistory:
         - { period: "-", ru: Пе́нза }
+    Kuznetsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA
+      latitude: 53.112568
+      longitude: 46.601516
+      nameHistory:
+        - { period: "-1780", ru: Нары́шкино }
+        - { period: "1780-", ru: Кузне́цк }
   Samara Oblast:
     Samara:
       wikipedia:
@@ -1164,6 +1238,14 @@ Russia:
         - { period: "-1934, 1937-1939", ru: Наде́ждинск }
         - { period: "1934-1937", ru: Кабако́вск }
         - { period: "1939-", ru: Серо́в }
+    Novouralsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA
+      latitude: 57.246957
+      longitude: 60.096350
+      nameHistory:
+        - { period: "1954-1994", ru: Свердло́вск-44 }
+        - { period: "1994-", ru: Новоура́льск }
   Tyumen Oblast:
     Tyumen:
       wikipedia:
@@ -1336,6 +1418,14 @@ Russia:
       longitude: 95.715229
       nameHistory:
         - { period: "-", ru: Канск }
+    Zheleznogorsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA_(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9)
+      latitude: 56.252655
+      longitude: 93.536044
+      nameHistory:
+        - { period: "1954-1994", ru: Красноя́рск-26 }
+        - { period: "1994-", ru: Железного́рск }
   Irkutsk Oblast:
     Irkutsk:
       wikipedia:
@@ -1358,6 +1448,13 @@ Russia:
       longitude: 103.890671
       nameHistory:
         - { period: "-", ru: Анга́рск }
+    Ust-Ilimsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D1%82%D1%8C-%D0%98%D0%BB%D0%B8%D0%BC%D1%81%D0%BA
+      latitude: 57.952764
+      longitude: 102.742033
+      nameHistory:
+        - { period: "-", ru: Усть-Или́мск }
   Kemerovo Oblast:
     Kemerovo:
       wikipedia:
@@ -1406,6 +1503,13 @@ Russia:
       longitude: 86.63996
       nameHistory:
         - { period: "1936-", ru: Киселёвск }
+    Yurga:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%AE%D1%80%D0%B3%D0%B0
+      latitude: 55.714225
+      longitude: 84.918853
+      nameHistory:
+        - { period: "-", ru: Юрга́ }
   Novosibirsk Oblast:
     Novosibirsk:
       wikipedia:
