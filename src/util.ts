@@ -3,11 +3,12 @@ const romajiMap = {'ア':'a','イ':'i','ウ':'u','エ':'e','オ':'o','カ':'ka',
 const exceptionChars = '0123456789'
 
 export function katakanaToRomaji(str: string, strict = false) {
-  const chars = [...str.matchAll(/[アイウエオカ-ヂツ-モヤユヨラ-ロワヲンヴ][ァィゥェォャュョ]?|[ッー0-9]/g)].map(m => m[0])
+  const chars = [...str.matchAll(/[アイウエオカ-ヂツ-モヤユヨラ-ロワヲンヴ][ァィゥェォャュョ]?|[ッー0-9]/g)].map(m => m[0] ?? '')
   if (strict && chars.join('') !== str.replace(/[・＝]/g,'')) { throw new Error(str + chars.join('')) }
   return chars.map(c => {
     if (exceptionChars.includes(c)) { return c }
     if (romajiMap[c] !== undefined) { return romajiMap[c] }
-    return romajiMap[c[0]] + romajiMap[c[1]]
+    if (c.length !== 2) { throw new Error }
+    return romajiMap[c[0]!]! + romajiMap[c[1]!]!
   }).join('')
 }

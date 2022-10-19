@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { CityData } from '../types'
+import type { CityData, NameHistory } from '../types'
 defineProps<{ city: CityData }>()
 
 const opened = ref(false)
+
+function shouldShowHistory(nameHistory: NameHistory[]) {
+  if (nameHistory.length === 0) { return false }
+  if (nameHistory.length !== 1) { return true }
+  return nameHistory[0]!.period !== '-'
+}
 
 </script>
 
@@ -20,7 +26,7 @@ const opened = ref(false)
         <strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br/>
       </span>
     </p>
-    <table v-if="city.nameHistory.length !== 1 || city.nameHistory[0].period !== '-'">
+    <table v-if="shouldShowHistory(city.nameHistory)">
       <thead>
         <tr><th>期間</th><th>名前</th></tr>
       </thead>

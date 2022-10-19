@@ -3,22 +3,34 @@ import * as data from '../data/cities_data.ja.json'
 
 import Fuse from 'fuse.js'
 import { katakanaToRomaji } from './util'
+import type { CityData } from './types'
 
 const searchData = data.names.map(n => Object.assign({_search:katakanaToRomaji(n.name, true)},n))
 
 export const query = ref('')
 export const matchedCities = computed(() => {
+  const cities = data.cities as CityData[]
   const filteredData = country.value === '-' ? searchData : searchData.filter(n => {
+    const city = cities[n.cityId]
+    if (!city) {
+      console.warn(`City not found: ID ${n.cityId}`)
+      return false
+    }
     if (subject.value === '-') {
-      return data.cities[n.cityId].country === country.value
+      return city.country === country.value
     } else {
-      const city = data.cities[n.cityId]
+      if (!city) {
+        console.warn(`City not found: ID ${n.cityId}`)
+        return false
+      }
       return city.country === country.value && city.subject === subject.value
     }
   })
 
   if (query.value === '') {
-    return [...new Set(filteredData.map(c => data.cities[c.cityId]))]
+    const citiesSet = new Set(filteredData.map(c => cities[c.cityId]))
+    citiesSet.delete(undefined)
+    return [...citiesSet] as CityData[]
   }
 
   const fuse = new Fuse(filteredData, {
@@ -28,8 +40,10 @@ export const matchedCities = computed(() => {
 
   const result = fuse.search(katakanaToRomaji(query.value), {
     limit: 1500
-  }).map(c => data.cities[c.item.cityId])
-  return [...new Set(result)]
+  }).map(c => cities[c.item.cityId])
+  const resultSet = new Set(result)
+  resultSet.delete(undefined)
+  return [...new Set(result)] as CityData[]
 })
 export const country = ref('-')
 export const countryList = ['-'].concat(Object.keys(data.divisions))

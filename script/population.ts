@@ -15,8 +15,8 @@ export class PopulationData {
     for (const country of countries) {
       const populationFile = url.fileURLToPath(new URL(`../data/population/${country.toLowerCase()}.yml`, import.meta.url))
       const populationData = load(await fs.readFile(populationFile, 'utf-8'), { filename: populationFile }) as { [key: string]: { name: string, population: number }[] }
-      for (const subject in populationData) {
-        if (populationData[subject].some(c => typeof c.name !== 'string' || typeof c.population !== 'number')) {
+      for (const [subject, citiesPopulation] of Object.entries(populationData)) {
+        if (citiesPopulation.some(c => typeof c.name !== 'string' || typeof c.population !== 'number')) {
           throw new Error(`Invalid populatio data: ${country}, ${subject}`)
         }
       }
@@ -38,7 +38,9 @@ export class PopulationData {
   get(country: string, subject: string, city: string): number {
     city = city.replace(/\u0301/g, '')
     if (!this.data) { throw new Error('Population data not loaded') }
-    const result = this.data[country][subject].find(c => c.name.replace(/ё/g, 'е') === city.replace(/ё/g, 'е'))
+    if (!this.data[country]) { throw new Error(`Unknown country: ${country}`) }
+    if (!(this.data[country]![subject])) { throw new Error(`Unknown subject: ${subject}`) }
+    const result = this.data[country]![subject]!.find(c => c.name.replace(/ё/g, 'е') === city.replace(/ё/g, 'е'))
     if (result) {
       return result.population
     } else {
@@ -46,11 +48,11 @@ export class PopulationData {
       if (country === 'Kazakhstan') {
         const redirects = { 'Abai Region': 'East Kazakhstan Region', 'Jetisu Region': 'Almaty Region', 'Ulytau Region': 'Karaganda Region' } as Record<string, string>
         if (redirects[subject]) {
-          return this.get(country, redirects[subject], city)
+          return this.get(country, redirects[subject]!, city)
         }
         const redirect_cities = { 'Қонаев': 'Қапшағай', 'Степногорск': 'Степногор', 'Зашаған': 'Зачаганск' } as Record<string, string>
         if (redirect_cities[city]) {
-          return this.get(country, subject, redirect_cities[city])
+          return this.get(country, subject, redirect_cities[city]!)
         }
       }
       throw new Error(`City not found: ${city}`)

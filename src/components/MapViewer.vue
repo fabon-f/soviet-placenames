@@ -79,7 +79,7 @@ onMounted(() => {
   bound.north = firstBound.getNorth()
   bound.south = firstBound.getSouth()
 
-  newMap.on('move', e => {
+  newMap.on('move', _e => {
     const newBound = newMap.getBounds()
     bound.east = newBound.getEast()
     bound.west = newBound.getWest()

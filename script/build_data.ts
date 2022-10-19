@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import { load } from 'js-yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
-import { NameHistory, CityData, NameEntry } from '../src/types'
+import type { NameHistory, CityData, NameEntry } from '../src/types'
 import { PopulationData } from './population.js'
 
 const languageNames = {
@@ -50,17 +50,25 @@ type OriginalCitiesData = {
 }
 
 type TransliterationDictionary = {
+  en: {
+    [key: string]: string
+  }
   [key: string]: {
     [key: string]: string
   }
 }
 
 function getJapanese(orig: string, lang: string) {
-  if (transliterations[lang][orig.replaceAll('\u0301', '')]) {
-    return transliterations[lang][orig.replaceAll('\u0301', '')]
+  const dic = transliterations[lang]
+  if (!dic) { throw new Error(`Language unavailable: ${lang}`) }
+  const nameWithoutAccent = orig.replaceAll('\u0301', '')
+
+  const dicResult = dic[nameWithoutAccent]
+  if (dicResult !== undefined) {
+    return dicResult
   }
   if (lang !== 'ru') { throw new Error(`${lang}: ${orig}`); }
-  console.log(`${lang} ${orig.replaceAll('\u0301', '')}`)
+  console.log(`${lang} ${nameWithoutAccent}`)
   return transliterate(orig, lang)
 }
 
@@ -69,8 +77,15 @@ type OriginalNameHistory = {
   [key: string]: string
 }
 
+function getEndYearFromPeriod(period: string) {
+  const [start, end] = period.split('-')
+  if (start === undefined || end === undefined) { throw new Error(`Invalid period format: ${period}`) }
+  return end === '' ? null : parseInt(end)
+}
+
 function compareNameHistory(a: NameHistory, b: NameHistory) {
-  const [aPeriod, bPeriod] = [a,b].map(n => n.period.split('-')[1] === '' ? 100000 : parseInt(n.period.split('-')[1]))
+  const [aPeriod, bPeriod] = [a,b].map(n => getEndYearFromPeriod(n.period) ?? 100000)
+  if (!aPeriod || !bPeriod) { throw new Error('') }
   if (aPeriod < bPeriod) {
     return -1
   } else if (aPeriod > bPeriod) {
@@ -90,11 +105,14 @@ function convertCityData(cityData: OriginalCityData, names: string[], country: s
         period,
         langs: {}
       } as NameHistory
-      for (const lang in n) {
-        if (lang === 'period') { continue }
-        name.langs[languageNames[lang]] = {
-          original: n[lang],
-          name: transliterations[lang][n[lang].replaceAll("\u0301", "")]
+      // for (const lang in n) {
+      for (const [langCode, cityName] of Object.entries(n)) {
+        if (langCode === 'period') { continue }
+        const languageName = languageNames[langCode]
+        if (languageName === undefined) { throw new Error(`Unknown language identifier: ${langCode}`) }
+        name.langs[languageName] = {
+          original: cityName,
+          name: getJapanese(cityName, langCode)
         }
       }
       convertedNameHistory.nameHistory.push(name)
@@ -117,7 +135,9 @@ function convertCityData(cityData: OriginalCityData, names: string[], country: s
 function searchLatestName(nameHistory: OriginalNameHistory[], language: string) {
   const result = nameHistory.find(name => name.period.endsWith('-') && typeof name[language] === 'string');
   if (result === undefined) { throw new Error('') }
-  return result[language]
+  const name = result[language]
+  if (name === undefined) { throw new Error('') }
+  return name
 }
 
 
@@ -126,9 +146,10 @@ const transliterations = await (async () => {
   const transliterationDic = load(await fs.readFile(transliterationFile, 'utf-8'), { filename: transliterationFile }) as TransliterationDictionary
 
   // type check
-  for (const l in transliterationDic) {
-    for (const w in transliterationDic[l]) {
-      if (typeof transliterationDic[l][w] !== 'string') { throw new Error('Invalid') }
+  if (typeof transliterationDic.en !== 'object' || transliterationDic.en === null) { throw new Error('Invalid') }
+  for (const words of Object.values(transliterationDic)) {
+    for (const w in words) {
+      if (typeof words[w] !== 'string') { throw new Error('Invalid') }
     }
   }
   return transliterationDic
@@ -139,10 +160,10 @@ const cities = await (async () => {
   const cities = load(await fs.readFile(citiesFile, { encoding: 'utf-8'}), { filename: citiesFile }) as OriginalCitiesData
 
   // type check
-  for (const a in cities) {
-    for (const b in cities[a]) {
-      for (const c in cities[a][b]) {
-        const city = cities[a][b][c]
+  for (const [a, citiesA] of Object.entries(cities)) {
+    for (const [b, citiesB] of Object.entries(citiesA)) {
+      if (!citiesB) { continue }
+      for (const [c, city] of Object.entries(citiesB)) {
         if (typeof city.wikipedia !== 'object' || city.wikipedia === null) {
           throw new Error(`Wikipedia entry unavailable: ${a}, ${b}, ${c}`)
         }
@@ -173,7 +194,7 @@ const data = {
   divisions: {} as Record<string, string[]>
 }
 
-for (const country in cities) {
+for (const [country, subjects] of Object.entries(cities)) {
   const countryName = transliterations.en[country]
   if (typeof countryName !== 'string') { throw new Error('') }
   data.divisions[countryName] = []
@@ -195,34 +216,36 @@ for (const country in cities) {
     'Azerbaijan': ['ru', 'az']
   })[country] || ['ru']
 
-  for (const subject in cities[country]) {
+  for (const [subject, citiesInSubject] of Object.entries(subjects)) {
     const subjectName = transliterations.en[subject]
-    if (cities[country][subject] === null) { continue }
+    if (citiesInSubject === null) { continue }
     if (typeof subjectName !== 'string') {
       throw new Error(`Unavailable administrative division: ${subject}`)
     }
-    data.divisions[countryName].push(subjectName)
-    for (const city in cities[country][subject]) {
-      const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(cities[country][subject][city].nameHistory, lang), lang))
+    data.divisions[countryName]!.push(subjectName)
+    for (const [_city, originalCityData] of Object.entries(citiesInSubject)) {
+      const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(originalCityData.nameHistory, lang), lang))
       let population: number | undefined = undefined
       try {
-        const latestName = searchLatestName(cities[country][subject][city].nameHistory, populationData.dataLanguage(country))
+        const latestName = searchLatestName(originalCityData.nameHistory, populationData.dataLanguage(country))
         population = populationData.get(country, subject, latestName)
       } catch {}
       const cityId = data.cities.length
-      const cityData = convertCityData(cities[country][subject][city], latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName, cityId, population)
+      const cityData = convertCityData(originalCityData, latestNames.filter((name, index, self) => self.indexOf(name) === index), countryName, subjectName, cityId, population)
       data.cities.push(cityData)
 
-      for (const name of cities[country][subject][city].nameHistory) {
+      for (const name of originalCityData.nameHistory) {
         for (const period of name.period.split(/, ?/)) {
-          for (const language in name) {
+          for (const [language, originalName] of Object.entries(name)) {
             if (language === 'period') { continue }
+            const langName = languageNames[language]
+            if (langName === undefined) { throw new Error(`Unknown language: ${langName}`) }
             data.names.push({
               period,
               cityId,
-              name: getJapanese(name[language], language),
-              originalName: name[language],
-              lang: languageNames[language]
+              name: getJapanese(originalName, language),
+              originalName,
+              lang: langName
             })
           }
         }
@@ -238,7 +261,8 @@ function compareNameEntry(a: NameEntry, b: NameEntry) {
     return -1
   }
 
-  const [aPeriod, bPeriod] = [a,b].map(n => n.period.split('-')[1] === '' ? 100000 : parseInt(n.period.split('-')[1]))
+  const [aPeriod, bPeriod] = [a,b].map(n => getEndYearFromPeriod(n.period) ?? 100000)
+  if (!aPeriod || !bPeriod) { throw new Error('') }
   if (aPeriod < bPeriod) {
     return 1
   } else if (aPeriod > bPeriod) {

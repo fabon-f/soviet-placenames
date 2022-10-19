@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tsconfig/strictest': ^1.0.2
   '@types/js-yaml': ^4.0.5
   '@types/leaflet': ^1.9.0
   '@types/node': 18.8.0
@@ -23,6 +24,7 @@ dependencies:
   vue: 3.2.41
 
 devDependencies:
+  '@tsconfig/strictest': 1.0.2
   '@types/js-yaml': 4.0.5
   '@types/leaflet': 1.9.0
   '@types/node': 18.8.0
@@ -116,6 +118,10 @@ packages:
 
   /@tsconfig/node16/1.0.3:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
+    dev: true
+
+  /@tsconfig/strictest/1.0.2:
+    resolution: {integrity: sha512-IRKlC8cnP7zMz1SDBjyIVyPapkEGWLZ6wkF6Z8T+xU80P9sO5uGXlIUvtzjx+7ehPJRWxkB6CeIDwUfyqNtYkQ==}
     dev: true
 
   /@types/geojson/7946.0.10:
