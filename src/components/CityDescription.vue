@@ -10,7 +10,6 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
   if (nameHistory.length !== 1) { return true }
   return nameHistory[0]!.period !== '-'
 }
-
 </script>
 
 <template>
