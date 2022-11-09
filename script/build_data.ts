@@ -31,7 +31,9 @@ const languageNames = {
   'cv': 'チュヴァシ語',
   'sah': 'サハ語',
   'os': 'オセット語',
-  'tyv': 'トゥヴァ語'
+  'tt': 'タタール語',
+  'tyv': 'トゥヴァ語',
+  'kjh': 'ハカス語'
 } as { [key: string]: string }
 
 type OriginalCityData = {

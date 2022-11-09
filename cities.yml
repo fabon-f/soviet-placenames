@@ -326,6 +326,15 @@ Russia:
       longitude: 37.692039
       nameHistory:
         - { period: "-", ru: Ви́дное }
+    Dubna:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%94%D1%83%D0%B1%D0%BD%D0%B0
+      latitude: 56.743766
+      longitude: 37.178647
+      nameHistory:
+        - { period: "-1960", ru: Ива́ньково }
+        - { period: "1954-1960", ru: Дубна́ }
+        - { period: "1960-", ru: Дубна́ }
   Oryol Oblast:
     Oryol:
       wikipedia:
@@ -504,6 +513,13 @@ Russia:
       longitude: 30.454664
       nameHistory:
         - { period: "-", ru: Му́рино }
+    Vsevolozhsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%B2%D0%BE%D0%BB%D0%BE%D0%B6%D1%81%D0%BA
+      latitude: 60.016708
+      longitude: 30.647189
+      nameHistory:
+        - { period: "-", ru: Все́воложск }
   Murmansk Oblast:
     Murmansk:
       wikipedia:
@@ -613,6 +629,21 @@ Russia:
       longitude: 38.275255
       nameHistory:
         - { period: "-", ru: Ейск }
+    Kropotkin:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%BE%D0%BF%D0%BE%D1%82%D0%BA%D0%B8%D0%BD_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 45.436496
+      longitude: 40.572045
+      nameHistory:
+        - { period: "-1921", ru: Романо́вский }
+        - { period: "1921-", ru: Кропо́ткин }
+    Gelendzhik:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BB%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8%D0%BA
+      latitude: 44.581967
+      longitude: 38.063680
+      nameHistory:
+        - { period: "1896-", ru: Геленджи́к }
   Astrakhan Oblast:
     Astrakhan:
       wikipedia:
@@ -947,7 +978,14 @@ Russia:
       latitude: 54.529610
       longitude: 52.803842
       nameHistory:
-        - { period: "-", ru: Бугульма́ }
+        - { period: "-", ru: Бугульма́, tt: Алабуга }
+    Elabuga:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%95%D0%BB%D0%B0%D0%B1%D1%83%D0%B3%D0%B0
+      latitude: 55.759011
+      longitude: 52.049082
+      nameHistory:
+        - { period: "-", ru: Ела́буга }
   Udmurtia:
     Izhevsk:
       wikipedia:
@@ -1068,6 +1106,13 @@ Russia:
         - { period: "1960-1966", ru: Арзама́с-75 }
         - { period: "1966-1994", ru: Арзама́с-16 }
         - { period: "1995-", ru: Саро́в }
+    Bor:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80_(%D0%9D%D0%B8%D0%B6%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C)
+      latitude: 56.358270
+      longitude: 44.073319
+      nameHistory:
+        - { period: "-", ru: Бор }
   Orenburg Oblast:
     Orenburg:
       wikipedia:
@@ -1170,6 +1215,13 @@ Russia:
       longitude: 47.782768
       nameHistory:
         - { period: "-", ru: Балако́во }
+    Barashov:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%B0%D1%88%D0%BE%D0%B2_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)
+      latitude: 51.544411
+      longitude: 43.177582
+      nameHistory:
+        - { period: "-", ru: Балашо́в }
   Ulyanovsk Oblast:
     Ulyanovsk:
       wikipedia:
@@ -1246,6 +1298,14 @@ Russia:
       nameHistory:
         - { period: "1954-1994", ru: Свердло́вск-44 }
         - { period: "1994-", ru: Новоура́льск }
+    Verkhnyaya Pyshma:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D1%85%D0%BD%D1%8F%D1%8F_%D0%9F%D1%8B%D1%88%D0%BC%D0%B0
+      latitude: 56.975261
+      longitude: 60.573406
+      nameHistory:
+        - { period: "-1946", ru: Пышма́ }
+        - { period: "1946-", ru: Ве́рхняя Пышма́ }
   Tyumen Oblast:
     Tyumen:
       wikipedia:
@@ -1297,6 +1357,15 @@ Russia:
       longitude: 61.617915
       nameHistory:
         - { period: "1933-", ru: Копе́йск }
+    Ozyorsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9E%D0%B7%D1%91%D1%80%D1%81%D0%BA_(%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C)
+      latitude: 55.759344
+      longitude: 60.706709
+      nameHistory:
+        - { period: "1956-1966", ru: Челя́бинск-40 }
+        - { period: "1966-1994", ru: Челя́бинск-65 }
+        - { period: "1994-", ru: Озёрск }
   Khanty-Mansi Autonomous Okrug:
     Surgut:
       wikipedia:
@@ -1365,6 +1434,13 @@ Russia:
       nameHistory:
         - { period: "-1931", ru: Усть-Абака́нское }
         - { period: "1931-", ru: Абака́н }
+    Chernogorsk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA
+      latitude: 53.827053
+      longitude: 91.305970
+      nameHistory:
+        - { period: "1936-", ru: Черного́рск, kjh: Харатас }
   Altai Krai:
     Barnaul:
       wikipedia:
@@ -1389,6 +1465,14 @@ Russia:
         - { period: "-1922", ru: Рубцово }
         - { period: "1922-1927", ru: Рубцо́в }
         - { period: "1927-", ru: Рубцо́вск }
+    Novoaltaysk:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B0%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA
+      latitude: 53.420861
+      longitude: 83.931496
+      nameHistory:
+        - { period: "-1962", ru: Чесноковка }
+        - { period: "1962-", ru: Новоалта́йск }
   Krasnoyarsk Krai:
     Krasnoyarsk:
       wikipedia:
@@ -1455,6 +1539,14 @@ Russia:
       longitude: 102.742033
       nameHistory:
         - { period: "-", ru: Усть-Или́мск }
+    Usolye-Sibirskoye:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D0%BE%D0%BB%D1%8C%D0%B5-%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%BE%D0%B5
+      latitude: 52.756685
+      longitude: 103.638736
+      nameHistory:
+        - { period: "-1940", ru: Усо́лье }
+        - { period: "1940-", ru: Усо́лье-Сиби́рское }
   Kemerovo Oblast:
     Kemerovo:
       wikipedia:
