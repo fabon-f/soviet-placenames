@@ -1,5 +1,6 @@
 # source: https://stat.gov.kz/api/getFile/?docId=ESTAT413663&lang=ru
 ---
+_year: 2020
 Akmola Region:
 - name: Көкшетау
   population: 148550

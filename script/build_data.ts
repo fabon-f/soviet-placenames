@@ -97,7 +97,7 @@ function compareNameHistory(a: NameHistory, b: NameHistory) {
   }
 }
 
-function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number, population?: number): CityData {
+function convertCityData(cityData: OriginalCityData, names: string[], country: string, subject: string, cityId: number, population?: { count: number, year: number }): CityData {
   const convertedNameHistory = {
     nameHistory: [] as NameHistory[]
   }
@@ -227,7 +227,7 @@ for (const [country, subjects] of Object.entries(cities)) {
     data.divisions[countryName]!.push(subjectName)
     for (const [_city, originalCityData] of Object.entries(citiesInSubject)) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(originalCityData.nameHistory, lang), lang))
-      let population: number | undefined = undefined
+      let population: { year: number, count: number } | undefined = undefined
       try {
         const latestName = searchLatestName(originalCityData.nameHistory, populationData.dataLanguage(country))
         population = populationData.get(country, subject, latestName)

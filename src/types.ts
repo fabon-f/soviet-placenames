@@ -16,7 +16,7 @@ export type CityData = {
   nameHistory: NameHistory[]
   latitude: number
   longitude: number
-  population: number | undefined
+  population: { count: number, year: number } | undefined
 }
 
 export type NameEntry = {

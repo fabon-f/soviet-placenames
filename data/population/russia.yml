@@ -1,5 +1,6 @@
 # source: https://rosstat.gov.ru/storage/mediabank/chisl_%D0%9C%D0%9E_Site_01-01-2022.xlsx
 ---
+_year: 2021
 Adygea:
 - name: Майкоп
   population: 139076

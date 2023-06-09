@@ -19,7 +19,7 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
     <p>{{ `${city.country}、${city.subject}` }}</p>
   </div>
   <div v-show="opened">
-    <p v-if="city.population">人口: {{ city.population }}人</p>
+    <p v-if="city.population">人口: {{ city.population.count }}人 ({{ city.population.year }}年)</p>
     <p v-if="city.nameHistory.find(n => n.period === '-')">
       <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs">
         <strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br/>

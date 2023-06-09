@@ -1,5 +1,6 @@
 # source: https://ukrstat.gov.ua/druk/publicat/kat_u/2022/zb/05/zb_%D0%A1huselnist.xlsx
 ---
+_year: 2021
 Vinnytsia Oblast:
 - name: Вінниця
   population: 369739
