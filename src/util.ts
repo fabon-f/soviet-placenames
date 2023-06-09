@@ -12,3 +12,7 @@ export function katakanaToRomaji(str: string, strict = false) {
     return romajiMap[c[0]!]! + romajiMap[c[1]!]!
   }).join('')
 }
+
+export function formatNumberWithComma(num: number) {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+}
