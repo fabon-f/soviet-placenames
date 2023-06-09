@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --clearScreen false & ts-node-esm script/build_data.ts && chokidar data/population \"*.yml\" script -c \"ts-node-esm script/build_data.ts\"",
-    "build": "rimraf \"data/*.json\" dist && ts-node-esm script/build_data.ts && vue-tsc --noEmit && vite build",
+    "build": "rimraf \"data/*.json\" dist && node --loader=ts-node/esm script/build_data.ts && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
