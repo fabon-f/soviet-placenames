@@ -16,7 +16,7 @@ const citiesGeoData = computed(() => matchedCities.value.map(c => {
   }
 }))
 
-const mapOpened = ref(false)
+const mapOpened = ref(true)
 </script>
 
 <template>
