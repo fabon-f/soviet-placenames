@@ -52,7 +52,10 @@ onUpdated(() => {
     map.invalidateSize()
   }
   if (props.show) {
-    map.fitBounds(markersLayer.getBounds(), { maxZoom: 7 })
+    const newBound = markersLayer.getBounds()
+    if (newBound.isValid()) {
+      map.fitBounds(newBound, { maxZoom: 7 })
+    }
   }
   shown = props.show
 })
