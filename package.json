@@ -35,6 +35,8 @@
     "vue-tsc": "^1.8.25"
   },
   "dependencies": {
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "@vueuse/core": "^10.7.0",
     "fuse.js": "^7.0.0",
     "leaflet": "^1.9.4",
     "vue": "^3.3.11"
