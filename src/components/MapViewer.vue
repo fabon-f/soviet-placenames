@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useTemplateRef } from 'vue'
 import { LMap, LTileLayer, LFeatureGroup, LMarker, LPopup } from '@vue-leaflet/vue-leaflet'
 import { useDebounceFn } from '@vueuse/core'
 import { icon } from 'leaflet'
@@ -24,8 +24,8 @@ const markerIcon = icon({
   shadowSize: [41, 41]
 })
 
-const mapRef = ref<InstanceType<typeof LMap> | null>(null)
-const layerRef = ref<InstanceType<typeof LFeatureGroup> | null>(null)
+const mapRef = useTemplateRef('map-ref')
+const layerRef = useTemplateRef('layer-ref')
 
 const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 const attribution = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -48,10 +48,10 @@ const handleMarkerLayerUpdate = useDebounceFn(() => {
 
 <template>
   <div v-show="show">
-    <LMap ref="mapRef" :center="[58, 100]" :zoom="3">
+    <LMap ref="map-ref" :center="[58, 100]" :zoom="3">
       <LTileLayer :url="tileUrl" :attribution="attribution"></LTileLayer>
       <!-- markers -->
-      <LFeatureGroup ref="layerRef" @layeradd="handleMarkerLayerUpdate" @layerremove="handleMarkerLayerUpdate">
+      <LFeatureGroup ref="layer-ref" @layeradd="handleMarkerLayerUpdate" @layerremove="handleMarkerLayerUpdate">
         <template v-for="city in cities">
           <LMarker :latLng="[city.latitude, city.longitude]" :icon="markerIcon">
             <LPopup>{{ city.name }}</LPopup>
