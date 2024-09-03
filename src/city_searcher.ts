@@ -1,5 +1,5 @@
 import { ref, computed, watch } from 'vue'
-import * as data from '../data/cities_data.ja.json'
+import data from '../data/cities_data.ja.json' with { type: 'json' }
 
 import Fuse from 'fuse.js'
 import { katakanaToRomaji } from './util'
