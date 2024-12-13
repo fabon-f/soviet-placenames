@@ -21,22 +21,22 @@
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.5",
     "@types/js-yaml": "^4.0.9",
-    "@types/leaflet": "^1.9.14",
-    "@types/node": "22.10.0",
+    "@types/leaflet": "^1.9.15",
+    "@types/node": "22.10.2",
     "@vitejs/plugin-vue": "^5.2.1",
-    "better-typescript-lib": "^2.9.0",
+    "better-typescript-lib": "^2.10.0",
     "chokidar-cli": "^3.0.0",
     "js-yaml": "^4.1.0",
     "rimraf": "^6.0.1",
     "tensha": "^0.1.1",
     "tsx": "^4.19.2",
-    "typescript": "^5.6.3",
-    "vite": "^6.0.0",
+    "typescript": "5.6.3",
+    "vite": "^6.0.3",
     "vue-tsc": "^2.1.10"
   },
   "dependencies": {
     "@vue-leaflet/vue-leaflet": "^0.10.1",
-    "@vueuse/core": "^11.3.0",
+    "@vueuse/core": "^12.0.0",
     "fuse.js": "^7.0.0",
     "leaflet": "^1.9.4",
     "vue": "^3.5.13"
