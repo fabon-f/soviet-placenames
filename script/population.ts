@@ -1,20 +1,16 @@
 import fs from 'node:fs/promises'
-import { parse } from 'yaml'
+import YAML from 'yaml'
 import * as url from 'url'
+import * as v from 'valibot'
 
-type PopulationFileContent = Record<string, { name: string, population: number }[]> & {
-  _year: number
-}
+const PopulationFileContentSchema = v.objectWithRest(
+  {
+    _year: v.number()
+  },
+  v.array(v.object({ name: v.string(), population: v.number() }))
+)
 
-function extractPurePopulationData(data: PopulationFileContent) {
-  const res = {} as Record<string, { name: string, population: number }[]>
-  for (const [key, value] of Object.entries(data)) {
-    if (typeof value !== 'number') {
-      res[key] = value
-    }
-  }
-  return res
-}
+type PopulationFileContent = v.InferOutput<typeof PopulationFileContentSchema>
 
 export class PopulationData {
   data: {
@@ -28,12 +24,7 @@ export class PopulationData {
     this.data = {}
     for (const country of countries) {
       const populationFile = url.fileURLToPath(new URL(`../data/population/${country.toLowerCase()}.yml`, import.meta.url))
-      const populationData = parse(await fs.readFile(populationFile, 'utf-8')) as PopulationFileContent
-      for (const [subject, citiesPopulation] of Object.entries(extractPurePopulationData(populationData))) {
-        if (citiesPopulation.some(c => typeof c.name !== 'string' || typeof c.population !== 'number')) {
-          throw new Error(`Invalid populatio data: ${country}, ${subject}`)
-        }
-      }
+      const populationData = v.parse(PopulationFileContentSchema, YAML.parse(await fs.readFile(populationFile, 'utf-8')))
       this.data[country] = populationData
     }
   }

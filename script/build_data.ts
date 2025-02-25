@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises'
-import { parse } from 'yaml'
+import YAML from 'yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
+import * as v from 'valibot'
 import type { NameHistory, CityData, NameEntry } from '../src/types'
 import { PopulationData } from './population.js'
 
@@ -38,29 +39,32 @@ const languageNames = {
   'sv': 'スウェーデン語'
 } as { [key: string]: string }
 
-type OriginalCityData = {
-  wikipedia: { [key: string]: string }
-  latitude: number
-  longitude: number
-  nameHistory: OriginalNameHistory[]
-}
+const OriginalNameHistorySchema = v.objectWithRest({
+  period: v.string()
+}, v.string())
 
-type OriginalCitiesData = {
-  [key: string]: {
-    [key: string]: {
-      [key: string]: OriginalCityData
-    }
-  }
-}
+type OriginalNameHistory = v.InferOutput<typeof OriginalNameHistorySchema>
 
-type TransliterationDictionary = {
-  en: {
-    [key: string]: string
-  }
-  [key: string]: {
-    [key: string]: string
-  }
-}
+const OriginalCityDataSchema = v.object({
+  wikipedia: v.record(v.string(), v.string()),
+  latitude: v.number(),
+  longitude: v.number(),
+  nameHistory: v.array(OriginalNameHistorySchema)
+})
+
+type OriginalCityData = v.InferOutput<typeof OriginalCityDataSchema>
+
+const OriginalCitiesDataSchema = v.record(
+  v.string(),
+  v.record(
+    v.string(),
+    v.union([v.record(v.string(), OriginalCityDataSchema), v.null()])
+  )
+)
+
+const TransliterationDictionarySchema = v.objectWithRest({
+  en: v.record(v.string(), v.string())
+}, v.record(v.string(), v.string()))
 
 function getJapanese(orig: string, lang: string) {
   const dic = transliterations[lang]
@@ -74,11 +78,6 @@ function getJapanese(orig: string, lang: string) {
   if (lang !== 'ru') { throw new Error(`${lang}: ${orig}`); }
   console.log(`${lang} ${nameWithoutAccent}`)
   return transliterate(orig, lang)
-}
-
-type OriginalNameHistory = {
-  period: string,
-  [key: string]: string
 }
 
 function getEndYearFromPeriod(period: string) {
@@ -147,46 +146,18 @@ function searchLatestName(nameHistory: OriginalNameHistory[], language: string) 
 
 const transliterations = await (async () => {
   const transliterationFile = url.fileURLToPath(new URL('../transliteration_ja.yml', import.meta.url))
-  const transliterationDic = parse(await fs.readFile(transliterationFile, 'utf-8')) as TransliterationDictionary
-
-  // type check
-  if (typeof transliterationDic.en !== 'object' || transliterationDic.en === null) { throw new Error('Invalid') }
-  for (const words of Object.values(transliterationDic)) {
-    for (const w in words) {
-      if (typeof words[w] !== 'string') { throw new Error('Invalid') }
-    }
-  }
-  return transliterationDic
+  return v.parse(
+    TransliterationDictionarySchema,
+    YAML.parse(await fs.readFile(transliterationFile, 'utf-8'))
+  )
 }) ()
 
 const cities = await (async () => {
   const citiesFile = url.fileURLToPath(new URL('../cities.yml', import.meta.url))
-  const cities = parse(await fs.readFile(citiesFile, { encoding: 'utf-8'})) as OriginalCitiesData
-
-  // type check
-  for (const [a, citiesA] of Object.entries(cities)) {
-    for (const [b, citiesB] of Object.entries(citiesA)) {
-      if (!citiesB) { continue }
-      for (const [c, city] of Object.entries(citiesB)) {
-        if (typeof city.wikipedia !== 'object' || city.wikipedia === null) {
-          throw new Error(`Wikipedia entry unavailable: ${a}, ${b}, ${c}`)
-        }
-        if (Object.entries(city.wikipedia).some(n => typeof n[0] !== 'string' || typeof n[1] !== 'string')) {
-          throw new Error(`Invalid Wikipedia entry: ${a}, ${b}, ${c}`)
-        }
-        if (typeof city.latitude !== 'number') {
-          throw new Error(`Invalid latitude: ${a}, ${b}, ${c}`)
-        }
-        if (typeof city.longitude !== 'number') {
-          throw new Error(`Invalid longitude: ${a}, ${b}, ${c}`)
-        }
-        if (city.nameHistory.some(n => Object.keys(n).every(k => typeof n[k] !== 'string'))) {
-          throw new Error('Invalid')
-        }
-      }
-    }
-  }
-  return cities
+  return v.parse(
+    OriginalCitiesDataSchema,
+    YAML.parse(await fs.readFile(citiesFile, { encoding: 'utf-8'}))
+  )
 }) ()
 
 const populationData = new PopulationData()
