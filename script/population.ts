@@ -44,23 +44,24 @@ export class PopulationData {
     city = city.replace(/\u0301/g, '')
     if (!this.data) { throw new Error('Population data not loaded') }
     if (!this.data[country]) { throw new Error(`Unknown country: ${country}`) }
-    if (!(this.data[country]![subject])) { throw new Error(`Unknown subject: ${subject}`) }
-    const result = this.data[country]![subject]!.find(c => c.name.replace(/ё/g, 'е') === city.replace(/ё/g, 'е'))
+    if (!(this.data[country][subject])) { throw new Error(`Unknown subject: ${subject}`) }
+    const result = this.data[country][subject].find(c => c.name.replace(/ё/g, 'е') === city.replace(/ё/g, 'е'))
     if (result) {
       return {
         count: result.population,
-        year: this.data[country]!._year
+        year: this.data[country]._year
       }
     } else {
       // workaround for Kazakhstan
       if (country === 'Kazakhstan') {
         const redirects = { 'Abai Region': 'East Kazakhstan Region', 'Jetisu Region': 'Almaty Region', 'Ulytau Region': 'Karaganda Region' } as Record<string, string>
         if (redirects[subject]) {
-          return this.get(country, redirects[subject]!, city)
+          return this.get(country, redirects[subject], city)
         }
         const redirect_cities = { 'Қонаев': 'Қапшағай', 'Степногорск': 'Степногор', 'Зашаған': 'Зачаганск' } as Record<string, string>
-        if (redirect_cities[city]) {
-          return this.get(country, subject, redirect_cities[city]!)
+        const redirected_city = redirect_cities[city]
+        if (redirected_city) {
+          return this.get(country, subject, redirected_city)
         }
       }
       throw new Error(`City not found: ${city}`)

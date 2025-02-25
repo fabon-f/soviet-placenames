@@ -108,7 +108,6 @@ function convertCityData(cityData: OriginalCityData, names: string[], country: s
         period,
         langs: {}
       } as NameHistory
-      // for (const lang in n) {
       for (const [langCode, cityName] of Object.entries(n)) {
         if (langCode === 'period') { continue }
         const languageName = languageNames[langCode]
@@ -197,7 +196,7 @@ for (const [country, subjects] of Object.entries(cities)) {
     if (typeof subjectName !== 'string') {
       throw new Error(`Unavailable administrative division: ${subject}`)
     }
-    data.divisions[countryName]!.push(subjectName)
+    data.divisions[countryName].push(subjectName)
     for (const [_city, originalCityData] of Object.entries(citiesInSubject)) {
       const latestNames = primaryLanguages.map(lang => getJapanese(searchLatestName(originalCityData.nameHistory, lang), lang))
       let population: { year: number, count: number } | undefined = undefined
