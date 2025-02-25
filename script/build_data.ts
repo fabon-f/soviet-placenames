@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises'
-import { load } from 'js-yaml'
+import { parse } from 'yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
 import type { NameHistory, CityData, NameEntry } from '../src/types'
@@ -147,7 +147,7 @@ function searchLatestName(nameHistory: OriginalNameHistory[], language: string) 
 
 const transliterations = await (async () => {
   const transliterationFile = url.fileURLToPath(new URL('../transliteration_ja.yml', import.meta.url))
-  const transliterationDic = load(await fs.readFile(transliterationFile, 'utf-8'), { filename: transliterationFile }) as TransliterationDictionary
+  const transliterationDic = parse(await fs.readFile(transliterationFile, 'utf-8')) as TransliterationDictionary
 
   // type check
   if (typeof transliterationDic.en !== 'object' || transliterationDic.en === null) { throw new Error('Invalid') }
@@ -161,7 +161,7 @@ const transliterations = await (async () => {
 
 const cities = await (async () => {
   const citiesFile = url.fileURLToPath(new URL('../cities.yml', import.meta.url))
-  const cities = load(await fs.readFile(citiesFile, { encoding: 'utf-8'}), { filename: citiesFile }) as OriginalCitiesData
+  const cities = parse(await fs.readFile(citiesFile, { encoding: 'utf-8'})) as OriginalCitiesData
 
   // type check
   for (const [a, citiesA] of Object.entries(cities)) {

@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises'
-import { load } from 'js-yaml'
+import { parse } from 'yaml'
 import * as url from 'url'
 
 type PopulationFileContent = Record<string, { name: string, population: number }[]> & {
@@ -28,7 +28,7 @@ export class PopulationData {
     this.data = {}
     for (const country of countries) {
       const populationFile = url.fileURLToPath(new URL(`../data/population/${country.toLowerCase()}.yml`, import.meta.url))
-      const populationData = load(await fs.readFile(populationFile, 'utf-8'), { filename: populationFile }) as PopulationFileContent
+      const populationData = parse(await fs.readFile(populationFile, 'utf-8')) as PopulationFileContent
       for (const [subject, citiesPopulation] of Object.entries(extractPurePopulationData(populationData))) {
         if (citiesPopulation.some(c => typeof c.name !== 'string' || typeof c.population !== 'number')) {
           throw new Error(`Invalid populatio data: ${country}, ${subject}`)
