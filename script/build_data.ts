@@ -6,6 +6,13 @@ import * as v from 'valibot'
 import type { NameHistory, CityData, NameEntry } from '../src/types'
 import { PopulationData } from './population.js'
 
+const argv = process.argv.slice(2)
+if (argv.includes('--clean')) {
+  for await (const json of fs.glob('data/*.json')) {
+    await fs.rm(json)
+  }
+}
+
 const languageNames = {
   'ru': 'ロシア語',
   'uk': 'ウクライナ語',

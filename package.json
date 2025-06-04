@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --clearScreen false & node --import tsx script/build_data.ts && chokidar data/population \"*.yml\" script -c \"node --import tsx script/build_data.ts\" &",
-    "build": "rimraf \"data/*.json\" dist && node --import tsx script/build_data.ts && vue-tsc --noEmit && vite build",
+    "build": "node --import tsx script/build_data.ts --clean && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +25,6 @@
     "@vitejs/plugin-vue": "^5.2.4",
     "better-typescript-lib": "^2.11.0",
     "chokidar-cli": "^3.0.0",
-    "rimraf": "^6.0.1",
     "tensha": "^0.1.1",
     "tsx": "^4.19.4",
     "typescript": "5.8.3",
