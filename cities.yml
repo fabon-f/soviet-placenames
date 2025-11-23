@@ -1836,7 +1836,23 @@ Russia:
         - { period: "1905-1946", ja: 豊原, ru: Тоёхара }
         - { period: "1946-", ru: Ю́жно-Сахали́нск }
   Jewish Autonomous Oblast:
+    Birobidzhan:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%80%D0%BE%D0%B1%D0%B8%D0%B4%D0%B6%D0%B0%D0%BD
+      latitude: 48.790228
+      longitude: 132.931934
+      nameHistory:
+        - { period: "-1934", ru: Биро-Биджан }
+        - { period: "1934-", ru: Биробиджа́н }
   Chukotka Autonomous Okrug:
+    Anadyr:
+      wikipedia:
+        ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%B4%D1%8B%D1%80%D1%8C
+      latitude: 64.731808
+      longitude: 177.509369
+      nameHistory:
+        - { period: "-1924", ru: Ново-Марии́нск }
+        - { period: "1924-", ru: Ана́дырь }
 
 Ukraine:
   Vinnytsia Oblast:
