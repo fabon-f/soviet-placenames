@@ -1,3 +1,6 @@
-onlyBuiltDependencies:
-  - esbuild
-  - rolldown
+shellEmulator: true
+publicHoistPattern:
+  - '@typescript/*'
+allowBuilds:
+  esbuild: true
+  rolldown: true
