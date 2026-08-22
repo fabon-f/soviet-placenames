@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@vue-leaflet/vue-leaflet':
         specifier: ^0.10.1
-        version: 0.10.1(@types/leaflet@1.9.22)(leaflet@1.9.4)(typescript@5.9.3)
+        version: 0.10.1(@types/leaflet@1.9.22)(leaflet@1.9.4)(typescript@6.0.3)
       '@vueuse/core':
         specifier: ^14.4.0
-        version: 14.4.0(vue@3.5.41(typescript@5.9.3))
+        version: 14.4.0(vue@3.5.41(typescript@6.0.3))
       fuse.js:
         specifier: ^7.5.0
         version: 7.5.0
@@ -22,7 +22,7 @@ importers:
         version: 1.9.4
       vue:
         specifier: ^3.5.41
-        version: 3.5.41(typescript@5.9.3)
+        version: 3.5.41(typescript@6.0.3)
     devDependencies:
       '@tsconfig/strictest':
         specifier: ^2.0.8
@@ -35,13 +35,13 @@ importers:
         version: 26.2.0
       '@vitejs/plugin-vue':
         specifier: ^6.0.8
-        version: 6.0.8(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3))
+        version: 6.0.8(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.41(typescript@6.0.3))
       '@vue/tsconfig':
         specifier: ^0.9.1
-        version: 0.9.1(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3))
+        version: 0.9.1(typescript@6.0.3)(vue@3.5.41(typescript@6.0.3))
       better-typescript-lib:
         specifier: ^2.12.0
-        version: 2.12.0(typescript@5.9.3)
+        version: 2.12.0(typescript@6.0.3)
       chokidar-cli:
         specifier: ^3.0.0
         version: 3.0.0
@@ -52,17 +52,17 @@ importers:
         specifier: ^4.23.12
         version: 4.23.12
       typescript:
-        specifier: 5.9.3
-        version: 5.9.3
+        specifier: 6.0.3
+        version: 6.0.3
       valibot:
         specifier: ^1.4.2
-        version: 1.4.2(typescript@5.9.3)
+        version: 1.4.2(typescript@6.0.3)
       vite:
         specifier: ^8.2.2
         version: 8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0)
       vue-tsc:
         specifier: ^3.3.11
-        version: 3.3.11(typescript@5.9.3)
+        version: 3.3.11(typescript@6.0.3)
       yaml:
         specifier: ^2.9.0
         version: 2.9.0
@@ -845,8 +845,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -957,73 +957,73 @@ snapshots:
       '@babel/helper-string-parser': 7.29.7
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@better-typescript-lib/decorators@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/decorators@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/dom@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/dom@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2015@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2015@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2016@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2016@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2017@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2017@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2018@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2018@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2019@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2019@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2020@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2020@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2021@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2021@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2022@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2022@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2023@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2023@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es2024@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es2024@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es5@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es5@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/es6@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/es6@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/esnext@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/esnext@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/scripthost@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/scripthost@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@better-typescript-lib/webworker@2.12.0(typescript@5.9.3)':
+  '@better-typescript-lib/webworker@2.12.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   '@esbuild/aix-ppc64@0.28.2':
     optional: true
@@ -1168,11 +1168,11 @@ snapshots:
 
   '@types/web-bluetooth@0.0.21': {}
 
-  '@vitejs/plugin-vue@6.0.8(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.8(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.41(typescript@6.0.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0)
-      vue: 3.5.41(typescript@5.9.3)
+      vue: 3.5.41(typescript@6.0.3)
 
   '@volar/language-core@2.4.28':
     dependencies:
@@ -1180,18 +1180,18 @@ snapshots:
 
   '@volar/source-map@2.4.28': {}
 
-  '@volar/typescript@2.4.28(typescript@5.9.3)':
+  '@volar/typescript@2.4.28(typescript@6.0.3)':
     dependencies:
       '@volar/language-core': 2.4.28
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@vue-leaflet/vue-leaflet@0.10.1(@types/leaflet@1.9.22)(leaflet@1.9.4)(typescript@5.9.3)':
+  '@vue-leaflet/vue-leaflet@0.10.1(@types/leaflet@1.9.22)(leaflet@1.9.4)(typescript@6.0.3)':
     dependencies:
       leaflet: 1.9.4
-      vue: 3.5.41(typescript@5.9.3)
+      vue: 3.5.41(typescript@6.0.3)
     optionalDependencies:
       '@types/leaflet': 1.9.22
     transitivePeerDependencies:
@@ -1261,23 +1261,23 @@ snapshots:
 
   '@vue/shared@3.5.41': {}
 
-  '@vue/tsconfig@0.9.1(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3))':
+  '@vue/tsconfig@0.9.1(typescript@6.0.3)(vue@3.5.41(typescript@6.0.3))':
     optionalDependencies:
-      typescript: 5.9.3
-      vue: 3.5.41(typescript@5.9.3)
+      typescript: 6.0.3
+      vue: 3.5.41(typescript@6.0.3)
 
-  '@vueuse/core@14.4.0(vue@3.5.41(typescript@5.9.3))':
+  '@vueuse/core@14.4.0(vue@3.5.41(typescript@6.0.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.21
       '@vueuse/metadata': 14.4.0
-      '@vueuse/shared': 14.4.0(vue@3.5.41(typescript@5.9.3))
-      vue: 3.5.41(typescript@5.9.3)
+      '@vueuse/shared': 14.4.0(vue@3.5.41(typescript@6.0.3))
+      vue: 3.5.41(typescript@6.0.3)
 
   '@vueuse/metadata@14.4.0': {}
 
-  '@vueuse/shared@14.4.0(vue@3.5.41(typescript@5.9.3))':
+  '@vueuse/shared@14.4.0(vue@3.5.41(typescript@6.0.3))':
     dependencies:
-      vue: 3.5.41(typescript@5.9.3)
+      vue: 3.5.41(typescript@6.0.3)
 
   alien-signals@3.2.1: {}
 
@@ -1292,26 +1292,26 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.2
 
-  better-typescript-lib@2.12.0(typescript@5.9.3):
+  better-typescript-lib@2.12.0(typescript@6.0.3):
     dependencies:
-      '@typescript/lib-decorators': '@better-typescript-lib/decorators@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-dom': '@better-typescript-lib/dom@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2015': '@better-typescript-lib/es2015@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2016': '@better-typescript-lib/es2016@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2017': '@better-typescript-lib/es2017@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2018': '@better-typescript-lib/es2018@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2019': '@better-typescript-lib/es2019@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2020': '@better-typescript-lib/es2020@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2021': '@better-typescript-lib/es2021@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2022': '@better-typescript-lib/es2022@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2023': '@better-typescript-lib/es2023@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es2024': '@better-typescript-lib/es2024@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es5': '@better-typescript-lib/es5@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-es6': '@better-typescript-lib/es6@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-esnext': '@better-typescript-lib/esnext@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-scripthost': '@better-typescript-lib/scripthost@2.12.0(typescript@5.9.3)'
-      '@typescript/lib-webworker': '@better-typescript-lib/webworker@2.12.0(typescript@5.9.3)'
-      typescript: 5.9.3
+      '@typescript/lib-decorators': '@better-typescript-lib/decorators@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-dom': '@better-typescript-lib/dom@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2015': '@better-typescript-lib/es2015@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2016': '@better-typescript-lib/es2016@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2017': '@better-typescript-lib/es2017@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2018': '@better-typescript-lib/es2018@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2019': '@better-typescript-lib/es2019@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2020': '@better-typescript-lib/es2020@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2021': '@better-typescript-lib/es2021@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2022': '@better-typescript-lib/es2022@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2023': '@better-typescript-lib/es2023@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es2024': '@better-typescript-lib/es2024@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es5': '@better-typescript-lib/es5@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-es6': '@better-typescript-lib/es6@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-esnext': '@better-typescript-lib/esnext@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-scripthost': '@better-typescript-lib/scripthost@2.12.0(typescript@6.0.3)'
+      '@typescript/lib-webworker': '@better-typescript-lib/webworker@2.12.0(typescript@6.0.3)'
+      typescript: 6.0.3
 
   binary-extensions@2.3.0: {}
 
@@ -1586,13 +1586,13 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  typescript@5.9.3: {}
+  typescript@6.0.3: {}
 
   undici-types@8.3.0: {}
 
-  valibot@1.4.2(typescript@5.9.3):
+  valibot@1.4.2(typescript@6.0.3):
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(tsx@4.23.12)(yaml@2.9.0):
     dependencies:
@@ -1610,13 +1610,13 @@ snapshots:
 
   vscode-uri@3.1.0: {}
 
-  vue-tsc@3.3.11(typescript@5.9.3):
+  vue-tsc@3.3.11(typescript@6.0.3):
     dependencies:
-      '@volar/typescript': 2.4.28(typescript@5.9.3)
+      '@volar/typescript': 2.4.28(typescript@6.0.3)
       '@vue/language-core': 3.3.11
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  vue@3.5.41(typescript@5.9.3):
+  vue@3.5.41(typescript@6.0.3):
     dependencies:
       '@vue/compiler-dom': 3.5.41
       '@vue/compiler-sfc': 3.5.41
@@ -1624,7 +1624,7 @@ snapshots:
       '@vue/server-renderer': 3.5.41
       '@vue/shared': 3.5.41
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   which-module@2.0.1: {}
 

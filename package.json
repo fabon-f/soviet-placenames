@@ -28,7 +28,7 @@
     "chokidar-cli": "^3.0.0",
     "tensha": "^0.1.1",
     "tsx": "^4.23.12",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "valibot": "^1.4.2",
     "vite": "^8.2.2",
     "vue-tsc": "^3.3.11",
