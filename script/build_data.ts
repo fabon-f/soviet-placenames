@@ -3,8 +3,8 @@ import YAML from 'yaml'
 import * as url from 'url'
 import { transliterate } from 'tensha'
 import * as v from 'valibot'
-import type { NameHistory, CityData, NameEntry } from '../src/types'
-import { PopulationData } from './population.js'
+import type { NameHistory, CityData, NameEntry } from '../src/types.ts'
+import { PopulationData } from './population.ts'
 
 const argv = process.argv.slice(2)
 if (argv.includes('--clean')) {
