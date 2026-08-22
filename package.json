@@ -3,8 +3,8 @@
   "name": "soviet-placenames",
   "type": "module",
   "scripts": {
-    "dev": "vite --clearScreen false & node --import tsx script/build_data.ts && chokidar data/population \"*.yml\" script -c \"node --import tsx script/build_data.ts\" &",
-    "build": "node --import tsx script/build_data.ts --clean && vue-tsc --noEmit && vite build",
+    "dev": "vite --clearScreen false & node script/build_data.ts && chokidar data/population \"*.yml\" script -c \"node script/build_data.ts\" &",
+    "build": "node script/build_data.ts --clean && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,7 +27,6 @@
     "better-typescript-lib": "^2.12.0",
     "chokidar-cli": "^3.0.0",
     "tensha": "^0.1.1",
-    "tsx": "^4.23.12",
     "typescript": "6.0.3",
     "valibot": "^1.4.2",
     "vite": "^8.2.2",
