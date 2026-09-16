@@ -39,5 +39,6 @@
     "fuse.js": "^7.5.0",
     "leaflet": "^1.9.4",
     "vue": "^3.5.41"
-  }
+  },
+  "packageManager": "pnpm@12.4.2"
 }
