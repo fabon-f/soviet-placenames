@@ -2,4 +2,4 @@ shellEmulator: true
 publicHoistPattern:
   - '@typescript/*'
 overrides:
-  typescript: npm:typescript-native-bridge@6.0.3-bridge.13.tsgo.7.0.2
+  typescript: npm:typescript-native-bridge@6.0.3-bridge.17.tsgo.7.0.2
