@@ -6,7 +6,7 @@
     "dev": "vite --clearScreen false & node script/build_data.ts && chokidar data/population \"*.yml\" script -c \"node script/build_data.ts\" &",
     "build": "node script/build_data.ts --clean && tsc -b --runExternalCode --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "oxlint",
+    "lint": "oxlint && vize lint --preset happy-path src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
