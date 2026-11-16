@@ -11,7 +11,7 @@ type City = {
   longitude: number
 }
 
-defineProps<{ cities: City[], show: boolean }>()
+const { cities, show } = defineProps<{ cities: City[], show: boolean }>()
 
 const markerIcon = icon({
   iconUrl: './marker-icon.png',
@@ -52,8 +52,8 @@ const handleMarkerLayerUpdate = useDebounceFn(() => {
       <LTileLayer :url="tileUrl" :attribution="attribution"></LTileLayer>
       <!-- markers -->
       <LFeatureGroup ref="layer-ref" @layeradd="handleMarkerLayerUpdate" @layerremove="handleMarkerLayerUpdate">
-        <template v-for="city in cities">
-          <LMarker :latLng="[city.latitude, city.longitude]" :icon="markerIcon">
+        <template v-for="city in cities" :key="city.id">
+          <LMarker :lat-lng="[city.latitude, city.longitude]" :icon="markerIcon">
             <LPopup>{{ city.name }}</LPopup>
           </LMarker>
         </template>
