@@ -1,10 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { formatNumberWithComma } from '../util';
 import type { CityData, NameHistory } from '../types'
 defineProps<{ city: CityData }>()
-
-const opened = ref(false)
 
 function shouldShowHistory(nameHistory: NameHistory[]) {
   if (nameHistory.length === 0) { return false }
@@ -14,12 +11,12 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
 </script>
 
 <template>
-<div :class="opened ? 'opened' : ''">
-  <div class="summary" @click="opened = !opened">
-    <h1>{{ city.name.join((' / ')) }}</h1>
-    <p>{{ `${city.country}、${city.subject}` }}</p>
-  </div>
-  <div v-show="opened">
+  <details class="details">
+    <summary class="summary">
+      <h1>{{ city.name.join((' / ')) }}</h1>
+      <span class="country-subject">{{ `${city.country}、${city.subject}` }}</span>
+    </summary>
+
     <p v-if="city.population">人口: {{ formatNumberWithComma(city.population.count) }}人 ({{ city.population.year }}年)</p>
     <p v-if="city.nameHistory.find(n => n.period === '-')">
       <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs">
@@ -37,9 +34,7 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
         </tr>
       </tbody>
     </table>
-  </div>
-</div>
-
+  </details>
 </template>
 
 <style scoped>
@@ -49,6 +44,11 @@ h1 {
 
 .summary {
   cursor: pointer;
+  display: block;
+}
+.summary .country-subject {
+  display: block;
+  margin-block: 1em;
 }
 .summary h1::before {
   content: '';
@@ -60,7 +60,7 @@ h1 {
   /* https://iconmonstr.com/arrow-63-svg/ */
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNy4zMyAyNGwtMi44My0yLjgyOSA5LjMzOS05LjE3NS05LjMzOS05LjE2NyAyLjgzLTIuODI5IDEyLjE3IDExLjk5NnoiLz48L3N2Zz4=');
 }
-.opened .summary h1::before {
+.details:open .summary h1::before {
   /* https://iconmonstr.com/arrow-65-svg/ */
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCA3LjMzbDIuODI5LTIuODMgOS4xNzUgOS4zMzkgOS4xNjctOS4zMzkgMi44MjkgMi44My0xMS45OTYgMTIuMTd6Ii8+PC9zdmc+')
 }

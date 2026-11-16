@@ -20,10 +20,10 @@ const mapOpened = ref(true)
 </script>
 
 <template>
-  <a href="javascript:void(0)" @click="mapOpened = !mapOpened">{{ mapOpened ? '地図を閉じる' : '地図を見る' }}</a>
+  <button type="button" @click="mapOpened = !mapOpened">{{ mapOpened ? '地図を閉じる' : '地図を見る' }}</button>
   <MapViewer :show="mapOpened" class="map-viewer" :cities="citiesGeoData"></MapViewer>
-  <div id="searchbox">
-    <input type="text" placeholder="都市名を入力" v-model="query" autofocus>
+  <search id="searchbox">
+    <label>都市名: <input type="text" v-model="query" autofocus></label>
     <div class="search-detail">
       <label>
         国: <select v-model="country">
@@ -36,7 +36,7 @@ const mapOpened = ref(true)
         </select>
       </label>
     </div>
-  </div>
+  </search>
   ヒット数: {{ matchedCities.length }} / {{ cityCount }}
   <ul id="cities">
     <li v-for="city in displayCities" :key="city.id"><CityDescription :city="city"></CityDescription></li>
