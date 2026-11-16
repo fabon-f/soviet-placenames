@@ -6,6 +6,7 @@
     "dev": "vite --clearScreen false & node script/build_data.ts && chokidar data/population \"*.yml\" script -c \"node script/build_data.ts\" &",
     "build": "node script/build_data.ts --clean && tsc -b --runExternalCode --noEmit && vite build",
     "preview": "vite preview",
+    "lint": "oxlint && vize lint --preset happy-path src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "@vue/tsconfig": "^0.9.1",
     "better-typescript-lib": "^2.12.0",
     "chokidar-cli": "^3.0.0",
+    "oxlint": "^1.93.0",
     "tensha": "^0.1.1",
     "typescript": "^7.1.0-beta",
     "valibot": "^1.5.0",

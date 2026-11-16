@@ -23,16 +23,16 @@ const mapOpened = ref(true)
   <button type="button" @click="mapOpened = !mapOpened">{{ mapOpened ? '地図を閉じる' : '地図を見る' }}</button>
   <MapViewer :show="mapOpened" class="map-viewer" :cities="citiesGeoData"></MapViewer>
   <search id="searchbox">
-    <label>都市名: <input type="text" v-model="query" autofocus></label>
+    <label>都市名: <input v-model="query" type="text" autofocus></label>
     <div class="search-detail">
       <label>
         国: <select v-model="country">
-          <option v-for="countryName in countryList">{{ countryName }}</option>
+          <option v-for="countryName in countryList" :key="countryName">{{ countryName }}</option>
         </select>
       </label>
       <label>
         行政区分: <select v-model="subject">
-          <option v-for="subjectName in subjectList">{{ subjectName }}</option>
+          <option v-for="subjectName in subjectList" :key="subjectName">{{ subjectName }}</option>
         </select>
       </label>
     </div>

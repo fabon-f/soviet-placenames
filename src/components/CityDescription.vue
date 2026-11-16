@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { formatNumberWithComma } from '../util';
 import type { CityData, NameHistory } from '../types'
-defineProps<{ city: CityData }>()
+const { city } = defineProps<{ city: CityData }>()
 
 function shouldShowHistory(nameHistory: NameHistory[]) {
   if (nameHistory.length === 0) { return false }
@@ -19,7 +19,7 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
 
     <p v-if="city.population">人口: {{ formatNumberWithComma(city.population.count) }}人 ({{ city.population.year }}年)</p>
     <p v-if="city.nameHistory.find(n => n.period === '-')">
-      <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs">
+      <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs" :key="lang">
         <strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br/>
       </span>
     </p>
@@ -28,9 +28,9 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
         <tr><th>期間</th><th>名前</th></tr>
       </thead>
       <tbody>
-        <tr v-for="nameEntry in city.nameHistory.filter(n => n.period !== '-')">
+        <tr v-for="nameEntry in city.nameHistory.filter(n => n.period !== '-')" :key="nameEntry.period">
           <td>{{ nameEntry.period.replace('-', '〜') }}</td>
-          <td><span v-for="(name, lang) in nameEntry.langs"><strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br></span></td>
+          <td><span v-for="(name, lang) in nameEntry.langs" :key="lang"><strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br></span></td>
         </tr>
       </tbody>
     </table>
