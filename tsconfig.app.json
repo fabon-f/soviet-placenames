@@ -8,5 +8,11 @@
     /* Linting */
     "erasableSyntaxOnly": true,
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "contentMappers": [
+    {
+      "package": "vize",
+      "extensions": [".vue"]
+    }
+  ],
+  "include": ["src"]
 }
