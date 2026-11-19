@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { formatNumberWithComma } from '../util';
+import { formatNumber } from '../util';
 import type { CityData, NameHistory } from '../types'
 const { city } = defineProps<{ city: CityData }>()
 
@@ -17,7 +17,7 @@ function shouldShowHistory(nameHistory: NameHistory[]) {
       <span class="country-subject">{{ `${city.country}、${city.subject}` }}</span>
     </summary>
 
-    <p v-if="city.population">人口: {{ formatNumberWithComma(city.population.count) }}人 ({{ city.population.year }}年)</p>
+    <p v-if="city.population">人口: {{ formatNumber(city.population.count) }}人 ({{ city.population.year }}年)</p>
     <p v-if="city.nameHistory.find(n => n.period === '-')">
       <span v-for="(name, lang) in city.nameHistory.find(n => n.period === '-')?.langs" :key="lang">
         <strong>{{ lang }}</strong>: {{ name?.name }} (<span class="orig">{{ name?.original }}</span>)<br/>

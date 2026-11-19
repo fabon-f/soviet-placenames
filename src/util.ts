@@ -13,6 +13,11 @@ export function katakanaToRomaji(str: string, strict = false) {
   }).join('')
 }
 
-export function formatNumberWithComma(num: number) {
-  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+let japaneseNumberFormatter: Intl.NumberFormat | undefined
+
+export function formatNumber(num: number) {
+  if (!japaneseNumberFormatter) {
+    japaneseNumberFormatter = new Intl.NumberFormat('ja')
+  }
+  return japaneseNumberFormatter.format(num)
 }
